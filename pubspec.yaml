@@ -70,8 +70,14 @@ flutter:
   assets:
      - assets/videos/dune3.mp4
      - assets/videos/dune3video.mp4
+     - assets/videos/intro.mp4
      - assets/videos/big_buck_bunny_720p_2mb.mp4
      - assets/subtitles/subtitles.srt
+     - assets/images/movieposter.jpeg
+     - assets/images/design.png
+     - assets/images/poster2.png
+
+
 
   #   - images/a_dot_ham.jpeg
 
@@ -86,10 +92,12 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

@@ -31,6 +31,10 @@ class _HomePageScreenState extends State<HomePageScreen> {
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsiue3NYKIl_IdjN7Ha9c5Osn2guVxS6LJMD8i1nEBw&s'
   ];
 
+  List<String> item2Urls = [
+    'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGBsaGBgYGB0aGhkaHRoZHhgbHRodHSggGiAlHRoaITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAQkAvgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAQIDBQYHAAj/xABFEAABAwIDBgMDCQYFAwUBAAABAgMRACEEEjEFBiJBUWETcYEyofAHFCMzQpGxwdEVUnKSwuE0U3OCsiRi8UNEY4OiNf/EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgME/8QAHxEBAQEAAwEBAQEBAQAAAAAAAAERAiExQRJRYYED/9oADAMBAAIRAxEAPwDYJU83GUqGknIk6dSr2R3qPE7xYhRHhtNJvzOYqHO3DFHNqJceTkSr6Q2J5ZUkQeV7xFVqW1FxfhN+J7OZMAQeK4kfaH/EV4psei2X2J39pYp1UM5UIUlIggeIFmc2qgcsCx536UHg9tvNq4j4h55/wEEBPLlRmEOKmRhjAM6omQIojJibgYWQReSi/P8AOnsbP4zmLaeJc4blRUW0wFKUuySVrIBIm0mBFhIrzDD0pubkBUqmDeb5jInnpV6DjAkIOF4ZBiUEWv8AjUJwuLKuFgpA0TmRF/asBN/PlRWpVDiTiIJQoEZiAZSJKYCgD2NTtJxDTDvthx1IS24lSYCgqSJnhnSw51Nj8BjEklGHgLP0kZCeUwDEGAIM0VhG/GbW0JzocCkAgAkC0EE24T1sZo0+wJvWh1LmHKlIzrbyuERGdImY10kTGoqowjrnigFKlImSUhIIEgG6souTAvWh2ns/EhsttYUiVJOaUcPGCSeehVpU6tmYhIUG8MLxc5SSEmU68tbd60zLkWGz94UFtxQQRC1Jbb4M2REIkyoCM4VoTyol3eEAT82euDF2QCRqJ8S1UDezMUVrUrCpBWZ1RF9eXWT61bYTBvKTlW3lHF+6QQqJBteYHup1ixK/t76Mq+buCJPF4cHL7SRlWSSAenKosHtwBTiMpcKFnLlyzkPFJzKAAAPWkewLuQoyBQg8k6q9o6WtaqpDWKbXw4TVOQSUezxW95++rTIkG1UoK0lspSOJIKm8wQRN4UdJ66QausHvChSko8Fy4BC4Rkyq0M5pgmwMXi1UCsHiySfmaSCbXb6AHlpwxFTrYxlh81tCUwFJjKknKIi0TNUXK6t8XvIhswWHjcwQG4IBuRK5gd681t5K/wD0HReLhsCek56qPBxhTfCjhSQLp0MTyv8A3ry2cX7Yw5Ku6kmDmmRI61W1TBTmOabeW4pbwKuIMAgzACTCQSDB1HImlw+87a3sngOJm2ZRAHrExVdjcLinhK8KDIUBJRwyTN46zUTjO0VqQpTISQQLZZVYglXLS+mtG0zGlxW0gkQpsqSpHIpNtDMkDpp1rJO410Zg2y6tGmbxG+EGwJT4lhMieZBq7xCMUFBKWJSBlzKUmCLXIjS1V2NaxTayEYdJBj2Sm8EnmBaTNG0zAU4gjMGzYcUk2sLETaqxzbrxJCWSqO6aucfjHm5QgBL7iJUF5VBKVcOeUgZinkm0kaxesntTdx5spU26taFCMpUAtBFjnTNidZBIvVI3LHSkPJTilpiSt09Is2kzprA98VJu+AXHe4Rf+aq7Zz63X3FNFWQuErAsAfDQkAjnoewkGpt0XpceSREBs36nNNa+uLUIbBmDUjaYEVGymB8RUiNPWtslUKhSRmJGoEH0qQqg+dMtMD19edFJDofi9Vg2XDyXLcM353GnlN/U1aNJjTrapMmtFh01JnlT0ivTFqVCgSR0se3OkG5hemLdjyinkVAsTppHvmpESZknQ6emtqigLywQR1Bn7jWa322qpoBGZSEqQqcijJuCBb2Z08iasN1EuIYQlQHby1HlAMR2rO943+etXYUQsAaHXtFSuG6RSJVxR0ApyVCddNa25kUJMdv/ABQ+bhkfHKpisEkz2moxEHpPxFFJzhhJjzprJHPlcdRTQ9rz5U1CoB+PSosPvk9jVOhAd8Ng5VIKLZwIOYriZnVIgWGs1ptkbSS+mbZ02KZlQA0J89ak2ts1K8pSkC/ECOqTBA5GYv0oXAbDCFJUISQBpN+s31P51ne2+sVG8K4xiAbBbVzpJC5EwO0Vmt82ZeIZUpJJJWpLfPQgkSY0IGmta/eNuX27SQjUCYlUX86rduYUKe4SpKZctmVlJlFwJtz+80aouMHg2PFUWSSQuXIAIKjE6nS1xy11qLc1GV3ET0bF/wDf8elUexNnFlSXE8PJRzzxK53F+etavYymVLdKVglQRKdIPELTqP70xnlMXoAN+lOQo2nWlaFOUJNbYQLmdL0oESedKvWRQuKeIRKRKuQ/vQRjSpFOSJqNKoA7mvNmZpSaDalKqhKlZiOUU/LP3G9SRrJMAaTemPJOVWWAToSJg9YqWMoPnSFQFo5VJjNobtpiFSpSlGVrlUkwQVR/CB2tWl2KmG0gkQLD0EfiKKDYUb+nnT5HKKzOPbX62HLNpFQqgCQJvNqc4kwI51KgADTlWmFfnUbRBN4pFhUiRR8T50ojn6Dyow6gaZ68xTkNR/ep5BkcxTRVhA7cxC0IQW2y4S4lJAMEAzJvY+VSMLBSDBFzYiDrGnpRKyLczrFMVppUmX3hX9OlGqigEdAM96qtu7ZdaSC2024VOKjOJGW1+xmKL3oUEYhpxRTlDagZVlgAyb1Q7SxhITCfGJur6QpT0B4kTJA05Se1YvTfHtqkYdtzEPZ1kJDmUIix+jbIEg2udb60RuiyFBwqKSZTwgeyJVludTr91VuFxUPu/RBUuAZpEp4EZiZIgReLzFP3NbVmxMLgkNifRV61M1m62SlchOmvrp7qYhZ9/wCdewzICQJKhzKjJPcmpAkaVthA2mAbhVzVU/ileMhsWFjMTPa/xerYIyyLDU0FjAkALUnNlPST2I91ZpifEiSm8afrRIOptUL7QVlJnX4mpmjJPrUj0GTSqMUzxeIjpTxSkaHD76Y+deVSkxMdajdTM8xE1BGy8TltEifjzohabimNny60qptMVFIelKoVGty3c043FIeSbm1NUNPOlQs6k2pI901IjjkAmkcXepANZ0tTTeimB/EMnnBtHKw1p75gfrpTlogz98dfzpFG1BZHeVAViG24gFBvE6nuCD61WONJBULLhREg5o7GRY0fveSXEJSQVlCozAnnacvKaoMXjlNBJNwrmgLcEixExIuPI1z5x1/86t8MzOKeCgopLqdAogEJQZtblE9DRe5ElT4BvwentU1lKziHYzAJeEwknNKEAjMDwwLmxojcdADj565P6q39cmtRYfBry1X868R3pqjN60yRfWmPKTF//NPcBi1V72FkhcxGo5c6KR2EdkVIetRtpgGPdUhTYCpEzTeL09QsL1FzNucelPechMxpSnmtPWlUqBSMJgConbz2qSNThmBU6VGLxUbLY1n4OlELERRIkS9KfmIFPEGkIgT0rQRFfWvZ1TYUrfI9RXlKM0I8qtSA86aFg5kg6a9pFqcOnPSoq3bW1SyWUhJWXHMtuQgyaNJMaRXn8ODlJA4TI89KevSgshvBbGNXiGreeaqjbSlNkBAXmBIhJJgAJsJInzq03mV/1jI/+Of/ANxQW8+JQ09JUD7Q52uI9om+ulqxydOKwYkY1YBAHiqtAUT9G0YE6WBM8oordFPG8eUN/wBVQticW6Bl+u5hJt4bYGtx1kdI51Nuc6C6/AsEt2UIIPFqNK19c2lTrFSi0CkSgXJsT7ulYLe7e5rCr8NePWHARwNsoUROk8h61tmdt04klVRkAZvSuY7G3qXiV5RjMUhXQsN2BtJBuBNgRzq43tW9gm/GdxuJUjNlJbYbIT0Kp66TQcbjCoAkCY71Sb44t1oNLbxCWgp1tshSUkKzuJSoySCMqSTA9awuzd+kLVkOMxKTMFS2GwJtAvzM6VtF4LEqQpScWpQgkJDDecmNBJiT76sIXD70+Cp1D5U6UKhChkSV3QDIEJTGcGTAinb1bxPNuoQ2ptCSwXeMp4zmAKQSb5RfhvKk8qpthbwfO1BCcWtClKKcq2GcxN5GTW0SZFovpWic2JiFGDjVKRcZfBaMyO4oSnO+K05QVaOuZyAAS2FqSEga5gBNvzq82bttLy20hCvYCzxJIgnLBAJkyKy7W8HGttWLU2ptWVQcabDif3eGZIUSIyi8irHbL7uHDfi4xSAs2PgtobSbQkk6HtPWpJGN5Xm3VeOEFBkICCiygsJ4lBVk8SQCYkkzpVjit7UCR4S7KKARB4khJVAm8Z02536UFsbZ6nEZ2MYgokglLDZTKdQCmM3rN6rmttpWUpRjXVrUoJyt4dKlAyQZQJKY1J5A3N6sp6FbF3zVZL3GVloJygCCtMqJGpvU28e1MSjFKaYeBjDLdS2UpMqQUcHWCnMeunKqvam1jhXVMv41xKgnMj6BsZweSCZCiOcRFWGzvGfbTiEY4pYKVHMthCVcNiZ0KdeLnFXYXm7u0VYhpL2iVnMhMXCOU9SSCfUVaqBNc12lvOvDZf8AqnVTcAYdsKUn95KPajuRGlEbtbyHaCyhjaDyFoGcpXhkDQwb6HWmQVqNi4AoxOLdUoEqUkAT7PCnlyq9bGh1rHbafewoSV45a1LBIQnDtyojW9gBHU0XsvEOLYTiGsYXW1JK05WETEXTE2UNI61H1pHCJAv8CkWLVhtj7/svvpYBeLqjASWUgEi8FQJjz5Vu0qtViYfeZRGOZmD9GYvP26n2qwl1RCwHAFKN0ISZOXWLExaabvRl+eNf6f8AXUO0sa2wslwFQKlWaEwbXNhqB351jlW5Fgw7GLeARfxvak2Hhtg6W5wJ10trU+6apU+AP3L/AM1RsNkYp1Ut5S99tJk/RokBXLSR3r25CuN8aRk9farX1zW+2nnUIKkZcqEqUuZkxcACO1cs+S3ZTeIxDmLdAWvKVjMJ41nWDaw+6a7HiWgpKkqEhQIPkda45sray9kOqaxKFBsKUlC/srQTKSFGwVpY9K0p40nyihLHg40T4qFBpQtCmlkBQI7WI8qdvbiPF2M+VGSG1CZkKylMEnr3rCb573/tMow2EbcXKgQALkgiB2HfStrt/ZTzOxVMQp17wznyCbqMqAHMACPSj52WRc32PzJ5hnBuqSZzryykFSQCSYvAHOt78mbTwwTfjKJUCIB1SgABAn7UpEzpWJwm+bOCwS2s5cW9mUNBHAlOVSbEQRzq8+SF7EjDKXiAUYdCR4WYQrKCVE9SkCwNN+qgfk/whG08YqLJceAMWkpECdQcs11YW06iI6RqfjlXEdzt4mk4/FYnxUJaUtaglSoUoKSQCJsOt/Kug7H31bxWJ8BpNwhSlGQTCYvwyNSAB3os8VjN4pCRvE5KAqQ2Qo6pOWMw63ERW02xsr5zhV4dX22iEk8lxwq0txfjXM8S68dtNuvJWwHXGwkKTZaUqCQnNyJifWu1ZNNOdVi1yP5NNv8AgYfF4dYKXGApzKeRByED1KKvfkw2aFHEYvIAVZWUkanJxPKnutQH+ysl8o+y3WNorW0OHENyJ4cxEZkA8ySAY7V1fdjZ4w2EaZTEoTxc5WriWfVRNX+pl/lXdCWEqSgFYQ8iYEiUgkjygVYbVxbQwWEQLNOhkRMAoDQXkkdYAqm+U59YKy4w8WkMkILSZClrTxKUZ4QkRfzo/bOyVYjY2HS0ONLDC2x1KW0yO0iR91XxDvk/QF4c403dxS1KK+fhglLSB0ASNPM1j9tsL2ftEvsqJbSgKcQY9lxxWdJjXqPKq7cn5Q/mjHzTEMr4CS2TwmCZykGNCbHvV6ho7QUpeYEvKQlfhnMhhlJkhStC4qYCQTEzECm+rxc/KHbIc+UJYxBJifsC19POsHuHt5zZT/zPFHKyvKTefCWoApWP+xQInpryrSfKtiVoS4VMvFvwFIbWnLlzue0VknMAABoL3vVlv9umnGMIcbQPGQ2jKbcacglCufl3o3oqvdJpA2gh4RClYpMjTNlTBB0uJv3rpyFWrjvyXPuDFpwbiMoZQ86jMmCJSlMQbyL3711rE4rI0XCJgaDmeQHrVele2X3xac+cJWhM5WVEeYUTFVqkO4n6ReW90pkpAB5mLk+4VZbVxKsQUJyFtJOVZJSMwP2RCiUgmxOsUGkp0gKAJFuxItB0rjzv8deE/q6w+Hz4l64JD0psskQlvMbGNDFxT9zxC3v9n9VMaaPztw5CoB1V4kJPhNmbGZtGnOpt0/bePOG/6q6/XBoybR/eg3sMhVwlJCrmRIPeDai816z2y3SkKTnKkoWpMm0yc3nYKj+0VclBzuFSkjI2lEgzkQlNu8CpiOmlEE2HcaVDF6kCwLELVISRyJAMHsSJotLYJg8Ui89tdaTC6HzpXZBURNgYgWmLVmTpGIw8KlMAc4AFoPbrSukhQ6HXvRSVSqOUe+h8cwheXNEpOYdAQDB95pKHw44iOnLobR3vRy1cMgzzHlNQhwZTzvp91OcxCYgdOnKaoEO2spQElIWrMFJBAN0kGROhGtS5wEgAAEQCO5rywFC8HiEDuLg1DilJSTNtLzGulRiTFOg2NgB+V6VpMoSgWgAQLQBYD7hQUlRvpejmXOIdbTVPQrnMAkk5oInmkHp1B6e+rPD4UDLAsAYEQB6AAVGDKlDtz87UchdquMVoN5gKSZEjSCJEdwdaQYfvqBRZGonWoG0wQOgpwxAWE+IDlGaCAqBmAOomLTAoPEtgpKOJQSRMC6ukCQNeYq1JHa9D4nEIbEqUEiQJJi5sB50Ydc+3jYcXiW2lkpbyE5U6iVQSCNFRaRpFqtNovIYmQhLaVeGkJMmwkSTraaXelQGMa7Nf10FvM24/9EtCuBROZyVdREAWJBmx5VixuVoEJnFug/5xv/8AU3N5BFrdDPWvbolXiPlQAsgcJsfa5H2ffTcOpw4p+CrJ40mAY+ratMEdzPLS9Lugcy3z0yW/m++t31yaNzqKiGEEkgDMYknnp+lFJVImmk1oI1KtblUS1d71IJj470OqZGlBIiwjnNS57eo7/H9qAxHipVKCFJ1gpv3uNPupcPtJIMOygzr9n+bSgrUIvXMdt79ttFbbnitvJVHhZI4b38QyFA9o1rc7axjreRTZSU/aBTPDBvmBEcuVct+U5YxS8PCONOcEjUixI/hvzpmapGgwm9GCea8QYh5pwqu264EJmALLCYIgT+VCtfKTgBmS6vE24cyFJXmjmCEAffXLdu4cNZW8gCgMxMkkg9bxauifJPuMMgx2KQlQUmWEETY/bINpPKt9ZuGzPq9we/8AskgD9oYlM3hTenmQ3FW28G0tnt4dDq8Q4+FXRlWmSbwbwLd/uqg393KbxGGW6hKU4hKStIQkJlIiQqBeR765puQ+VZ2FPKabKVGAEkk2tCwQJ5xBtVx/Nm4z/wBb/djePF43FJbwoU2wiPGW+sOwOxCE8RHK9dVS2BmI+LVhvk8bSy2vC8BW0vxFFEwoLumToSNLSK27ijAgi5586zfUjSi5MRYXomInt+lMRfXX3VLmN/P+1QRoVJzEWgR509Sb01oRr191K2ZE86Cas0DtHCBxMEweRGoPaRR6hUBRNrjvzFRY7eJsDFsQdGhfyXVdvIgOLBCymSohSkrcESJTBUIMkX7cqtN5JONaTFvDk/zXr21WUh20ES4YlJj6voBHlWK3D3Z+euaZfFk6CIQ1e/e1vKjNyVDxMSOnh/dCv70mCM4p8DNIdMlMRGRuxBF5PTSvbi/W4nya/Bdanrm1oFqhBv8AHKnqESTpUaFAwRz0mtB4WHxrQ6jMW0tRmXUVC2mSexP5UWFCLZbE/jc3ojwZPYH7+dSZUgmaeI5VYlbjm9AAPu0rjG+eKV+0ClRulJIIlAGY3snyrtGIXxdhXz/v/jD+0n4zWIAi3Krj61P9DYLZBx200sZypsnjWDMNpErg+cj1r6FD7aGLBKENpAEwEpSLDygVyb5GsIFPYp46pQlAtfiUSfcKvN+d5HGAyUtKDaXeIrCYWQJAyyesibaVrlduMyNXsxSHVkpcCgQRM+Vo/KuHbZwycLtFxJQCkqzAEAgBR5A2N63uyd/EOLw7OUpUkwbkqXKVWUqIETI1rJ/KY0DikOCFBUo7AgA69u1Z4TLjVll7aL5PcRk2gETCVtLARmzQQZHMgaaCupqXmAPPztPxyrg+6OLDWPwhsAFQtUCDwqnuLW6GK7bgceFIClDJJUUgkXSNDbSRy701cplWrZ4dOwpwObSRBE8vj+9Q4V/NeRlEwRp091K6IA+PjShlLfi86cwrhn76YlU35nrTWzqKklNMpAbU5VRZHeVo/PGlD9yP/wBGhNovN+IVCUgqcEEg80aACRodastvLjFN/wABi+lzNZzfvHogKUo5s8AaqiDJP3CuXL114tKyCnEuZQo/SmwJuChAzHiEmORBob5PhD2K8mrfz1btMBTrhJiF84n2U6A8u+sxVVuF9bifJv8ArrpHFskimTB9KYpcEWp+sEj4mtAvrXmkgTSxUalz+tSTGDXuVeSLV7lUlW4IMVwn5RmMu0SvLIcTItBlNjE68q7s7c6XmuUfLLsgqCcShMlHtH/t/Lzo43K0N+SJrKnFzY525Gv2T91aLefYicXh1NLsCRCgJKFfZUBbNHS01mfkifKm3iUwlYRBixKLGOZ1F66GyJQsASdaOfqc83Y3GawzgWt5b7qScpSkobQLg2VJWo+gFV/ysYcJaZiZzqmRAuLcQPujlW+wmHWkqsI7kz19Kw3ytCWm5QQouASdCIvzj3UceVt2nPjJbtnPjcI0gXzpAnnYlU9eddvbwTTi+IKJFgkpASAblXUfiY71yL5NMLm2qgwT4SVKIEWOUCT01PWu1InNw/ArXL4bctLg38rKQsZCVQABNpmABYWo9TkKEE8hpInn7vxpntASDIFvXn+P3UHjMctCwA2VSCSoWCYNtREmfuo8Z9WrguKYwLntXlrEXuDTcOrWKUlcNNQRTsT7I60HiUqyHIqFHQwDHpzqTLb1un56yB/l/wBdVW9eDIOZrjWFqSoKTEaHvJsLjrVtttmcY1m18K8aDiqbaLI8T6KTdRVKYgnJauXJ14rh1tSXVnSV5gRcnhSDa/3+VVu4jcO4lXUN6G326mwMuvF1C8zZWSgyBKMiIgGDEiT6modyCkO4kREeH6+3XSeuTVOniFKYJiaV0XpIuL1pk4nlzofDgyZ0PKiU601WvrUUhrx0r1jIm45fhTFmKqAR1NU+3cCl1C23BwLQQauXUASaExJEdelZvjTkW7+Lc2W983eQVtLUSwsRcEwpM9eqfXnXVMHiEwFpUCFgeH/3cwB1qp2nspt7DLbXAzSQYulQPCtJtCgROoqh3S2bi0Q2+CoAS2tDqYBVYqKfaTrJjS9X6/U36sbBr21nLadO8VgvlSxAWptEWRLigPuFb90NtNKUlVkak+sm/O1cfxzT20sWpLAUQfrV2CUNWgdMxEmOpFXCdqrv5Fdmq/6jFqTwr+jR3gysjtcDzrpKgVGOvuIoLY2CbZaQy0nIhtACR21JPUkkknqaMbAkjX86OXLUKDuVUTyAt5x8edD7RbKv5gspPW2t70WWLiE2yk+vKesUxLRkZiD39OY8xUjsGZSQJsfSecetT4Nz8KjT7F9TNS4VGvamI99y4EEyDeLCI1PLXTnBpUjtUGJ8TOkJCchBK5JzTyyiINThYAkn1OlKZHedwjGMj/4j/wAqrd4RqEFaHM5s3CyUAXJykQJKdfyovfbGBnEtLWFFPhxwiSOPoL1WbUxzS3fFabUZBCswyGc0iAU6EeUVz5eunFrGsMA7lEBLaoQmCZsmRI0jXShNy0w9iZOgbnp9ofl76L+bS+4cpUM8xe/Cjit5C9Abi/W4npDX9dakc7WvcdGYDtOvlTWze3SkKASaagG3LX+3vrbKDarK1WSso7gwfvosE+p/Sh3DmMzFtfjlRPlQ0qNq4N1Ss7aihYSQVi4KdQCn7V5+81ZbOeKkQr20QFwDEwDInUHWiBftSBMEnrUNRvixoPDNSQeU6UW7cVCyn8v7mitBtrtBSJAGpHpPTzqtw4Q2SlJzqgjNFhfQDlr7qsmuBBSo5lEmx5STB+6qxlHGbaz696xZ9QLeLC/OWVNl1SArLmKAJIBum9hPWKJ2HgEMsBppAQjNeLknmpR1Ue5qR8SJNT4cgJAvJIt6Xq2+J7JlJiTPUyPIdu1B7JdLagpxRgAgCCoyDYkzPOTb8Ks3m+fLlVRimNSkDMYBOhgEG3e0Xtc03pRo3cQAFcpFlC/Q/dNAzlsbgigcKDGXiygEAkRb92NbflRSUSbnyioDFOGB8WozCrOWCLzQy0f+eWlGYdFq0jXKYpAVKVAFJFwRY153EJz5MycwElM8Q6GKVBmksdve4RiWwkInwrFYJSDmgWBm1UvzZ5wlWQKOZWZWYCTmMwkkQK0e8qU/OmybfR/1VTrZw6FFPAggnhWUhWve/wB9cr26cemubdCXXLA/SdJI4E37dOl6pdypDmKBg2auPNc1aLxQViFIyEcZSo8yQhJmegB01tQG6CeLEAwPqh71kVuOTTtvDNlGus62+BUhQIkXjl+VNBCTMU5wyLWmtAICJJKjGkHlT2nyFZZtMERMdPKoIIseUfjXsHhEJcW5zVqYv8ChpYrT5z2+L0Ni3FjsO1PDqkrnVJ5c/OoscvQDnfrVQVlVtT61M3QuHkHXXvRbdRI4yg3UOt+cVS4N8IcgezYX9auHiRz0/MRrVItEKNtLUchBGPbToLW68+V6gwaed5pyW8wjreimG4J/KjNqMeFtKgYwxJvpR77JItbn+tSobiI9fzpsTzbAnSxFROMXtVgAJt0pSO2lOBXpBtR7OlIpulAtalACxDxcEXTGl9RcHykVIhV6kcb50xtuhpmN5sQ2MQhKiqckiOYzfjVJi3VrfUtxBaJEIQRcIBtIHMmedWG8ygvGIj7KIJ0BIXy6wbVOcIrxFJ4YzKJgCAZTGhsdZ865c3ThR+zyptaUryrdn6RShJzZUiQoEBM++IofckS9iY0Ph+Vgr49Ksy5ldcOYJ+khQkxHDAJAgf3qv3TI8bE2/wAvz+3XSOdrVqTy5GmKJBiPKnITbyOtPSRPx0rbCuUm+vb871IwkHy7U3HJvr3j0oFeIICQhV8wGkfArFuNrRSZimuNEieiiPSnmf1FTluUwedIAsq+zU6DeqnaOLQyAtasoCoA/eMEZep6+lWWBezpCoiQD0NRELE63Aj1PKqgIJN+t+3OrfxtRztUb6QATz1/KmzWQOGuq2vSrAtADNMdfSoMNh4UCOQjzPOinHRBE8udUVDsKDhKQbwPMefSiloCUk9Px6VSpdLJVlTYQDYHPcwJ1E2F+YqwOMChIMhV4PPTrT0rErYkzEDWpCsTQq8SL35ffUjCpCToSNKEIU4BrzrwOsUi0gx2NOj7qUjKSTHKlCfdp91OUoEj1pixYdNagyu9Lf0yNJy2P+6mYvEIU4StRJlemZMXTqlQ59ulA73Pn540kGxbv554/Cgn8cPHWlSwFAq1P2ZTHtE63v51w5x24rp5DysQ+EBWQPQop/dKWpGoEc70m5r8u4hIuAlqD/Nbv19a9jJS+47cN+Mc6gCbeGiAY0BIHLvyoHcbGNtuvJWtKBDd1KAJML0rr9c86b1tIgiedeCLk8qD/a2HsA+3/On9aGxW1WiYDrca+2n9abRgjGOXMdDyoQN5kgZr69u9Ct7QaNs6PPMOfrSDGs2Pio/mA/Oud7bWucgoSSTMyag21tnwEjKApajCEk2nUqPQAXNBq2ozY+K3I/7hefWg322VueJ4zYJSICsqgADMRm5nXyFOoHgsMp1wuOOBRbETAAGa0JjQlV/StTs1GRIEkx1kk9ST51UYfwkypbjJVM8JASnpAmi39rsiAl1uZiMw/WpVdQNexgT76gTJF+cR2nSq5W1WSUnxEAi0ZxRKdotWAcRbWVAfnWtZwajkOX51IGzN40oVnaTX+Yj+YfrT1bUYj65v+cW7a1plBjsKFEWuDY9DTcPhCnU+kADXkBoO1Sr2qx/mtz2Wk/nTkPIJJCwZ6HkaCcpJCTli/KnME5UzYkaUKxiG2hkW4kEyeJQBube6KcdoMA/XN2H76f1qQ/J+NPJm1Vrm1GDEPtSDJGdP61J+1GIP0zf84/WnUKLV796RxNgKF/bDBP1zcX+2n9aaNrYfTx27H99P61dJit9micW1lUErLRhUA/bEC/KRQW3S066Q2lJWiQspbGW/WSIVINtam3zxaDjm1NlLifBV7KhAUFTxEaCNYvp1pV7PloOLWpAUsnMUEFajJMJmco6ntXLlO3XiJS7/ANY6UyvjuOSYSm1zEz20Paqrby2XJUsJK0J1IQdVQQIkwBfTlTmv8fiPIVmdgfWq/wBRX4qrBi02dshkpW642AEg5JSm/c8wDaBE0Ti9nspQHEISpESfZkC2a3ODIjtUqv8ADp/j/I0uzf8AAr8nPxVTpkGM7GwpzoWEpUM0/V2Ii0z3n0qnXh8OmU+GFCdQW9AY6+X305Or/wDqvf8AJVUD/sOeX5VqesVp/wBm4QoKk5E8JJJSkAGYAsZvrNSY57DobaC0XyQk5UAagxGoJkm/SstsXRf8afxFXHyje1hv934ij7h+H4dGHc0SkK4icwbAsQE6HnRLuzMNwkBBKirkiwEwTfQ2+BWWwOrn8P8AUK9jPZT5j8FVBoRgGRClAJIGgDcK5a84MiRR+DYYWFBSYhKj/wCnxFPsgX1PesyfqGf4B+NWo/8A5/8Av/IU4huHwzKkGEi9kIygrVdMKH7qYniUQKL/AGYw2g5mvOAkjTv3NSbt/W4jyR+BoveT2D5isXk1OKqwWDwjiymyDJjhQdB2MaVd7OxKG1hKQZURmPCQm8ySDYAVn9map/hP/E1HsT/Gr/0l/wBNUvYxe7SDGIUVOAAgcJOUkkE2AntQjWzGFyMskCwKRYzBBPvrzv1qfMf1VYYD7f8AF/QKpVZiob2Fh1JUpKAVieAJSSQOwPT8KkxWysKISlIJ1iEfuFR58o0qXY313+w/8aqcZ9c1/rf0rrX0fCM7OZ8IuLQlIiQOEkyJQD538rUPtTY7KClxDYLagCshKeGwM2uU6gwLEVYbb/wzPmj8q9/7dP8AqH8U1nW7Em77jTceGlIcWlBMBAveUmbjly50m2sRlczKUWzKgJkgg5TYAnpewrM7R/xLX+uj/kKtNt/4n/6/zqxfX//Z'
+  ];
+
   @override
   void initState() {
     super.initState();
@@ -67,23 +71,23 @@ class _HomePageScreenState extends State<HomePageScreen> {
       );
 
       // Listen to video player state changes
-      _videoPlayerController.addListener(() {
-        if (_videoPlayerController.value.isPlaying) {
-          // Video is playing, hide the overlay
-          if (_showOverlay) {
-            setState(() {
-              _showOverlay = false;
-            });
-          }
-        } else {
-          // Video is paused or stopped, show the overlay
-          if (!_showOverlay) {
-            setState(() {
-              _showOverlay = true;
-            });
-          }
-        }
-      });
+      // _videoPlayerController.addListener(() {
+      //   if (_videoPlayerController.value.isPlaying) {
+      //     // Video is playing, hide the overlay
+      //     if (_showOverlay) {
+      //       setState(() {
+      //         _showOverlay = false;
+      //       });
+      //     }
+      //   } else {
+      //     // Video is paused or stopped, show the overlay
+      //     if (!_showOverlay) {
+      //       setState(() {
+      //         _showOverlay = true;
+      //       });
+      //     }
+      //   }
+      // });
 
       setState(() {
         _isVideoInitialized = true;
@@ -122,60 +126,119 @@ class _HomePageScreenState extends State<HomePageScreen> {
                         Chewie(
                           controller: _chewieController,
                         ),
-
                         Positioned(
-                          bottom: 180,
+                          bottom: 200,
+                          top: 340,
                           left: 50,
-                          child: Text(
-                            'DUNE 2', // Replace with actual movie title
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 50,
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(top: 640, left: 50),
-                          child: ElevatedButton(
-                            onPressed: () {
-                              _playVideoFullScreen(
-                                  context); // Navigate to full-screen video
-                            },
-                            child: Text(
-                              'Play Now',
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
-                            ),
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.red,
-                              fixedSize: Size(
-                                  160, 50), // Set fixed size for the button
-
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(0),
-
-                                // Set border radius to 0 for a square shape
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'DUNE 2', // Replace with actual movie title
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 50,
+                                    fontWeight: FontWeight.bold,
+                                    fontFamily: 'Montserrat'),
                               ),
-                              // Background color
-                            ),
+                              SizedBox(
+                                  height: 10), // Adjust the height as needed
+                              Text(
+                                'In a universe rife with intrigue and betrayal, '
+                                'a young leader rallies a band of rebels'
+                                'against \nthose who destroyed his family. '
+                                'Faced with an impossible choice between love '
+                                'and the fate \nof humanity , '
+                                'he must unlock the secrets of a dark prophecy to '
+                                'avert a catastrophic \nfuture',
+                                // Replace with your text
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 17,
+                                    fontFamily: 'Montserrat'),
+                              ),
+                            ],
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.only(left: 1350, top: 600),
+                          padding: EdgeInsets.only(top: 550, left: 50),
+                          child: Row(
+                            children: [
+                              ElevatedButton(
+                                onPressed: () {
+                                  _playVideoFullScreen(
+                                      context); // Navigate to full-screen video
+                                },
+                                child: Text(
+                                  'Play Now',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 20,
+                                    fontFamily: 'Montserrat',
+                                  ),
+                                ),
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.red,
+                                  fixedSize: Size(170, 50),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(0),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                  width: 10), // Adjust spacing between buttons
+
+                              // Trailer Button with Play Icon
+                              ElevatedButton(
+                                onPressed: () {
+                                  _playVideoFullScreen(
+                                      context);
+                                  },
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.white,
+                                  fixedSize: Size(170, 50),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(0),
+                                  ),
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.play_arrow,
+                                      color:
+                                          Colors.red, // Color of the play icon
+                                    ),
+                                    SizedBox(
+                                        width:
+                                            8), // Adjust spacing between icon and text
+                                    Text(
+                                      'Trailer',
+                                      style: TextStyle(
+                                        color: Colors
+                                            .black, // Text color of the trailer button
+                                        fontSize: 20,
+                                        fontFamily: 'Montserrat',
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(left: 1350, top: 450),
                           child: Container(
                             decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(
-                                    color: Colors.white,
-                                    width: 2.0
-
-                                )
-
-                            ),
+                                    color: Colors.white, width: 2.0)),
                             child: GestureDetector(
                               onTap: () {
                                 setState(() {
-                                  _isAudioOn = !_isAudioOn; // Toggle audio state
+                                  _isAudioOn =
+                                      !_isAudioOn; // Toggle audio state
                                 });
                                 print('_chewieController: $_chewieController');
                                 if (_chewieController != null) {
@@ -186,7 +249,9 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                 }
                               },
                               child: Icon(
-                                _isAudioOn ? Icons.volume_up_rounded : Icons.volume_off_rounded,
+                                _isAudioOn
+                                    ? Icons.volume_up_rounded
+                                    : Icons.volume_off_rounded,
                                 color: Colors.white,
                                 size: 35,
                               ),
@@ -194,22 +259,22 @@ class _HomePageScreenState extends State<HomePageScreen> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.only(top: 600, left: 1400),
-                          child:
-                          Container(
+                          padding: EdgeInsets.only(top: 450, left: 1400),
+                          child: Container(
                             color: Colors.black54,
-                            padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 4.0), // Adjust the padding as needed
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 40.0,
+                                vertical: 4.0), // Adjust the padding as needed
                             child: Text(
                               '18+',
                               style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                              ),
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: 'Montserrat'),
                             ),
                           ),
                         )
-
                       ],
                     )
                   : Center(
@@ -224,7 +289,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
               height: 350, // Adjust the height as needed
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount: 5, // Replace with actual item count
+                itemCount: itemUrls.length, // Replace with actual item count
                 itemBuilder: (context, index) {
                   return Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -244,7 +309,32 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 },
               ),
             ),
-            SizedBox(height: 20), // Add more widgets or sections here
+            SizedBox(height: 20),
+
+            Container(
+              height: 350, // Adjust the height as needed
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: item2Urls.length, // Replace with actual item count
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: Container(
+                      width: 250,
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(0),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                              item2Urls[index]), // Placeholder image
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ), // Add more widgets or sections here
           ],
         ),
       ),

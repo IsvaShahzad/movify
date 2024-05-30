@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
 import 'package:video_player/video_player.dart';
+import 'Homepage.dart'; // Import your homepage screen file
 
 class FullScreenVideoScreen extends StatefulWidget {
   final String videoUrl;
@@ -62,14 +63,32 @@ class _FullScreenVideoScreenState extends State<FullScreenVideoScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: _isVideoInitialized
-            ? Chewie(
-          controller: _chewieController,
-        )
-            : Center(
-          child: CircularProgressIndicator(),
-        ),
+      backgroundColor: Colors.black, // Ensure background is black for video visibility
+      body: Stack(
+        children: [
+          _isVideoInitialized
+              ? Chewie(
+            controller: _chewieController,
+          )
+              : Center(
+            child: CircularProgressIndicator(),
+          ),
+          Positioned(
+            top: 20,
+            left: 10,
+            child: IconButton(
+              icon: Icon(Icons.arrow_back, color: Colors.white),
+              onPressed: () {
+                _videoPlayerController
+                    .pause();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePageScreen()),
+                );
+                },
+            ),
+          ),
+        ],
       ),
     );
   }
