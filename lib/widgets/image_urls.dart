@@ -2,36 +2,52 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwb87JFvuhgs80ZvQipnJVIs3EZsbKkJHdw&s',
-    'description': 'hello hi there '
+    'url2': 'https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/17/1461946297-shining-bike-carpet.jpg',
+    'description': 'In the remote Colorado mountains, the Overlook Hotel beckons with promises of solitude. '
+        'Jack Torrance, hoping for a fresh start with\nhis family,'
+        'becomes the caretaker. But as winter traps them inside, eerie events and psychic visions of Danny reveal the hotel dark past.\nJack is descent into madness and the family fights for survival against sinister forces make'
+        ' "The Shining" a chilling tale of psychological \nhorror and suspense.'
   },
   {
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzJ199IYL_-iaL3DlkhPcBTWuSgyCOlpP2A&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello hi there '
 
   },
   {
     'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjjapo-3kOE-Q98ehOepBqdDYNobO5_cSe2A&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello 2'
   },
   {
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9tzMlEANaNzZvmZ3ClvX18fRHVSCSsf2dQ&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello4'
   },
   {
     'url':
         'https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello 5'
   },
   {
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsiue3NYKIl_IdjN7Ha9c5Osn2guVxS6LJMD8i1nEBw&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello 5'
 
   },
   {
     'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxl6TtcBDinxwbITNQr6qWJw6Thg6_uPwKNQ&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello 5'
   },
   {
@@ -42,12 +58,16 @@ List<Map<String, String>> itemslist1Urls = [
   },
   {
     'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5dNmQUuj2MKObBNZldUOQ0l9WdjuInyN9g&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello 5'
 
 
   },
   {
     'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3msa6oxWAQdMKVx7BUtC_Ia7CrWsSNZPY-Q&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+
     'description': 'hello 5'
 
 
@@ -59,6 +79,7 @@ List<Map<String, String>> itemlist2Urls = [
   {
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQDlp_gYc4Y8zYVY6NEa5sE-4S3ZgIKD213w&s',
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
     'description': 'hello4'
   },
   {
@@ -203,7 +224,8 @@ List<Map<String, String>> itemslist4Urls = [
   },
   {
     'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'hello 5'
+    'url2': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+  'description': 'hello 5'
   },
   {
     'url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8GjWMV0HAtbf4FV9APT1gAWQ1CSZPCj_WA&s',

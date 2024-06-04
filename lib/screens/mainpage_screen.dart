@@ -6,7 +6,7 @@ import 'package:hello/widgets/image_urls.dart';
 import 'package:subtitle_wrapper_package/subtitle_controller.dart';
 import 'package:video_player/video_player.dart';
 
-
+import 'detail_screen.dart';
 import 'trailer_screen.dart';
 
 class HomePageScreen extends StatefulWidget {
@@ -19,8 +19,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
   late ChewieController _chewieController;
   late SubtitleController _subtitleController;
   bool _isAudioOn = true;
-  bool isHover=false;
-
+  bool isHover = false;
 
   // Track the state of audio (on/off)
 
@@ -41,8 +40,6 @@ class _HomePageScreenState extends State<HomePageScreen> {
     _chewieController.dispose();
     super.dispose();
   }
-
-
 
   Future<void> _initializeVideoPlayer() async {
     try {
@@ -69,8 +66,6 @@ class _HomePageScreenState extends State<HomePageScreen> {
       setState(() {
         _isVideoInitialized = true;
       });
-
-
     } catch (e) {
       print('Error initializing video player: $e');
       // Handle error gracefully, e.g., show an error message
@@ -94,8 +89,14 @@ class _HomePageScreenState extends State<HomePageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
+      // appBar: AppBar(
+      //   title: Text('Your App Title'), // Replace with your app title
+      //   backgroundColor: Colors.black, // Customize app bar background color
+      //   // You can customize further properties of the AppBar here
+      // ),
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             AspectRatio(
               aspectRatio: 17 / 9, // Adjust aspect ratio as needed
@@ -115,10 +116,11 @@ class _HomePageScreenState extends State<HomePageScreen> {
                               Text(
                                 'DUNE 2', // Replace with actual movie title
                                 style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 50,
-                                    fontWeight: FontWeight.bold,
-                                    fontFamily: 'Montserrat'),
+                                  color: Colors.white,
+                                  fontSize: 50,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: 'Montserrat',
+                                ),
                               ),
                               SizedBox(
                                   height: 10), // Adjust the height as needed
@@ -127,14 +129,15 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                 'a young leader rallies a band of rebels '
                                 'against \nthose who destroyed his family. '
                                 'Faced with an impossible choice between love '
-                                'and the fate \nof humanity , '
+                                'and the fate \nof humanity, '
                                 'he must unlock the secrets of a dark prophecy to '
                                 'avert a catastrophic \nfuture.',
                                 // Replace with your text
                                 style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 17,
-                                    fontFamily: 'Montserrat'),
+                                  color: Colors.white,
+                                  fontSize: 17,
+                                  fontFamily: 'Montserrat',
+                                ),
                               ),
                             ],
                           ),
@@ -289,57 +292,75 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   return StatefulBuilder(
                     builder: (BuildContext context, StateSetter setState) {
                       return MouseRegion(
-                        onEnter: (_) {
-                          setState(() {
-                            isHovering = true;
-                          });
-                        },
-                        onExit: (_) {
-                          setState(() {
-                            isHovering = false;
-                          });
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10),
-                          child: Stack(
-                            children: [
-                              AnimatedContainer(
-                                duration: Duration(milliseconds: 300),
-                                transform: isHovering
-                                    ? (Matrix4.identity()
-                                  ..setEntry(3, 2, 0.001) // Add perspective
-                                  ..rotateX(0.0)
-                                  ..rotateY(0.0)
-                                  ..scale(1.1))
-                                    : Matrix4.identity(),
-                                child: Material(
-                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
-                                  child: Container(
-                                    width: 250,
-                                    decoration: BoxDecoration(
-                                      color: Colors.black,
-                                      borderRadius: BorderRadius.circular(0),
-                                      image: DecorationImage(
-                                        image: NetworkImage(itemslist1Urls[index]['url']!), // Use URL from the imported file
-                                        fit: BoxFit.cover,
-
+                          onEnter: (_) {
+                            setState(() {
+                              isHovering = true;
+                            });
+                          },
+                          onExit: (_) {
+                            setState(() {
+                              isHovering = false;
+                            });
+                          },
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                              builder: (context) => DetailScreen(
+                              imageUrl: itemslist1Urls[index]['url2']!,
+                              description: itemslist1Urls[index]['description']!,
+                              ),
+                              ),
+                              );
+                            },
+                            child: Padding(
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 10),
+                              child: Stack(
+                                children: [
+                                  AnimatedContainer(
+                                    duration: Duration(milliseconds: 300),
+                                    transform: isHovering
+                                        ? (Matrix4.identity()
+                                          ..setEntry(
+                                              3, 2, 0.001) // Add perspective
+                                          ..rotateX(0.0)
+                                          ..rotateY(0.0)
+                                          ..scale(1.1))
+                                        : Matrix4.identity(),
+                                    child: Material(
+                                      elevation: isHovering
+                                          ? 20
+                                          : 0, // Apply elevation when hovering
+                                      child: Container(
+                                        width: 250,
+                                        decoration: BoxDecoration(
+                                          color: Colors.black,
+                                          borderRadius:
+                                              BorderRadius.circular(0),
+                                          image: DecorationImage(
+                                            image: NetworkImage(itemslist1Urls[
+                                                    index][
+                                                'url']!), // Use URL from the imported file
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
                                       ),
                                     ),
                                   ),
-                                ),
+                                  if (isHovering)
+                                    Positioned(
+                                      bottom: 10,
+                                      left: 10,
+                                      child: Text(
+                                        '',
+                                      ),
+                                    ),
+                                ],
                               ),
-                              if (isHovering)
-                                Positioned(
-                                  bottom: 10,
-                                  left: 10,
-                                  child: Text(
-                                    '',
-                                  ),
-                                ),
-                            ],
-                          ),
-                        ),
-                      );
+                            ),
+                          ));
                     },
                   );
                 },
@@ -390,22 +411,25 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                 duration: Duration(milliseconds: 300),
                                 transform: isHovering
                                     ? (Matrix4.identity()
-                                  ..setEntry(3, 2, 0.001) // Add perspective
-                                  ..rotateX(0.0)
-                                  ..rotateY(0.0)
-                                  ..scale(1.1))
+                                      ..setEntry(3, 2, 0.001) // Add perspective
+                                      ..rotateX(0.0)
+                                      ..rotateY(0.0)
+                                      ..scale(1.1))
                                     : Matrix4.identity(),
                                 child: Material(
-                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  elevation: isHovering
+                                      ? 20
+                                      : 0, // Apply elevation when hovering
                                   child: Container(
                                     width: 250,
                                     decoration: BoxDecoration(
                                       color: Colors.black,
                                       borderRadius: BorderRadius.circular(0),
                                       image: DecorationImage(
-                                        image: NetworkImage(itemlist2Urls[index]['url']!), // Use URL from the imported file
+                                        image: NetworkImage(itemlist2Urls[index]
+                                            [
+                                            'url']!), // Use URL from the imported file
                                         fit: BoxFit.cover,
-
                                       ),
                                     ),
                                   ),
@@ -474,22 +498,25 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                 duration: Duration(milliseconds: 300),
                                 transform: isHovering
                                     ? (Matrix4.identity()
-                                  ..setEntry(3, 2, 0.001) // Add perspective
-                                  ..rotateX(0.0)
-                                  ..rotateY(0.0)
-                                  ..scale(1.1))
+                                      ..setEntry(3, 2, 0.001) // Add perspective
+                                      ..rotateX(0.0)
+                                      ..rotateY(0.0)
+                                      ..scale(1.1))
                                     : Matrix4.identity(),
                                 child: Material(
-                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  elevation: isHovering
+                                      ? 20
+                                      : 0, // Apply elevation when hovering
                                   child: Container(
                                     width: 250,
                                     decoration: BoxDecoration(
                                       color: Colors.black,
                                       borderRadius: BorderRadius.circular(0),
                                       image: DecorationImage(
-                                        image: NetworkImage(itemslist3Urls[index]['url']!), // Use URL from the imported file
+                                        image: NetworkImage(itemslist3Urls[
+                                                index][
+                                            'url']!), // Use URL from the imported file
                                         fit: BoxFit.cover,
-
                                       ),
                                     ),
                                   ),
@@ -558,22 +585,25 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                 duration: Duration(milliseconds: 300),
                                 transform: isHovering
                                     ? (Matrix4.identity()
-                                  ..setEntry(3, 2, 0.001) // Add perspective
-                                  ..rotateX(0.0)
-                                  ..rotateY(0.0)
-                                  ..scale(1.1))
+                                      ..setEntry(3, 2, 0.001) // Add perspective
+                                      ..rotateX(0.0)
+                                      ..rotateY(0.0)
+                                      ..scale(1.1))
                                     : Matrix4.identity(),
                                 child: Material(
-                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  elevation: isHovering
+                                      ? 20
+                                      : 0, // Apply elevation when hovering
                                   child: Container(
                                     width: 250,
                                     decoration: BoxDecoration(
                                       color: Colors.black,
                                       borderRadius: BorderRadius.circular(0),
                                       image: DecorationImage(
-                                        image: NetworkImage(itemslist4Urls[index]['url']!), // Use URL from the imported file
+                                        image: NetworkImage(itemslist4Urls[
+                                                index][
+                                            'url']!), // Use URL from the imported file
                                         fit: BoxFit.cover,
-
                                       ),
                                     ),
                                   ),
