@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
 import 'package:video_player/video_player.dart';
-import 'Homepage.dart'; // Import your homepage screen file
+import 'mainpage_screen.dart'; // Import your homepage screen file
 
 class FullScreenVideoScreen extends StatefulWidget {
   final String videoUrl;
