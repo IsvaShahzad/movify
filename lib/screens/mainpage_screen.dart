@@ -254,6 +254,22 @@ class _HomePageScreenState extends State<HomePageScreen> {
               height: 10, // Adjust the height as needed to give less height
             ),
 
+            Padding(
+              padding: EdgeInsets.only(right: 1349),
+              child: Text(
+                'Top Picks',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Montserrat',
+                  fontSize: 27,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+
             Container(
               height: 330, // Adjust the height as needed
               child: ListView.builder(
@@ -286,18 +302,24 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                 context: context,
                                 builder: (BuildContext context) {
                                   return Dialog(
-                                    backgroundColor: Colors.transparent, // Make the dialog background transparent
+                                    backgroundColor: Colors
+                                        .transparent, // Make the dialog background transparent
                                     child: Container(
                                       width: 300,
                                       height: 300,
                                       decoration: BoxDecoration(
-                                        color: Colors.grey.withOpacity(0.2), // Semi-transparent background
-                                        border: Border.all(color: Colors.white, width: 2), // White border
+                                        color: Colors.grey.withOpacity(
+                                            0.2), // Semi-transparent background
+                                        border: Border.all(
+                                            color: Colors.white,
+                                            width: 2), // White border
                                       ),
-                                      padding: EdgeInsets.all(20), // Padding inside the container
+                                      padding: EdgeInsets.all(
+                                          20), // Padding inside the container
                                       child: Column(
                                         mainAxisSize: MainAxisSize.min,
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Text(
                                             'Movie Description',
@@ -307,11 +329,14 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                               fontWeight: FontWeight.bold,
                                             ),
                                           ),
-                                          SizedBox(height: 10), // Space between title and content
+                                          SizedBox(
+                                              height:
+                                                  10), // Space between title and content
                                           Expanded(
                                             child: SingleChildScrollView(
                                               child: Text(
-                                                itemslist1Urls[index]['description']!, // Use description from the imported file
+                                                itemslist1Urls[index][
+                                                    'description']!, // Use description from the imported file
                                                 style: TextStyle(
                                                   color: Colors.white,
                                                   fontSize: 16,
@@ -319,13 +344,16 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                               ),
                                             ),
                                           ),
-                                          SizedBox(height: 20), // Space before the close button
+                                          SizedBox(
+                                              height:
+                                                  20), // Space before the close button
                                           Align(
                                             alignment: Alignment.centerRight,
                                             child: TextButton(
                                               child: Text(
                                                 'Close',
-                                                style: TextStyle(color: Colors.white),
+                                                style: TextStyle(
+                                                    color: Colors.white),
                                               ),
                                               onPressed: () {
                                                 Navigator.of(context).pop();
@@ -350,20 +378,26 @@ class _HomePageScreenState extends State<HomePageScreen> {
             SizedBox(height: 40),
             Padding(
               padding: EdgeInsets.only(right: 1345),
-              child: Text('Trending Now', style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Montserrat',
-                fontSize: 25,
-              ),),
+              child: Text(
+                'Trending Now',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Montserrat',
+                  fontSize: 25,
+                ),
+              ),
             ),
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
 
             Container(
               height: 350, // Adjust the height as needed
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount: itemlist2Urls.length, // Replace with actual item count
+                itemCount:
+                    itemlist2Urls.length, // Replace with actual item count
                 itemBuilder: (context, index) {
                   return Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -374,36 +408,39 @@ class _HomePageScreenState extends State<HomePageScreen> {
                         borderRadius: BorderRadius.circular(0),
                         image: DecorationImage(
                           image: NetworkImage(itemlist2Urls[index]
-                          ['url']!), // Use URL from the imported file
+                              ['url']!), // Use URL from the imported file
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
-
                   );
-
                 },
               ),
             ),
 
-
             SizedBox(height: 40),
             Padding(
               padding: EdgeInsets.only(right: 1345),
-              child: Text('New and Hot', style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Montserrat',
-                fontSize: 25,
-              ),),
+              child: Text(
+                'New and Hot',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Montserrat',
+                  fontSize: 25,
+                ),
+              ),
             ),
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
 
             Container(
               height: 350, // Adjust the height as needed
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount: itemslist3Urls.length, // Replace with actual item count
+                itemCount:
+                    itemslist3Urls.length, // Replace with actual item count
                 itemBuilder: (context, index) {
                   return Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -414,6 +451,49 @@ class _HomePageScreenState extends State<HomePageScreen> {
                         borderRadius: BorderRadius.circular(0),
                         image: DecorationImage(
                           image: NetworkImage(itemslist3Urls[index]
+                              ['url']!), // Use URL from the imported file
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+
+            SizedBox(height: 40),
+            Padding(
+              padding: EdgeInsets.only(right: 1260),
+              child: Text(
+                'Creepy and Chilling',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Montserrat',
+                  fontSize: 25,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 15,
+            ),
+
+            Container(
+              height: 350, // Adjust the height as needed
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount:
+                itemslist4Urls.length, // Replace with actual item count
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: Container(
+                      width: 250,
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius: BorderRadius.circular(0),
+                        image: DecorationImage(
+                          image: NetworkImage(itemslist4Urls[index]
                           ['url']!), // Use URL from the imported file
                           fit: BoxFit.cover,
                         ),
