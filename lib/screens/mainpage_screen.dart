@@ -6,6 +6,7 @@ import 'package:hello/widgets/image_urls.dart';
 import 'package:subtitle_wrapper_package/subtitle_controller.dart';
 import 'package:video_player/video_player.dart';
 
+
 import 'trailer_screen.dart';
 
 class HomePageScreen extends StatefulWidget {
@@ -17,7 +18,11 @@ class _HomePageScreenState extends State<HomePageScreen> {
   late VideoPlayerController _videoPlayerController;
   late ChewieController _chewieController;
   late SubtitleController _subtitleController;
-  bool _isAudioOn = true; // Track the state of audio (on/off)
+  bool _isAudioOn = true;
+  bool isHover=false;
+
+
+  // Track the state of audio (on/off)
 
   bool _showOverlay = false; // Flag to control overlay visibility
 
@@ -36,6 +41,8 @@ class _HomePageScreenState extends State<HomePageScreen> {
     _chewieController.dispose();
     super.dispose();
   }
+
+
 
   Future<void> _initializeVideoPlayer() async {
     try {
@@ -62,6 +69,8 @@ class _HomePageScreenState extends State<HomePageScreen> {
       setState(() {
         _isVideoInitialized = true;
       });
+
+
     } catch (e) {
       print('Error initializing video player: $e');
       // Handle error gracefully, e.g., show an error message
@@ -276,101 +285,62 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 scrollDirection: Axis.horizontal,
                 itemCount: itemslist1Urls.length, // Use the imported list
                 itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: Stack(
-                      children: [
-                        Container(
-                          width: 250,
-                          decoration: BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.circular(0),
-                            image: DecorationImage(
-                              image: NetworkImage(itemslist1Urls[index]
-                                  ['url']!), // Use URL from the imported file
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                        Positioned(
-                          top: 8,
-                          right: 8,
-                          child: IconButton(
-                            icon: Icon(Icons.add, color: Colors.white),
-                            onPressed: () {
-                              showDialog(
-                                context: context,
-                                builder: (BuildContext context) {
-                                  return Dialog(
-                                    backgroundColor: Colors
-                                        .transparent, // Make the dialog background transparent
-                                    child: Container(
-                                      width: 300,
-                                      height: 300,
-                                      decoration: BoxDecoration(
-                                        color: Colors.grey.withOpacity(
-                                            0.2), // Semi-transparent background
-                                        border: Border.all(
-                                            color: Colors.white,
-                                            width: 2), // White border
-                                      ),
-                                      padding: EdgeInsets.all(
-                                          20), // Padding inside the container
-                                      child: Column(
-                                        mainAxisSize: MainAxisSize.min,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            'Movie Description',
-                                            style: TextStyle(
-                                              color: Colors.white,
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                          ),
-                                          SizedBox(
-                                              height:
-                                                  10), // Space between title and content
-                                          Expanded(
-                                            child: SingleChildScrollView(
-                                              child: Text(
-                                                itemslist1Urls[index][
-                                                    'description']!, // Use description from the imported file
-                                                style: TextStyle(
-                                                  color: Colors.white,
-                                                  fontSize: 16,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                          SizedBox(
-                                              height:
-                                                  20), // Space before the close button
-                                          Align(
-                                            alignment: Alignment.centerRight,
-                                            child: TextButton(
-                                              child: Text(
-                                                'Close',
-                                                style: TextStyle(
-                                                    color: Colors.white),
-                                              ),
-                                              onPressed: () {
-                                                Navigator.of(context).pop();
-                                              },
-                                            ),
-                                          ),
-                                        ],
+                  bool isHovering = false; // Track hover state for each item
+                  return StatefulBuilder(
+                    builder: (BuildContext context, StateSetter setState) {
+                      return MouseRegion(
+                        onEnter: (_) {
+                          setState(() {
+                            isHovering = true;
+                          });
+                        },
+                        onExit: (_) {
+                          setState(() {
+                            isHovering = false;
+                          });
+                        },
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          child: Stack(
+                            children: [
+                              AnimatedContainer(
+                                duration: Duration(milliseconds: 300),
+                                transform: isHovering
+                                    ? (Matrix4.identity()
+                                  ..setEntry(3, 2, 0.001) // Add perspective
+                                  ..rotateX(0.0)
+                                  ..rotateY(0.0)
+                                  ..scale(1.1))
+                                    : Matrix4.identity(),
+                                child: Material(
+                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  child: Container(
+                                    width: 250,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                      borderRadius: BorderRadius.circular(0),
+                                      image: DecorationImage(
+                                        image: NetworkImage(itemslist1Urls[index]['url']!), // Use URL from the imported file
+                                        fit: BoxFit.cover,
+
                                       ),
                                     ),
-                                  );
-                                },
-                              );
-                            },
+                                  ),
+                                ),
+                              ),
+                              if (isHovering)
+                                Positioned(
+                                  bottom: 10,
+                                  left: 10,
+                                  child: Text(
+                                    '',
+                                  ),
+                                ),
+                            ],
                           ),
-                        )
-                      ],
-                    ),
+                        ),
+                      );
+                    },
                   );
                 },
               ),
@@ -393,26 +363,67 @@ class _HomePageScreenState extends State<HomePageScreen> {
             ),
 
             Container(
-              height: 350, // Adjust the height as needed
+              height: 330, // Adjust the height as needed
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount:
-                    itemlist2Urls.length, // Replace with actual item count
+                itemCount: itemlist2Urls.length, // Use the imported list
                 itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: Container(
-                      width: 250,
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.circular(0),
-                        image: DecorationImage(
-                          image: NetworkImage(itemlist2Urls[index]
-                              ['url']!), // Use URL from the imported file
-                          fit: BoxFit.cover,
+                  bool isHovering = false; // Track hover state for each item
+                  return StatefulBuilder(
+                    builder: (BuildContext context, StateSetter setState) {
+                      return MouseRegion(
+                        onEnter: (_) {
+                          setState(() {
+                            isHovering = true;
+                          });
+                        },
+                        onExit: (_) {
+                          setState(() {
+                            isHovering = false;
+                          });
+                        },
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          child: Stack(
+                            children: [
+                              AnimatedContainer(
+                                duration: Duration(milliseconds: 300),
+                                transform: isHovering
+                                    ? (Matrix4.identity()
+                                  ..setEntry(3, 2, 0.001) // Add perspective
+                                  ..rotateX(0.0)
+                                  ..rotateY(0.0)
+                                  ..scale(1.1))
+                                    : Matrix4.identity(),
+                                child: Material(
+                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  child: Container(
+                                    width: 250,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                      borderRadius: BorderRadius.circular(0),
+                                      image: DecorationImage(
+                                        image: NetworkImage(itemlist2Urls[index]['url']!), // Use URL from the imported file
+                                        fit: BoxFit.cover,
+
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              if (isHovering)
+                                Positioned(
+                                  bottom: 10,
+                                  left: 10,
+                                  child: Text(
+                                    '',
+                                  ),
+                                ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ),
+                      );
+                    },
                   );
                 },
               ),
@@ -436,26 +447,67 @@ class _HomePageScreenState extends State<HomePageScreen> {
             ),
 
             Container(
-              height: 350, // Adjust the height as needed
+              height: 330, // Adjust the height as needed
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount:
-                    itemslist3Urls.length, // Replace with actual item count
+                itemCount: itemslist3Urls.length, // Use the imported list
                 itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: Container(
-                      width: 250,
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.circular(0),
-                        image: DecorationImage(
-                          image: NetworkImage(itemslist3Urls[index]
-                              ['url']!), // Use URL from the imported file
-                          fit: BoxFit.cover,
+                  bool isHovering = false; // Track hover state for each item
+                  return StatefulBuilder(
+                    builder: (BuildContext context, StateSetter setState) {
+                      return MouseRegion(
+                        onEnter: (_) {
+                          setState(() {
+                            isHovering = true;
+                          });
+                        },
+                        onExit: (_) {
+                          setState(() {
+                            isHovering = false;
+                          });
+                        },
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          child: Stack(
+                            children: [
+                              AnimatedContainer(
+                                duration: Duration(milliseconds: 300),
+                                transform: isHovering
+                                    ? (Matrix4.identity()
+                                  ..setEntry(3, 2, 0.001) // Add perspective
+                                  ..rotateX(0.0)
+                                  ..rotateY(0.0)
+                                  ..scale(1.1))
+                                    : Matrix4.identity(),
+                                child: Material(
+                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  child: Container(
+                                    width: 250,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                      borderRadius: BorderRadius.circular(0),
+                                      image: DecorationImage(
+                                        image: NetworkImage(itemslist3Urls[index]['url']!), // Use URL from the imported file
+                                        fit: BoxFit.cover,
+
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              if (isHovering)
+                                Positioned(
+                                  bottom: 10,
+                                  left: 10,
+                                  child: Text(
+                                    '',
+                                  ),
+                                ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ),
+                      );
+                    },
                   );
                 },
               ),
@@ -479,26 +531,67 @@ class _HomePageScreenState extends State<HomePageScreen> {
             ),
 
             Container(
-              height: 350, // Adjust the height as needed
+              height: 330, // Adjust the height as needed
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount:
-                itemslist4Urls.length, // Replace with actual item count
+                itemCount: itemslist4Urls.length, // Use the imported list
                 itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: Container(
-                      width: 250,
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.circular(0),
-                        image: DecorationImage(
-                          image: NetworkImage(itemslist4Urls[index]
-                          ['url']!), // Use URL from the imported file
-                          fit: BoxFit.cover,
+                  bool isHovering = false; // Track hover state for each item
+                  return StatefulBuilder(
+                    builder: (BuildContext context, StateSetter setState) {
+                      return MouseRegion(
+                        onEnter: (_) {
+                          setState(() {
+                            isHovering = true;
+                          });
+                        },
+                        onExit: (_) {
+                          setState(() {
+                            isHovering = false;
+                          });
+                        },
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          child: Stack(
+                            children: [
+                              AnimatedContainer(
+                                duration: Duration(milliseconds: 300),
+                                transform: isHovering
+                                    ? (Matrix4.identity()
+                                  ..setEntry(3, 2, 0.001) // Add perspective
+                                  ..rotateX(0.0)
+                                  ..rotateY(0.0)
+                                  ..scale(1.1))
+                                    : Matrix4.identity(),
+                                child: Material(
+                                  elevation: isHovering ? 20 : 0, // Apply elevation when hovering
+                                  child: Container(
+                                    width: 250,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                      borderRadius: BorderRadius.circular(0),
+                                      image: DecorationImage(
+                                        image: NetworkImage(itemslist4Urls[index]['url']!), // Use URL from the imported file
+                                        fit: BoxFit.cover,
+
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              if (isHovering)
+                                Positioned(
+                                  bottom: 10,
+                                  left: 10,
+                                  child: Text(
+                                    '',
+                                  ),
+                                ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ),
+                      );
+                    },
                   );
                 },
               ),
