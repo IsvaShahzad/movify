@@ -1,5 +1,5 @@
 // import 'package:flutter/material.dart';
-// import 'package:hello/widgets/image_urls.dart'; // Assuming the image URLs are in this file
+// import 'package:hello/widgets/movie_content.dart'; // Assuming the image URLs are in this file
 //
 // Widget topPicksList() {
 //   return Container(

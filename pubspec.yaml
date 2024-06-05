@@ -37,11 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   chewie: ^1.8.1
   video_player: ^2.8.6
-  subtitle_wrapper_package: ^2.2.1
-  vimeo_player_flutter: ^0.1.0
-  hover_widget: ^0.1.1
-
-
+  youtube_player_flutter: ^9.0.1
+  flutter_inappwebview: ^6.0.0
 
 
 
@@ -77,6 +74,8 @@ flutter:
      - assets/images/movieposter.jpeg
      - assets/images/design.png
      - assets/images/poster2.png
+     - assets/videos/shinning.mp4
+
 
 
 

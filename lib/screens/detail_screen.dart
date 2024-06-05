@@ -2,18 +2,34 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
+import 'package:hello/screens/trailer_screen.dart';
+import 'package:video_player/video_player.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+
 
 class DetailScreen extends StatelessWidget {
   final String imageUrl;
   final String description;
+  final String genre;
+  final String title;
+  final String cast;
 
-  DetailScreen({required this.imageUrl, required this.description});
+  DetailScreen({required this.imageUrl, required this.description, required this.genre, required this.title, required this.cast});
+  late VideoPlayerController _videoPlayerController;
+
 
   // Function to handle playing the video (placeholder for your actual implementation)
   void _playVideoFullScreen(BuildContext context) {
-    // Implement your logic to play the video here
-    // This is a placeholder method
-    print('Play video');
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => FullScreenVideoScreen(
+          videoUrl:
+          'assets/videos/shinning.mp4',
+        ),
+      ),
+    );
+    // _videoPlayerController
+    //     .pause(); // Pause video when navigating to full-screen
   }
 
   @override
@@ -46,9 +62,9 @@ class DetailScreen extends StatelessWidget {
                   children: [
                     Center(
                       child: Text(
-                        'The Shining',
+                        title,
                         style: TextStyle(
-                          fontSize: 35,
+                          fontSize: 30,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
                           fontFamily: 'Montserrat',
@@ -71,10 +87,8 @@ class DetailScreen extends StatelessWidget {
 
                     Center(
                       child: Text(
-                        'Jack Nicholson\nShelley Duvall\n'
-                        'Danny Lloyd\nScatman Crothers\n'
-                        'Philip Stone\nJoe Turkel '
-                        '\nBarry Nelson\n Anne Jackson \n Tony Burton \n Lia Beldam',
+                        cast,
+
                         textAlign: TextAlign.center, // Align text to center horizontally
 
                         style: TextStyle(
@@ -86,7 +100,7 @@ class DetailScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 25,),
+                    SizedBox(height: 30,),
                     Center(
                       child: Text(
                         'Maturity Rating',
@@ -167,7 +181,7 @@ class DetailScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 30), // Adjust spacing between the texts
                   Text(
-                    "Genre: Psychological, Chilling, Scary, Supernatural", // Add your genre text here
+                    'Genre: $genre',
                     style: TextStyle(
                       fontSize: 20,
                       color: Colors.white,

@@ -2,8 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
 import 'package:flutter/widgets.dart';
-import 'package:hello/widgets/image_urls.dart';
-import 'package:subtitle_wrapper_package/subtitle_controller.dart';
+import 'package:hello/widgets/movie_content.dart';
 import 'package:video_player/video_player.dart';
 
 import 'detail_screen.dart';
@@ -17,7 +16,6 @@ class HomePageScreen extends StatefulWidget {
 class _HomePageScreenState extends State<HomePageScreen> {
   late VideoPlayerController _videoPlayerController;
   late ChewieController _chewieController;
-  late SubtitleController _subtitleController;
   bool _isAudioOn = true;
   bool isHover = false;
 
@@ -305,14 +303,19 @@ class _HomePageScreenState extends State<HomePageScreen> {
                           child: GestureDetector(
                             onTap: () {
                               Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                              builder: (context) => DetailScreen(
-                              imageUrl: itemslist1Urls[index]['url2']!,
-                              description: itemslist1Urls[index]['description']!,
-                              ),
-                              ),
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DetailScreen(
+                                    title : itemslist1Urls[index]['title']!,
+                                    imageUrl: itemslist1Urls[index]['url2']!,
+                                    description: itemslist1Urls[index]
+                                        ['description']!,
+                                    genre : itemslist1Urls[index]['genre']!,
+                                    cast : itemslist1Urls[index]['cast']!,
+                                  ),
+                                ),
                               );
+                              _videoPlayerController.pause();
                             },
                             child: Padding(
                               padding:

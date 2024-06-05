@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'screens/mainpage_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+
+
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
