@@ -1,13 +1,18 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:hello/screens/detail_screen.dart';
+import 'package:hello/screens/youtube_widget.dart';
 import 'screens/mainpage_screen.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+
+
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-
-
   runApp(MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -38,6 +43,13 @@ class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController emailController = TextEditingController();
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   String? _emailError;
+
+
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -197,4 +209,3 @@ class _MyHomePageState extends State<MyHomePage> {
     return RegExp(emailRegex).hasMatch(email);
   }
 }
-

@@ -37,8 +37,14 @@ dependencies:
   cupertino_icons: ^1.0.6
   chewie: ^1.8.1
   video_player: ^2.8.6
-  youtube_player_flutter: ^9.0.1
-  flutter_inappwebview: ^6.0.0
+  webview_flutter: ^4.8.0
+  youtube_player_iframe: ^5.1.2
+  build_runner: ^2.4.0
+  build_web_compilers: ^4.0.4
+
+
+
+
 
 
 

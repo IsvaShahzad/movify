@@ -27,7 +27,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzJ199IYL_-iaL3DlkhPcBTWuSgyCOlpP2A&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://images.saymedia-content.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk5MDAzNjA3MTI5OTI1Mzkz/barbarian-2022-movie-review.jpg',
     'description': 'Barbarian',
     'genre': 'Horror, Thriller, Dark, Suspense, Mystery',
     'cast': 'Bill Skarsgard\n'
@@ -45,7 +45,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjjapo-3kOE-Q98ehOepBqdDYNobO5_cSe2A&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://images.bauerhosting.com/legacy/empire-legacy/uploaded/856919_10151332295080765_1205020722_o.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80',
     'description': 'Hangover',
     'genre': 'Comedy,Adventure,Drama,Crime Fiction,Mystery',
     'cast': 'Jack Nicholson\n'
@@ -64,7 +64,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9tzMlEANaNzZvmZ3ClvX18fRHVSCSsf2dQ&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/dr-strange-imax-poster-social.jpg',
     'description': 'Doctor Strange',
     'genre': 'Action, Superhero, Fantasy, Science Fiction, Adventure',
     'cast': 'Jack Nicholson\n'
@@ -83,7 +83,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwb87JFvuhgs80ZvQipnJVIs3EZsbKkJHdw&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/05/Doctor-Sleep-Directors-Cut-Blu-Ray-Cover-Crop.jpg',
     'description': 'Doctor Sleep',
     'genre': 'Horror, Psycological horror,Drama, Thriller, Suspense',
     'cast': 'Jack Nicholson\n'
@@ -102,7 +102,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsiue3NYKIl_IdjN7Ha9c5Osn2guVxS6LJMD8i1nEBw&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://miro.medium.com/v2/resize:fit:512/1*v1edoyg9DqlC5aWdaxdHtQ.jpeg',
     'description': 'Forgotten',
     'genre': 'Drama, Suspense, Thriller, Mystery',
     'cast': 'Jack Nicholson\n'

@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
+import 'package:hello/screens/mainpage_screen.dart';
 import 'package:hello/screens/trailer_screen.dart';
+import 'package:hello/screens/youtube_widget.dart';
 import 'package:video_player/video_player.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-
 
 class DetailScreen extends StatelessWidget {
   final String imageUrl;
@@ -21,20 +21,23 @@ class DetailScreen extends StatelessWidget {
   // Function to handle playing the video (placeholder for your actual implementation)
   void _playVideoFullScreen(BuildContext context) {
     Navigator.of(context).push(
+      // MaterialPageRoute(
+      //   builder: (_) => FullScreenVideoScreen(videoUrl: 'assets/videos/shinning.mp4',
+      //   ),
+      // ),
       MaterialPageRoute(
-        builder: (_) => FullScreenVideoScreen(
-          videoUrl:
-          'assets/videos/shinning.mp4',
+        builder: (_) => YoutubeScreen(
         ),
       ),
     );
-    // _videoPlayerController
-    //     .pause(); // Pause video when navigating to full-screen
   }
+
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+
       backgroundColor: Colors.black,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -51,6 +54,20 @@ class DetailScreen extends StatelessWidget {
                 fit: BoxFit.cover,
 
                 // Cover the entire container
+              ),
+            ),
+            Positioned(
+              left: 20,
+              top: 40,
+              child: IconButton(
+                icon: Icon(Icons.arrow_back, color: Colors.white),
+                onPressed: () {
+                  Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(
+                      builder: (context) => HomePageScreen(),
+                    ),
+                  );
+                },
               ),
             ),
             Padding(
