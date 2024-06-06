@@ -44,21 +44,23 @@ class DetailScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Stack(children: [
-            Container(
-              width: MediaQuery.of(context).size.width *
-                  0.8, // Adjust width percentage as needed
-              height: MediaQuery.of(context).size.height *
-                  0.6, // Adjust image height as needed
-              child: Image.network(
-                imageUrl,
-                fit: BoxFit.cover,
+            Positioned(
+              top: 5,
+              child: Container(
+                width: MediaQuery.of(context).size.width *
+                    0.8, // Adjust width percentage as needed
+                height: MediaQuery.of(context).size.height *
+                    0.7, // Adjust image height as needed
+                child: Image.network(
+                  imageUrl,
+                  fit: BoxFit.cover,
 
-                // Cover the entire container
+                  // Cover the entire container
+                ),
               ),
             ),
             Positioned(
               left: 20,
-              top: 40,
               child: IconButton(
                 icon: Icon(Icons.arrow_back, color: Colors.white),
                 onPressed: () {
@@ -148,7 +150,7 @@ class DetailScreen extends StatelessWidget {
             // child: Text(
 
             Padding(
-              padding: EdgeInsets.only(left: 1057, top: 388),
+              padding: EdgeInsets.only(left: 1057, top: 465),
               child: ElevatedButton(
                 onPressed: () {
                   _playVideoFullScreen(context);
@@ -182,7 +184,7 @@ class DetailScreen extends StatelessWidget {
             ),
           ]),
           Padding(
-            padding: EdgeInsets.only(top: 0),
+            padding: EdgeInsets.only(top: 15),
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Column(

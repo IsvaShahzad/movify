@@ -1,4 +1,25 @@
 List<Map<String, String>> itemslist1Urls = [
+
+  {
+    'title': 'Black Knight',
+    'url':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPMqXDVbQQ705KcwrbSaibcv4IhTLP1_FfQ&s',
+    'url2':
+    'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/black-knight-featrued.jpg',
+    'description':
+    'In a dystopian future devastated by air pollution, the survival of humanity depends on a group of deliverymen known as\nthe Black Knights who navigate the wastelands using unconventional means, starring "Kim Woo Bin."',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
+  },
   {
     'title': 'The Shinning',
     'url':
@@ -25,10 +46,10 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Barbarian',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzJ199IYL_-iaL3DlkhPcBTWuSgyCOlpP2A&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgv3iYN1t190StiwU2NOk9LTMv5GJAukOyMg&s',
     'url2':
-        'https://images.saymedia-content.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk5MDAzNjA3MTI5OTI1Mzkz/barbarian-2022-movie-review.jpg',
-    'description': 'Barbarian',
+        'https://lh3.googleusercontent.com/He6EVLVsk9e-htl9ED1PttU4odZBfkfkdqnz3siktwGluTVQ55NJACmaZX4wouTkCmwNX_arPRQI',
+    'description': 'In a quiet suburb, Sarah checked into a seemingly perfect Airbnb for a peaceful retreat.\nBut as night fell, she discovered a hidden entrance leading to a terrifying underground world.\nTrapped beneath the house, Sarah uncovered dark secrets that turned her stay into a desperate fight\nfor survival. ',
     'genre': 'Horror, Thriller, Dark, Suspense, Mystery',
     'cast': 'Bill Skarsgard\n'
         'Georgina Campbell\n'
@@ -43,48 +64,67 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Hangover',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjjapo-3kOE-Q98ehOepBqdDYNobO5_cSe2A&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTULxPAlEn_LOBdw9ATBigOK2UhddRu7xRfLw&s',
     'url2':
         'https://images.bauerhosting.com/legacy/empire-legacy/uploaded/856919_10151332295080765_1205020722_o.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80',
-    'description': 'Hangover',
+    'description': 'Three groomsmen wake up in Las Vegas after a bachelor party, missing the groom and their memories\nof the night before. As they retrace their steps, they encounter unexpected chaos,including a tiger and a baby.\nCan they piece together the events and find the groom in time for the wedding?',
     'genre': 'Comedy,Adventure,Drama,Crime Fiction,Mystery',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
+    'cast': 'Bradley Cooper\n'
+        'Ed Helms\n'
         'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
+        'Zach Galifianakis\n'
+        'Mike Tyson\n'
+        'Justin Bartha\n'
+        'Ken Jeong '
+        '\nHeather Graham\n'
+        'Jeffrey Tambor'
+        '\nRachael Harris',
+  },
+  {
+    'title': 'Damsel',
+    'url':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzdZIdsc6KU6Aat10uncncGastzEnMzoopnw&s',
+    'url2':
+    'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
+    'description': "Millie Bobby Brown portrays a dutiful young woman who agrees to marry a handsome prince, only to realize it's a sinister ploy.\n"
+        "The royal family intends to sacrifice her to settle an ancient debt. Now trapped in a cave with a fire-breathing dragon, she must\nrely on her intelligence and determination to stay alive.",
+    'genre': 'Action, Adventure, Thriller',
+    'cast': 'Millie Bobby Brown\n'
+        'Nick Robinson\n'
+        'Danny Lloyd\n'
+        'Angela Basset\n'
+        'Robin Wright\n'
+        'Ray Winstone '
+        '\nShohreh Aghdashloo\n'
+        'Manon Stieglitz'
+
   },
   {
     'title': 'Doctor Strange',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9tzMlEANaNzZvmZ3ClvX18fRHVSCSsf2dQ&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMzUFWHD5uUUEG4yb4TjfKebj7it0r4PNnQ&s',
     'url2':
         'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/dr-strange-imax-poster-social.jpg',
-    'description': 'Doctor Strange',
+    'description': 'After a devastating car accident, brilliant but arrogant neurosurgeon Dr. Stephen Strange seeks healing in a mysterious enclave.\nInstead of physical recovery, he discovers the hidden world of magic and alternate dimensions. Trained by the Ancient One,\nStrange must put his ego aside and harness his newfound powers to protect the world from dark forces.',
     'genre': 'Action, Superhero, Fantasy, Science Fiction, Adventure',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
-        'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
+    'cast':
+        'Benedict Cumberbatch\n'
+        'Chiwetel Ejiofor\n'
+        'Rachel McAdams \n'
+        'Benedict Wong\n'
+        'Mads Mikkelsen '
+        '\nTilda Swinton\n'
+        'Michael Stuhlbarg'
+        '\nBenjamin Bratt '
+        '\nScott Adkins',
   },
   {
     'title': 'Doctor Sleep',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwb87JFvuhgs80ZvQipnJVIs3EZsbKkJHdw&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORZbomlgq1aMh3tv2GXcJfByp2gpDhCuQUw&s',
     'url2':
         'https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/05/Doctor-Sleep-Directors-Cut-Blu-Ray-Cover-Crop.jpg',
-    'description': 'Doctor Sleep',
+    'description': 'Doctor Sleep continues the story of Danny Torrance, 40 years after his terrifying experience at the Overlook Hotel in The Shining.\nNow struggling with trauma and addiction, Danny meets a young girl with similar powers and must protect her from a cult that feeds\non children with psychic abilities. As they confront their shared past and present dangers, Danny faces his fears to finally find peace. ',
     'genre': 'Horror, Psycological horror,Drama, Thriller, Suspense',
     'cast': 'Jack Nicholson\n'
         'Shelley Duvall\n'
@@ -103,95 +143,61 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsiue3NYKIl_IdjN7Ha9c5Osn2guVxS6LJMD8i1nEBw&s',
     'url2':
         'https://miro.medium.com/v2/resize:fit:512/1*v1edoyg9DqlC5aWdaxdHtQ.jpeg',
-    'description': 'Forgotten',
+    'description': "When Jin-seok's brother Yoo-seok returns home after a 19-day kidnapping with no memory of what happened, Jin-seok senses\nsomething is wrong. As he unravels the mystery, dark secrets emerge, revealing a truth more horrifying than he could have\nimagined.",
     'genre': 'Drama, Suspense, Thriller, Mystery',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
-        'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
+    'cast': 'Kang Ha-neul\n'
+        'Kim Mu-yeol \n'
+        'Na Young-hee\n'
+        'Moon Sung-keun\n'
+        'Lee Na-ra\n'
+        'Jang In-sub  '
+        '\nBae Sung-woo\n'
+        'Nam Myung-ryul'
+        '\nLee Jun-hyeok  '
   },
   {
     'title': 'The Book Thief',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxl6TtcBDinxwbITNQr6qWJw6Thg6_uPwKNQ&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF6Dds8FD0lY-fTnxLkGt-qk3GT1QA__tZwQ&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'The Book Thief',
+        'https://m.media-amazon.com/images/S/pv-target-images/47ed92674feba1e565362167cfa7965f0ed1fb2c2e5ec9a3f85b5d7139ea976d.jpg',
+    'description':
+        "In the heart of Nazi Germany, young Liesel finds solace and courage in the pages of stolen books. Raised by foster parents amidst\nthe turmoil of World War II, she learns the power of words and storytelling from her kind-hearted parents.As Liesel navigates the\nharsh realities of war and loss, her love for literature becomes a beacon of hope in a dark and oppressive time.",
     'genre': 'Novel, Historical Fiction, Young adult literature',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
-        'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
+    'cast': 'Sophie Nélisse\n'
+        'Geoffrey Rush\n'
+        'Emily Watson\n'
+        'Ben Schnetzer\n'
+        'Nico Liersch\n'
+        'Barbara Auer '
+        '\nHeike Makatsch\n'
+        'Roger Allam'
+        '\nKirsten Block '
+        '\nRainer Bock'
+        '\nSandra Nedeleff ',
+
   },
   {
     'title': 'Inception',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXCgM088gfn8c-RGFN4FgfOWYAMXfPVffIg&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWBTVSaM4gBO-BTHDZL2BPa0RwnKtHJXZwg&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'Inception',
+        'https://rukminim2.flixcart.com/image/850/1000/juk4gi80/poster/e/v/d/large-newposter8500-movie-inception-leonardo-dicaprio-hd-original-imaf5tgq5dgq6p8m.jpeg?q=90&crop=false',
+    'description': 'In a world where technology allows dreams to be manipulated, Dom Cobb leads a team skilled in infiltrating the subconscious.\nTasked with implanting an idea rather than stealing it, Cobb navigates a labyrinth of intrigue and danger, where reality and\nillusion blur. As he delves deeper into the subconscious realms of his targets, Cobb confronts his own haunting past and the\nlimits of his mind. ',
     'genre': 'Science fiction, Action, Thriller, Heist',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
-        'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
+    'cast': 'Leonardo DiCaprio\n'
+        'Joseph Gordon-Levitt\n'
+        'Elliot Page\n'
+        'Tom Hardy\n'
+        'Ken Watanabe\n'
+        'Dileep Rao  '
+        '\nCillian Murphy\n'
+        'Tom Berenger'
+        '\nMarion Cotillard  '
+        '\nMichael Caine',
   },
-  {
-    'title': 'Forrest Gump',
-    'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5dNmQUuj2MKObBNZldUOQ0l9WdjuInyN9g&s',
-    'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'Forrest Gump',
-    'genre': 'Melodrama, Comedy, Adventure',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
-        'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
-  },
-  {
-    'title': 'The Godfather',
-    'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3msa6oxWAQdMKVx7BUtC_Ia7CrWsSNZPY-Q&s',
-    'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'The Godfather',
-    'genre': 'Mafia, Action, Gnagster, Drama, Crime',
-    'cast': 'Jack Nicholson\n'
-        'Shelley Duvall\n'
-        'Danny Lloyd\n'
-        'Scatman Crothers\n'
-        'Philip Stone\n'
-        'Joe Turkel '
-        '\nBarry Nelson\n'
-        'Anne Jackson'
-        '\nTony Burton '
-        '\nLia Beldam',
-  }
+
+
 ];
 
 List<Map<String, String>> itemlist2Urls = [

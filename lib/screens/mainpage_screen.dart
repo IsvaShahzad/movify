@@ -18,6 +18,13 @@ class _HomePageScreenState extends State<HomePageScreen> {
   late ChewieController _chewieController;
   bool _isAudioOn = true;
   bool isHover = false;
+  int _currentCarouselIndex = 0;
+  //
+  //
+  // final List<String> videoUrls = [
+  //   'assets/videos/dune3video.mp4',
+  //   'assets/videos/dune3video.mp4',
+  // ];
 
   // Track the state of audio (on/off)
 
