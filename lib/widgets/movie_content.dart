@@ -357,8 +357,7 @@ List<Map<String, String>> itemlist2Urls = [
   },
   {
     'title': 'Hush',
-    'url':
-        'https://lh6.googleusercontent.com/proxy/mWhzunwv0cCJWwaDgfxEFa6Tgd-H11wA_fyQA8ippi7sB8wfpr1-FPN99M9snEzi73t2bsrBnsFPfbLOnSW_rys9lYHJ',
+    'url':'https://m.media-amazon.com/images/M/MV5BOWQ4OTdlODQtMDc3Yy00MGVmLWExYjUtOGI0Yjg4MDQzNDNhXkEyXkFqcGdeQXVyNjIzMzkyMzk@._V1_.jpg',
     'url2':
         'https://images.squarespace-cdn.com/content/v1/58c1d10217bffc0ccdaf728d/1521751984229-CDX4ZFL289AYDG5H1PMF/hush2.jpg',
     'description':
@@ -585,11 +584,11 @@ List<Map<String, String>> itemslist3Urls = [
 
 List<Map<String, String>> itemslist4Urls = [
   {
-    'title': 'IT',
+    'title': 'Megan',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVEcAiTwNt3thXPPD9MpobEIqsxmhPGO0OVA&s',
+        'https://m.media-amazon.com/images/M/MV5BMDk4MTdhYzEtODk3OS00ZDBjLWFhNTQtMDI2ODdjNzQzZTA3XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/12/m3gan-megan-2023.jpg',
     'description': 'hello hi there ',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -604,11 +603,11 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Get out',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5yh4Mm7JOSPa0fBC7JKxa46zEJXXJxcgvg&s',
+        'https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://m.media-amazon.com/images/S/pv-target-images/ef4dbfcf9f106f74a4c42e69d0c7d1a10434a25bd1b2e75c908196762a204f0a._SX1080_FMjpg_.jpg',
     'description': 'hello hi there ',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -623,11 +622,11 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Evil dead rise',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgrk3MvltAfFxyGDODdIvRtPbQFinDZvKlwQ&s',
+        'https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/04/evil-dead-rise-alyssa-sutherland-nell-fisher.jpg',
     'description': 'hello 2',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -642,11 +641,11 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Us',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDH8Ode6c-e3vYiibnYtqMYdRO7VOnCwcnw&s',
+        'https://images.squarespace-cdn.com/content/v1/58f963cfcd0f686256f0df14/1553367430055-H9SE88VIUG9JYR1S9TLJ/us+poster.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/03/28/Pictures/_8900d87c-516c-11e9-a540-e59d8ae6a1ea.jpg',
     'description': 'hello4',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -661,11 +660,11 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Scream 6',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSERRRrH3sSMG-8Ze5kxxSlpW-fR-qEtn6mKQ&s',
+        'https://m.media-amazon.com/images/M/MV5BODBjM2M4YTQtNmJlMS00MGU2LWI4ZGYtZTA1MzdmZDAyMjFkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://images.squarespace-cdn.com/content/v1/5bbcad0f2727be3646b9fee1/1678300313542-E8W5TCP0OO96TAYD69JF/1DBC711D-3C3A-49A7-8852-86B2DFFF95B3.jpeg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -680,11 +679,11 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Conjuring 2',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv07LM7j6KLJBNEggmqp5GUs5vmInqtyLuzA&s',
+        'https://m.media-amazon.com/images/M/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://m.media-amazon.com/images/M/MV5BMjEyOTg4ODEzMF5BMl5BanBnXkFtZTgwODI1MDkwOTE@._V1_.jpg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -699,11 +698,11 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Nun',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
+        'https://m.media-amazon.com/images/M/MV5BMzQ1NDg5NTcxMl5BMl5BanBnXkFtZTgwMTk4NzgxNjM@._V1_.jpg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -718,9 +717,10 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'Batman',
+    'title': 'Insidious',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8GjWMV0HAtbf4FV9APT1gAWQ1CSZPCj_WA&s',
+        'https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg',
+    'url2':'https://static01.nyt.com/images/2023/07/10/multimedia/07insidious1-wgmf/07insidious1-wgmf-facebookJumbo.jpg',
     'description':
         "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman.\nWhen a sadistic killer known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption unravels, Batman races against time to bring justice to Gotham and confront his own demons.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
@@ -736,9 +736,10 @@ List<Map<String, String>> itemslist4Urls = [
         '\nRupert Penry-Jones ',
   },
   {
-    'title': 'IT',
+    'title': 'The Conference',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7epEhkD_IlaJb821BsikS1ciPL5ttt069pQ&s',
+        'https://m.media-amazon.com/images/M/MV5BMzM5OTc1OGEtNWYzZS00MzAzLTkxM2EtNzE3OGFjNTQwYzU1XkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_FMjpg_UX1000_.jpg',
+    'url2':'https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcPZzg4ZaKPv3tZe-SiHK47o1ekNRurJ7cfhJsi-X7QwGu-lo03eDFtjYj99FFnYQq2LknvLWab3xxBDApZ6GoClZkdbgtGg99-E.jpg?r=b92',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -753,9 +754,10 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Winnie the Pooh',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGqc53b8uMZRVfSOsM-pyzDibrZlF6RP61Zg&s',
+        'https://m.media-amazon.com/images/M/MV5BOTU5MTYyYTAtNDg5Yi00NTc3LWFhMmQtY2VmNzQyZTRiNjJhXkEyXkFqcGdeQXVyMjYwMDA0ODc@._V1_.jpg',
+    'url2': 'https://cdn.vox-cdn.com/thumbor/p4Jms3GnjUAkFuJ6zd1JXR1tTAg=/0x0:1765x833/1200x675/filters:focal(754x162:1036x444)/cdn.vox-cdn.com/uploads/chorus_image/image/71984202/Victim.0.jpeg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
