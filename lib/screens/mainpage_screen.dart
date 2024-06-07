@@ -403,60 +403,80 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   return StatefulBuilder(
                     builder: (BuildContext context, StateSetter setState) {
                       return MouseRegion(
-                        onEnter: (_) {
-                          setState(() {
-                            isHovering = true;
-                          });
-                        },
-                        onExit: (_) {
-                          setState(() {
-                            isHovering = false;
-                          });
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10),
-                          child: Stack(
-                            children: [
-                              AnimatedContainer(
-                                duration: Duration(milliseconds: 300),
-                                transform: isHovering
-                                    ? (Matrix4.identity()
-                                      ..setEntry(3, 2, 0.001) // Add perspective
+                          onEnter: (_) {
+                            setState(() {
+                              isHovering = true;
+                            });
+                          },
+                          onExit: (_) {
+                            setState(() {
+                              isHovering = false;
+                            });
+                          },
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DetailScreen(
+                                    title : itemlist2Urls[index]['title']!,
+                                    imageUrl: itemlist2Urls[index]['url2']!,
+                                    description: itemlist2Urls[index]
+                                    ['description']!,
+                                    genre : itemlist2Urls[index]['genre']!,
+                                    cast : itemlist2Urls[index]['cast']!,
+                                  ),
+                                ),
+                              );
+                              _videoPlayerController.pause();
+                            },
+                            child: Padding(
+                              padding:
+                              const EdgeInsets.symmetric(horizontal: 10),
+                              child: Stack(
+                                children: [
+                                  AnimatedContainer(
+                                    duration: Duration(milliseconds: 300),
+                                    transform: isHovering
+                                        ? (Matrix4.identity()
+                                      ..setEntry(
+                                          3, 2, 0.001) // Add perspective
                                       ..rotateX(0.0)
                                       ..rotateY(0.0)
                                       ..scale(1.1))
-                                    : Matrix4.identity(),
-                                child: Material(
-                                  elevation: isHovering
-                                      ? 20
-                                      : 0, // Apply elevation when hovering
-                                  child: Container(
-                                    width: 250,
-                                    decoration: BoxDecoration(
-                                      color: Colors.black,
-                                      borderRadius: BorderRadius.circular(0),
-                                      image: DecorationImage(
-                                        image: NetworkImage(itemlist2Urls[index]
-                                            [
+                                        : Matrix4.identity(),
+                                    child: Material(
+                                      elevation: isHovering
+                                          ? 20
+                                          : 0, // Apply elevation when hovering
+                                      child: Container(
+                                        width: 250,
+                                        decoration: BoxDecoration(
+                                          color: Colors.black,
+                                          borderRadius:
+                                          BorderRadius.circular(0),
+                                          image: DecorationImage(
+                                            image: NetworkImage(itemlist2Urls[
+                                            index][
                                             'url']!), // Use URL from the imported file
-                                        fit: BoxFit.cover,
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
                                       ),
                                     ),
                                   ),
-                                ),
+                                  if (isHovering)
+                                    Positioned(
+                                      bottom: 10,
+                                      left: 10,
+                                      child: Text(
+                                        '',
+                                      ),
+                                    ),
+                                ],
                               ),
-                              if (isHovering)
-                                Positioned(
-                                  bottom: 10,
-                                  left: 10,
-                                  child: Text(
-                                    '',
-                                  ),
-                                ),
-                            ],
-                          ),
-                        ),
-                      );
+                            ),
+                          ));
                     },
                   );
                 },
@@ -490,60 +510,80 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   return StatefulBuilder(
                     builder: (BuildContext context, StateSetter setState) {
                       return MouseRegion(
-                        onEnter: (_) {
-                          setState(() {
-                            isHovering = true;
-                          });
-                        },
-                        onExit: (_) {
-                          setState(() {
-                            isHovering = false;
-                          });
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10),
-                          child: Stack(
-                            children: [
-                              AnimatedContainer(
-                                duration: Duration(milliseconds: 300),
-                                transform: isHovering
-                                    ? (Matrix4.identity()
-                                      ..setEntry(3, 2, 0.001) // Add perspective
+                          onEnter: (_) {
+                            setState(() {
+                              isHovering = true;
+                            });
+                          },
+                          onExit: (_) {
+                            setState(() {
+                              isHovering = false;
+                            });
+                          },
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DetailScreen(
+                                    title : itemslist3Urls[index]['title']!,
+                                    imageUrl: itemslist3Urls[index]['url2']!,
+                                    description: itemslist3Urls[index]
+                                    ['description']!,
+                                    genre : itemslist3Urls[index]['genre']!,
+                                    cast : itemslist3Urls[index]['cast']!,
+                                  ),
+                                ),
+                              );
+                              _videoPlayerController.pause();
+                            },
+                            child: Padding(
+                              padding:
+                              const EdgeInsets.symmetric(horizontal: 10),
+                              child: Stack(
+                                children: [
+                                  AnimatedContainer(
+                                    duration: Duration(milliseconds: 300),
+                                    transform: isHovering
+                                        ? (Matrix4.identity()
+                                      ..setEntry(
+                                          3, 2, 0.001) // Add perspective
                                       ..rotateX(0.0)
                                       ..rotateY(0.0)
                                       ..scale(1.1))
-                                    : Matrix4.identity(),
-                                child: Material(
-                                  elevation: isHovering
-                                      ? 20
-                                      : 0, // Apply elevation when hovering
-                                  child: Container(
-                                    width: 250,
-                                    decoration: BoxDecoration(
-                                      color: Colors.black,
-                                      borderRadius: BorderRadius.circular(0),
-                                      image: DecorationImage(
-                                        image: NetworkImage(itemslist3Urls[
-                                                index][
+                                        : Matrix4.identity(),
+                                    child: Material(
+                                      elevation: isHovering
+                                          ? 20
+                                          : 0, // Apply elevation when hovering
+                                      child: Container(
+                                        width: 250,
+                                        decoration: BoxDecoration(
+                                          color: Colors.black,
+                                          borderRadius:
+                                          BorderRadius.circular(0),
+                                          image: DecorationImage(
+                                            image: NetworkImage(itemslist3Urls[
+                                            index][
                                             'url']!), // Use URL from the imported file
-                                        fit: BoxFit.cover,
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
                                       ),
                                     ),
                                   ),
-                                ),
+                                  if (isHovering)
+                                    Positioned(
+                                      bottom: 10,
+                                      left: 10,
+                                      child: Text(
+                                        '',
+                                      ),
+                                    ),
+                                ],
                               ),
-                              if (isHovering)
-                                Positioned(
-                                  bottom: 10,
-                                  left: 10,
-                                  child: Text(
-                                    '',
-                                  ),
-                                ),
-                            ],
-                          ),
-                        ),
-                      );
+                            ),
+                          ));
                     },
                   );
                 },

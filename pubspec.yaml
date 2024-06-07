@@ -41,6 +41,8 @@ dependencies:
   youtube_player_iframe: ^5.1.2
   build_runner: ^2.4.0
   build_web_compilers: ^4.0.4
+  carousel_slider: ^4.2.1
+
 
 
 
@@ -74,13 +76,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/videos/dune3.mp4
      - assets/videos/dune3video.mp4
-     - assets/videos/intro.mp4
-     - assets/images/movieposter.jpeg
-     - assets/images/design.png
      - assets/images/poster2.png
-     - assets/videos/shinning.mp4
+
 
 
 

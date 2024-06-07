@@ -1,13 +1,12 @@
 List<Map<String, String>> itemslist1Urls = [
-
   {
     'title': 'Black Knight',
     'url':
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPMqXDVbQQ705KcwrbSaibcv4IhTLP1_FfQ&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPMqXDVbQQ705KcwrbSaibcv4IhTLP1_FfQ&s',
     'url2':
-    'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/black-knight-featrued.jpg',
+        'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/black-knight-featrued.jpg',
     'description':
-    'In a dystopian future devastated by air pollution, the survival of humanity depends on a group of deliverymen known as\nthe Black Knights who navigate the wastelands using unconventional means, starring "Kim Woo Bin."',
+        'In a dystopian future devastated by air pollution, the survival of humanity depends on a group of deliverymen known as\nthe Black Knights who navigate the wastelands using unconventional means, starring "Kim Woo Bin."',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
@@ -49,7 +48,8 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgv3iYN1t190StiwU2NOk9LTMv5GJAukOyMg&s',
     'url2':
         'https://lh3.googleusercontent.com/He6EVLVsk9e-htl9ED1PttU4odZBfkfkdqnz3siktwGluTVQ55NJACmaZX4wouTkCmwNX_arPRQI',
-    'description': 'In a quiet suburb, Sarah checked into a seemingly perfect Airbnb for a peaceful retreat.\nBut as night fell, she discovered a hidden entrance leading to a terrifying underground world.\nTrapped beneath the house, Sarah uncovered dark secrets that turned her stay into a desperate fight\nfor survival. ',
+    'description':
+        'In a quiet suburb, Sarah checked into a seemingly perfect Airbnb for a peaceful retreat.\nBut as night fell, she discovered a hidden entrance leading to a terrifying underground world.\nTrapped beneath the house, Sarah uncovered dark secrets that turned her stay into a desperate fight\nfor survival. ',
     'genre': 'Horror, Thriller, Dark, Suspense, Mystery',
     'cast': 'Bill Skarsgard\n'
         'Georgina Campbell\n'
@@ -67,7 +67,8 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTULxPAlEn_LOBdw9ATBigOK2UhddRu7xRfLw&s',
     'url2':
         'https://images.bauerhosting.com/legacy/empire-legacy/uploaded/856919_10151332295080765_1205020722_o.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80',
-    'description': 'Three groomsmen wake up in Las Vegas after a bachelor party, missing the groom and their memories\nof the night before. As they retrace their steps, they encounter unexpected chaos,including a tiger and a baby.\nCan they piece together the events and find the groom in time for the wedding?',
+    'description':
+        'Three groomsmen wake up in Las Vegas after a bachelor party, missing the groom and their memories\nof the night before. As they retrace their steps, they encounter unexpected chaos,including a tiger and a baby.\nCan they piece together the events and find the groom in time for the wedding?',
     'genre': 'Comedy,Adventure,Drama,Crime Fiction,Mystery',
     'cast': 'Bradley Cooper\n'
         'Ed Helms\n'
@@ -83,11 +84,12 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Damsel',
     'url':
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzdZIdsc6KU6Aat10uncncGastzEnMzoopnw&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzdZIdsc6KU6Aat10uncncGastzEnMzoopnw&s',
     'url2':
-    'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
-    'description': "Millie Bobby Brown portrays a dutiful young woman who agrees to marry a handsome prince, only to realize it's a sinister ploy.\n"
-        "The royal family intends to sacrifice her to settle an ancient debt. Now trapped in a cave with a fire-breathing dragon, she must\nrely on her intelligence and determination to stay alive.",
+        'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
+    'description':
+        "Millie Bobby Brown portrays a dutiful young woman who agrees to marry a handsome prince, only to realize it's a sinister ploy.\n"
+            "The royal family intends to sacrifice her to settle an ancient debt. Now trapped in a cave with a fire-breathing dragon, she must\nrely on her intelligence and determination to stay alive.",
     'genre': 'Action, Adventure, Thriller',
     'cast': 'Millie Bobby Brown\n'
         'Nick Robinson\n'
@@ -97,7 +99,6 @@ List<Map<String, String>> itemslist1Urls = [
         'Ray Winstone '
         '\nShohreh Aghdashloo\n'
         'Manon Stieglitz'
-
   },
   {
     'title': 'Doctor Strange',
@@ -105,10 +106,10 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMzUFWHD5uUUEG4yb4TjfKebj7it0r4PNnQ&s',
     'url2':
         'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/dr-strange-imax-poster-social.jpg',
-    'description': 'After a devastating car accident, brilliant but arrogant neurosurgeon Dr. Stephen Strange seeks healing in a mysterious enclave.\nInstead of physical recovery, he discovers the hidden world of magic and alternate dimensions. Trained by the Ancient One,\nStrange must put his ego aside and harness his newfound powers to protect the world from dark forces.',
+    'description':
+        'After a devastating car accident, brilliant but arrogant neurosurgeon Dr. Stephen Strange seeks healing in a mysterious enclave.\nInstead of physical recovery, he discovers the hidden world of magic and alternate dimensions. Trained by the Ancient One,\nStrange must put his ego aside and harness his newfound powers to protect the world from dark forces.',
     'genre': 'Action, Superhero, Fantasy, Science Fiction, Adventure',
-    'cast':
-        'Benedict Cumberbatch\n'
+    'cast': 'Benedict Cumberbatch\n'
         'Chiwetel Ejiofor\n'
         'Rachel McAdams \n'
         'Benedict Wong\n'
@@ -124,7 +125,8 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORZbomlgq1aMh3tv2GXcJfByp2gpDhCuQUw&s',
     'url2':
         'https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/05/Doctor-Sleep-Directors-Cut-Blu-Ray-Cover-Crop.jpg',
-    'description': 'Doctor Sleep continues the story of Danny Torrance, 40 years after his terrifying experience at the Overlook Hotel in The Shining.\nNow struggling with trauma and addiction, Danny meets a young girl with similar powers and must protect her from a cult that feeds\non children with psychic abilities. As they confront their shared past and present dangers, Danny faces his fears to finally find peace. ',
+    'description':
+        'Doctor Sleep continues the story of Danny Torrance, 40 years after his terrifying experience at the Overlook Hotel in The Shining.\nNow struggling with trauma and addiction, Danny meets a young girl with similar powers and must protect her from a cult that feeds\non children with psychic abilities. As they confront their shared past and present dangers, Danny faces his fears to finally find peace. ',
     'genre': 'Horror, Psycological horror,Drama, Thriller, Suspense',
     'cast': 'Jack Nicholson\n'
         'Shelley Duvall\n'
@@ -143,7 +145,8 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsiue3NYKIl_IdjN7Ha9c5Osn2guVxS6LJMD8i1nEBw&s',
     'url2':
         'https://miro.medium.com/v2/resize:fit:512/1*v1edoyg9DqlC5aWdaxdHtQ.jpeg',
-    'description': "When Jin-seok's brother Yoo-seok returns home after a 19-day kidnapping with no memory of what happened, Jin-seok senses\nsomething is wrong. As he unravels the mystery, dark secrets emerge, revealing a truth more horrifying than he could have\nimagined.",
+    'description':
+        "When Jin-seok's brother Yoo-seok returns home after a 19-day kidnapping with no memory of what happened, Jin-seok senses\nsomething is wrong. As he unravels the mystery, dark secrets emerge, revealing a truth more horrifying than he could have\nimagined.",
     'genre': 'Drama, Suspense, Thriller, Mystery',
     'cast': 'Kang Ha-neul\n'
         'Kim Mu-yeol \n'
@@ -175,7 +178,6 @@ List<Map<String, String>> itemslist1Urls = [
         '\nKirsten Block '
         '\nRainer Bock'
         '\nSandra Nedeleff ',
-
   },
   {
     'title': 'Inception',
@@ -183,7 +185,8 @@ List<Map<String, String>> itemslist1Urls = [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWBTVSaM4gBO-BTHDZL2BPa0RwnKtHJXZwg&s',
     'url2':
         'https://rukminim2.flixcart.com/image/850/1000/juk4gi80/poster/e/v/d/large-newposter8500-movie-inception-leonardo-dicaprio-hd-original-imaf5tgq5dgq6p8m.jpeg?q=90&crop=false',
-    'description': 'In a world where technology allows dreams to be manipulated, Dom Cobb leads a team skilled in infiltrating the subconscious.\nTasked with implanting an idea rather than stealing it, Cobb navigates a labyrinth of intrigue and danger, where reality and\nillusion blur. As he delves deeper into the subconscious realms of his targets, Cobb confronts his own haunting past and the\nlimits of his mind. ',
+    'description':
+        'In a world where technology allows dreams to be manipulated, Dom Cobb leads a team skilled in infiltrating the subconscious.\nTasked with implanting an idea rather than stealing it, Cobb navigates a labyrinth of intrigue and danger, where reality and\nillusion blur. As he delves deeper into the subconscious realms of his targets, Cobb confronts his own haunting past and the\nlimits of his mind. ',
     'genre': 'Science fiction, Action, Thriller, Heist',
     'cast': 'Leonardo DiCaprio\n'
         'Joseph Gordon-Levitt\n'
@@ -196,168 +199,576 @@ List<Map<String, String>> itemslist1Urls = [
         '\nMarion Cotillard  '
         '\nMichael Caine',
   },
-
-
 ];
 
 List<Map<String, String>> itemlist2Urls = [
   {
+    'title': 'IT',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQDlp_gYc4Y8zYVY6NEa5sE-4S3ZgIKD213w&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSL6q35ClYelYEq3LdkfNAuPWO5wjeXT_Yw&s',
     'url2':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'hello4'
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description':
+        "27 years after their first encounter with the terrifying Pennywise, the Losers' Club reunites in Derry. As adults, they must confront\ntheir deepest fears to defeat the shape-shifting clown once and for all. "
+            "With old scars reopened and new horrors lurking, the friends\nmust summon their courage to end the nightmare that began decades ago.",
+    'genre': 'Horror, Thriller, Drama',
+    'cast': 'Jessica Chastain\n'
+        'Bill Skarsgård\n'
+        'James McAvoy\n'
+        'Bill Hader\n'
+        'Isaiah Mustafa\n'
+        'Jay Ryan  '
+        '\nAndy Bean \n'
+        'Finn Wolfhard'
+        '\nChosen Jacobs  '
+        '\nWyatt Oleff',
   },
   {
+    'title': 'Batman',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1uc8vNi_6wf8OP6WtAJrCTjaQ-k1piH2FOA&s',
-    'description': 'hello hi there '
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLNDQa8Vam7oABVLmuTF6Q713q5_fZYX1b0A&s',
+    'url2':'https://blog.frame.io/wp-content/uploads/2022/03/B0401-featured-image-2.jpg',
+    'description': "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman. When a sadistic \nkiller known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption\nunravels, Batman races against time to bring justice to Gotham and confront his own demons.",
+    'genre': 'Crime, Drama, Action',
+    'cast': 'Robert Pattinson\n'
+        'Zoë Kravitz\n'
+        'Paul Dano\n'
+        'Jeffrey Wright \n'
+        'John Turturro \n'
+        'Peter Sarsgaard  '
+        '\nAndy Serkis \n'
+        'Gil Perez-Abraham'
+        "\nCon O'Neill"
+        '\nRupert Penry-Jones ',
   },
   {
+    'title': 'Friends: The Legacy',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3y5uWq2jL360pJ3mCkq-BS39gaIDeO2fyQ&s',
-    'description': 'hello hi there '
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQFLzgfSXQR8j9QQStf7v5XgLpJDnZftqvA&s',
+    'url2':
+    'https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/05/08135037/kim-woo-bin-black-knight-netflix-02.jpg',
+    'description': "A notorious ex-convict, determined to reclaim the glory of his old gang, takes the son of his former colleague under his wing. As he \nmentors the young man, they navigate the dangerous underworld together, forging a bond while facing rival gangs, law enforcement,\nand the shadows of their past. ",
+    'genre': 'Actiob, Drama',
+    'cast': 'Kim Woo Bin\n'
+        'Yu Oh Seung\n'
+        'Ju Jin Mo\n'
+        'SJi Seung Hyun\n'
+        'Jang Dong gun\n'
+        'Jeong Ho Bin '
+        '\nKang Ha na\n'
+        'Jang Young Nam'
+        '\nJoo Suk Tae '
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXLFC1EWvx6GtV0x3rYq8TnFUikf26dX_m7A&s',
-    'description': 'hello 2'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 2',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWuyS2BB0jGIZ91yIzKEVlZKOih-dlnOK22A&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamhbMoPJ6Y7o0ou246k4bZ8w-pgwDIouBzQ&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcKLcDNhe8oAqAjClmS6q0BqbC9UL1LD11Xw&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Ukv9dchvJBMfmRlvzuTjtHCpvCInV5PCYw&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz9B1oyreZMjlRrO8Lg0DV1wfyaOzuAizzqw&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9QQjh7y12fczm0nrpgFEygIYxCBwFmj9Qkw&s',
-    'description': 'hello 5'
-  }
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
+  },
 ];
 List<Map<String, String>> itemslist3Urls = [
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-SwNnNH1IrSBOpD5pR4kO3HEzF8yGwHZzg&s',
-    'description': 'hello4'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello4',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIsR7VVAKVccV7gbuDd_228Sv1FiE5vZWgaw&s',
-    'description': 'hello hi there '
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello hi there ',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtpe8ihPYpaSoqSjXf9IvK1fwtI4pUWrp5w&s',
-    'description': 'hello hi there '
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello hi there ',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWk8uiFIka8WvkDL-24kgSwNJMqEfJM_Il3Q&s',
-    'description': 'hello 2'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 2',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xJ9whuG4aUb2tBX5HsJJlgI5lWfOrRtr_g&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGRWtF1Los8NQC22E8JyzfNIEOxevuPS_3w&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeiQvVR4g1NWaCWK14v0VYFDQiMbq9D4zATw&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOX6XoFpYX8DUtSVEpS3GVLLkBPuAdRnAU9A&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGmIk-Qaz1j3Bkdf1ipyVm4b_ria14DczHOw&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYwVIsOgilDagkhvrzrGZp8DzmSB5BH6jiQ&s',
-    'description': 'hello 5'
-  }
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
+  },
 ];
 
 List<Map<String, String>> itemslist4Urls = [
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVEcAiTwNt3thXPPD9MpobEIqsxmhPGO0OVA&s',
-    'description': 'hello hi there '
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello hi there ',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5yh4Mm7JOSPa0fBC7JKxa46zEJXXJxcgvg&s',
-    'description': 'hello hi there '
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello hi there ',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgrk3MvltAfFxyGDODdIvRtPbQFinDZvKlwQ&s',
-    'description': 'hello 2'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 2',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDH8Ode6c-e3vYiibnYtqMYdRO7VOnCwcnw&s',
-    'description': 'hello4'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello4',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSERRRrH3sSMG-8Ze5kxxSlpW-fR-qEtn6mKQ&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv07LM7j6KLJBNEggmqp5GUs5vmInqtyLuzA&s',
-    'description': 'hello 5'
+    'url2':
+    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
     'url2':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzpHpdNLf4j7oOeGFIBzkrPd1IeG84MdEyw&s',
-    'description': 'hello 5'
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'Batman',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8GjWMV0HAtbf4FV9APT1gAWQ1CSZPCj_WA&s',
-    'description': 'hello 5'
+    'description': "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman.\nWhen a sadistic killer known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption unravels, Batman races against time to bring justice to Gotham and confront his own demons.",
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Robert Pattinson\n'
+        'Zoë Kravitz\n'
+        'Paul Dano\n'
+        'Jeffrey Wright \n'
+        'John Turturro \n'
+        'Peter Sarsgaard  '
+        '\nAndy Serkis \n'
+        'Gil Perez-Abraham'
+        "\nCon O'Neill"
+        '\nRupert Penry-Jones ',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7epEhkD_IlaJb821BsikS1ciPL5ttt069pQ&s',
-    'description': 'hello 5'
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
   },
   {
+    'title': 'IT',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGqc53b8uMZRVfSOsM-pyzDibrZlF6RP61Zg&s',
-    'description': 'hello 5'
-  }
+    'description': 'hello 5',
+    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'cast': 'Kim Woo Bin\n'
+        'Esom\n'
+        'Kang You Seok\n'
+        'Song Seung Heon\n'
+        'Lee E Dam\n'
+        'Roh Yoon Seo '
+        '\nJo Ji Seung\n'
+        'Kim Eui Seung'
+        '\nJin Kyung '
+        '\nJu Seung Lee',
+  },
 ];
