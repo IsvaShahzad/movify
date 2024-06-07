@@ -1,8 +1,7 @@
 List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Black Knight',
-    'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPMqXDVbQQ705KcwrbSaibcv4IhTLP1_FfQ&s',
+    'url': 'https://static.wixstatic.com/media/17fc3b_d30f0a9dcfe347b1ba6411dd77401b31~mv2.png/v1/fill/w_640,h_948,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/17fc3b_d30f0a9dcfe347b1ba6411dd77401b31~mv2.png',
     'url2':
         'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/black-knight-featrued.jpg',
     'description':
@@ -45,9 +44,9 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Barbarian',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgv3iYN1t190StiwU2NOk9LTMv5GJAukOyMg&s',
+        'https://m.media-amazon.com/images/M/MV5BMjFmY2MyYjMtNjZmMC00ZTdjLWE1NzAtZGNiYWMxMDg0ZTcyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
     'url2':
-        'https://lh3.googleusercontent.com/He6EVLVsk9e-htl9ED1PttU4odZBfkfkdqnz3siktwGluTVQ55NJACmaZX4wouTkCmwNX_arPRQI',
+        'https://miro.medium.com/v2/resize:fit:1400/1*0YfxGRlysyE-36t8_DQUpg.jpeg',
     'description':
         'In a quiet suburb, Sarah checked into a seemingly perfect Airbnb for a peaceful retreat.\nBut as night fell, she discovered a hidden entrance leading to a terrifying underground world.\nTrapped beneath the house, Sarah uncovered dark secrets that turned her stay into a desperate fight\nfor survival. ',
     'genre': 'Horror, Thriller, Dark, Suspense, Mystery',
@@ -64,7 +63,7 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Hangover',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTULxPAlEn_LOBdw9ATBigOK2UhddRu7xRfLw&s',
+        'https://m.media-amazon.com/images/M/MV5BMTM2MTM4MzY2OV5BMl5BanBnXkFtZTcwNjQ3NzI4NA@@._V1_.jpg',
     'url2':
         'https://images.bauerhosting.com/legacy/empire-legacy/uploaded/856919_10151332295080765_1205020722_o.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80',
     'description':
@@ -84,7 +83,7 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Damsel',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzdZIdsc6KU6Aat10uncncGastzEnMzoopnw&s',
+        'https://i.ebayimg.com/images/g/JB8AAOSwXyRleWml/s-l400.jpg',
     'url2':
         'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
     'description':
@@ -103,9 +102,9 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Doctor Strange',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMzUFWHD5uUUEG4yb4TjfKebj7it0r4PNnQ&s',
+        'https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg',
     'url2':
-        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/04/dr-strange-imax-poster-social.jpg',
+        'https://cdn.marvel.com/content/1x/doctorstrangeinthemultiverseofmadness_lob_mas_dsk_08.jpg',
     'description':
         'After a devastating car accident, brilliant but arrogant neurosurgeon Dr. Stephen Strange seeks healing in a mysterious enclave.\nInstead of physical recovery, he discovers the hidden world of magic and alternate dimensions. Trained by the Ancient One,\nStrange must put his ego aside and harness his newfound powers to protect the world from dark forces.',
     'genre': 'Action, Superhero, Fantasy, Science Fiction, Adventure',
@@ -122,7 +121,7 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Doctor Sleep',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORZbomlgq1aMh3tv2GXcJfByp2gpDhCuQUw&s',
+        'https://waxworkrecords.com/cdn/shop/products/Doctor-Sleep_Cover_1800x1800_ab5ce763-3354-4ff1-b6bd-7c590c2bc734_1200x630.jpg?v=1665099589',
     'url2':
         'https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/05/Doctor-Sleep-Directors-Cut-Blu-Ray-Cover-Crop.jpg',
     'description':
@@ -142,7 +141,7 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Forgotten',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsiue3NYKIl_IdjN7Ha9c5Osn2guVxS6LJMD8i1nEBw&s',
+        'https://m.media-amazon.com/images/M/MV5BMzY2OTU0NTgtMGZiZC00M2Y5LThjZjQtOTcyNWNlZDdhMjZkXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg',
     'url2':
         'https://miro.medium.com/v2/resize:fit:512/1*v1edoyg9DqlC5aWdaxdHtQ.jpeg',
     'description':
@@ -161,7 +160,7 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'The Book Thief',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF6Dds8FD0lY-fTnxLkGt-qk3GT1QA__tZwQ&s',
+        'https://m.media-amazon.com/images/M/MV5BYmI4ODg4ZjktMDAwZS00Y2MwLWFhNDEtYjlkZTYwNmUwYjk4XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_.jpg',
     'url2':
         'https://m.media-amazon.com/images/S/pv-target-images/47ed92674feba1e565362167cfa7965f0ed1fb2c2e5ec9a3f85b5d7139ea976d.jpg',
     'description':
@@ -182,7 +181,7 @@ List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Inception',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWBTVSaM4gBO-BTHDZL2BPa0RwnKtHJXZwg&s',
+        'https://rukminim2.flixcart.com/image/850/1000/l27wtjk0/poster/g/j/j/medium-inception-movie-hd-matte-finish-poster-butcutnw9957-original-imagdhvu6euswxb8.jpeg?q=90&crop=false',
     'url2':
         'https://rukminim2.flixcart.com/image/850/1000/juk4gi80/poster/e/v/d/large-newposter8500-movie-inception-leonardo-dicaprio-hd-original-imaf5tgq5dgq6p8m.jpeg?q=90&crop=false',
     'description':
@@ -202,10 +201,29 @@ List<Map<String, String>> itemslist1Urls = [
 ];
 
 List<Map<String, String>> itemlist2Urls = [
+
+
+  {
+    'title': 'Dune',
+    'url':
+    'https://m.media-amazon.com/images/M/MV5BMGFkZGY0NTgtMGEyZC00YzhjLTkyOWItYzMzOTljMDA3ZjU2XkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_.jpg',
+    'url2':'https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/movie-and-tv-locations-real.jpg',
+    'description': "In the distant future, young Paul Atreides is thrust into a perilous journey on the desert planet Arrakis, also known as Dune. As the\nsole source of the universe's most valuable substance,control of Arrakis is fiercely contested. Paul must navigate political intrigue and\ndeadly enemies to fulfill his destiny and protect his people.",
+    'genre': 'Action, Adventure, Drama, Sci-fi',
+    'cast': 'Timothée Chalamet\n'
+        'Rebecca Ferguson\n'
+        'Oscar Isaac \n'
+        'Josh Brolin\n'
+        'Stellan Skarsgård\n'
+        'Dave Bautista '
+        '\nZendaya \n'
+        'David Dastmalchian'
+
+  },
   {
     'title': 'IT',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSL6q35ClYelYEq3LdkfNAuPWO5wjeXT_Yw&s',
+        'https://m.media-amazon.com/images/I/51NB383CKkL._AC_SL1200_.jpg',
     'url2':
         'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description':
@@ -226,9 +244,11 @@ List<Map<String, String>> itemlist2Urls = [
   {
     'title': 'Batman',
     'url':
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLNDQa8Vam7oABVLmuTF6Q713q5_fZYX1b0A&s',
-    'url2':'https://blog.frame.io/wp-content/uploads/2022/03/B0401-featured-image-2.jpg',
-    'description': "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman. When a sadistic \nkiller known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption\nunravels, Batman races against time to bring justice to Gotham and confront his own demons.",
+        'https://m.media-amazon.com/images/M/MV5BOGE2NWUwMDItMjA4Yi00N2Y3LWJjMzEtMDJjZTMzZTdlZGE5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg',
+    'url2':
+        'https://blog.frame.io/wp-content/uploads/2022/03/B0401-featured-image-2.jpg',
+    'description':
+        "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman. When a sadistic \nkiller known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption\nunravels, Batman races against time to bring justice to Gotham and confront his own demons.",
     'genre': 'Crime, Drama, Action',
     'cast': 'Robert Pattinson\n'
         'Zoë Kravitz\n'
@@ -244,11 +264,12 @@ List<Map<String, String>> itemlist2Urls = [
   {
     'title': 'Friends: The Legacy',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQFLzgfSXQR8j9QQStf7v5XgLpJDnZftqvA&s',
+        'https://image.tmdb.org/t/p/original/70UQdCtO53xstSuWrTiQQg7wVyB.jpg',
     'url2':
-    'https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/05/08135037/kim-woo-bin-black-knight-netflix-02.jpg',
-    'description': "A notorious ex-convict, determined to reclaim the glory of his old gang, takes the son of his former colleague under his wing. As he \nmentors the young man, they navigate the dangerous underworld together, forging a bond while facing rival gangs, law enforcement,\nand the shadows of their past. ",
-    'genre': 'Actiob, Drama',
+        'https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/05/08135037/kim-woo-bin-black-knight-netflix-02.jpg',
+    'description':
+        "A notorious ex-convict, determined to reclaim the glory of his old gang, takes the son of his former colleague under his wing. As he \nmentors the young man, they navigate the dangerous underworld together, forging a bond while facing rival gangs, law enforcement,\nand the shadows of their past. ",
+    'genre': 'Action, Drama',
     'cast': 'Kim Woo Bin\n'
         'Yu Oh Seung\n'
         'Ju Jin Mo\n'
@@ -260,146 +281,122 @@ List<Map<String, String>> itemlist2Urls = [
         '\nJoo Suk Tae '
   },
   {
-    'title': 'IT',
+    'title': 'Ghost Rider',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXLFC1EWvx6GtV0x3rYq8TnFUikf26dX_m7A&s',
+        'https://m.media-amazon.com/images/M/MV5BYWM0ZTI4NDItODRjNi00MzM2LWEzMTctNzI3ZjMxODUwNThkXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 2',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+        'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/01/fd205c2b-7f91-4152-a443-0675d8183706-maxresdefault.jpeg',
+    'description':
+        "Johnny Blaze, a daredevil stunt rider, makes a pact with the devil to save his father's life. Years later, he becomes the Ghost Rider,\na fiery skeletal vigilante with a powerful motorcycle, tasked with hunting down demons on Earth. As he battles the sinister Blackheart,\nJohnny must embrace his dark alter ego and protect those he loves, discovering the true price of his soul in a world where evil lurks\naround every corner.",
+    'genre': 'Action, Fantasy, Superhero, Thriller',
+    'cast': 'Nicolas Cage \n'
+        'Eva Mendes\n'
+        'Wes Bentley \n'
+        'Sam Elliott \n'
+        'Peter Fonda\n'
+        'Donal Logue '
+        '\nBrett Cullen\n'
+        'Matt Long'
+        '\nRaquel Alessi '
   },
   {
-    'title': 'IT',
-    'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWuyS2BB0jGIZ91yIzKEVlZKOih-dlnOK22A&s',
+    'title': 'The Conjuring',
+    'url': 'https://dlby.tmsimg.com/assets/p14301287_p_v11_ab.jpg?w=480&h=720',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+        "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABaZyPSUfmUHkiMWWxMsfk96nCK0P4b47Mv6KcmMf8fDkJFDynpwxKpQW3wraRY9zFUqZKPi_ydS7kiNuAi2GYJCtSyxPTRhGQ6eb.jpg?r=57a",
+    'description':
+        "'The Conjuring' follows renowned paranormal investigators Ed and Lorraine Warren as they take on one of their most terrifying cases.\nThe Perron family, who recently moved into a secluded farmhouse, is plagued by increasingly disturbing supernatural occurrences.\nAs the Warrens delve deeper into the haunting, they uncover a dark history that threatens to consume them all. With time running out,\nthe Warrens must use all their skills and courage to combat the malevolent forces at play and save the Perron family from unspeakable horror.",
+    'genre': 'Horror, Supernatural, Mystery',
+    'cast': 'Vera Farmiga\n'
+        'Patrick Wilson\n'
+        'Lili Taylor\n'
+        'Ron Livingston\n'
+        'Shanley Caswell\n'
+        'Hayley McFarland '
+        '\nMackenzie Foy\n'
+        'Kyla Deaver'
+        '\nShannon Kook '
   },
   {
-    'title': 'IT',
+    'title': "The Devil's Advocate",
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamhbMoPJ6Y7o0ou246k4bZ8w-pgwDIouBzQ&s',
+        'https://image.tmdb.org/t/p/original/g3qav44s4d26hGWYkaGUt6rGAtm.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+    'description':
+        'Ambitious defense attorney Kevin Lomax accepts a high-paying job at a prestigious New York law firm. As he climbs the ranks,\nhe realizes his charismatic boss, John Milton, is not what he seems. Unveiling a sinister world of temptation and deceit, Kevin discovers\nthe true nature of his employer and faces a terrifying choice that will test his morality and soul.',
+    'genre': 'Drama, Thriller, Horror',
+    'cast': 'Keanu Reeves \n'
+        'Al Pacino\n'
+        'Charlize Theron\n'
+        'Jeffrey Jones\n'
+        'Judith Ivey \n'
+        'Connie Nielsen '
+        '\nCraig T. Nelson\n'
+        'Tamara Tun'
+        '\nRuben Santiago-Hudson '
   },
   {
-    'title': 'IT',
+    'title': 'Constantine',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcKLcDNhe8oAqAjClmS6q0BqbC9UL1LD11Xw&s',
+        'https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2F8%2Fgracenote%2F84364fb4f5f4673ae870bc187e0de965.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+        'https://m.media-amazon.com/images/M/MV5BZjgwZTA1MmMtZjRhOC00MjA2LTljNzQtNDY5MDIxOGFlMGQ3XkEyXkFqcGdeQXVyOTA5NjI3MzA@._V1_.jpg',
+    'description':
+        'John Constantine, a chain-smoking occult detective with a tormented past, battles demons and supernatural threats in a world\nwhere the line between good and evil is blurred. Partnering with skeptical police detective Angela Dodson, Constantine uncovers a\ndemonic conspiracy that threatens humanity. Armed with arcane knowledge and mystical artifacts, he must confront his own sins and\nfind redemption while fighting to save the world from damnation.',
+    'genre': 'Action,Horror,Supernatural',
+    'cast': 'Keanu Reeves \n'
+        'Rachel Weisz\n'
+        'Shia LaBeouf \n'
+        'Tilda Swinton \n'
+        'Djimon Hounsou\n'
+        'Pruitt Taylor Vince '
+        '\nGavin Rossdale\n'
+        'Peter Stormare'
+        '\nMax Baker '
   },
   {
-    'title': 'IT',
+    'title': 'Hush',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Ukv9dchvJBMfmRlvzuTjtHCpvCInV5PCYw&s',
+        'https://lh6.googleusercontent.com/proxy/mWhzunwv0cCJWwaDgfxEFa6Tgd-H11wA_fyQA8ippi7sB8wfpr1-FPN99M9snEzi73t2bsrBnsFPfbLOnSW_rys9lYHJ',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+        'https://images.squarespace-cdn.com/content/v1/58c1d10217bffc0ccdaf728d/1521751984229-CDX4ZFL289AYDG5H1PMF/hush2.jpg',
+    'description':
+        'In this intense thriller, Maddie Young, a deaf and mute author, retreats to a secluded house in the woods to live a solitary life.\nHer peaceful existence is shattered when a masked intruder appears at her window. As she fights for her life, Maddie must rely on her\nwits and resourcefulness to outsmart the relentless killer and survive the night. With no way to call for help and every sound a potential\nthreat, the tension escalates in this gripping cat-and-mouse game.',
+    'genre': 'Horror , Thriller',
+    'cast': 'Kate Siegel \n'
+        'John Gallagher Jr. \n'
+        'Michael Trucco \n'
+        'Samantha Sloyan\n'
+        'Emma Graves\n'
   },
   {
-    'title': 'IT',
-    'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz9B1oyreZMjlRrO8Lg0DV1wfyaOzuAizzqw&s',
+    'title': 'Rust Creek',
+    'url': 'https://i.ebayimg.com/images/g/GMQAAOSw4mVkJGRG/s-l1600.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
+        'https://static01.nyt.com/images/2019/01/02/arts/rustcreek1/rustcreek1-superJumbo.jpg',
+    'description':
+        'Sawyer, an ambitious college student, takes a wrong turn on her way to a job interview and ends up stranded deep in the frozen\nKentucky woods. Her situation takes a turn for the worse when she encounters a pair of ruthless drug dealers.Injured and alone, Sawyer must \nnavigate the treacherous wilderness and evade her pursuers, forging an uneasy alliance with an enigmatic loner who has his own secrets.',
+    'genre': 'Crime, Drama, Thriller',
+    'cast': 'Hermione Corfield\n'
+        'Jay Paulson\n'
+        "Sean O'Bryan\n"
+        'Micah Hauptman\n'
+        'Daniel R. Hill\n'
+        'John Marshall Jones '
+        '\nJeremy Glazer\n'
+        'Jake Kidwell '
         '\nJin Kyung '
-        '\nJu Seung Lee',
   },
-  {
-    'title': 'IT',
-    'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9QQjh7y12fczm0nrpgFEygIYxCBwFmj9Qkw&s',
-    'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
-  },
+
 ];
 List<Map<String, String>> itemslist3Urls = [
   {
-    'title': 'IT',
+    'title': 'Avatar: Way of water',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-SwNnNH1IrSBOpD5pR4kO3HEzF8yGwHZzg&s',
+        'https://funkygraphix.co.uk/cdn/shop/products/AvatarTheWayOfTheWaterTsireya_2022_A3_530x@2x.jpg?v=1669636332',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://images.cdn.prd.api.discomax.com/2023/06/07/cf8eca4c-2ea3-3d53-8062-3afb40a40fad.jpeg?f=jpg&q=75&w=1280&w=1200',
     'description': 'hello4',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -414,11 +411,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Transporter',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIsR7VVAKVccV7gbuDd_228Sv1FiE5vZWgaw&s',
+        'https://m.media-amazon.com/images/M/MV5BMTk2NDc2MDAxN15BMl5BanBnXkFtZTYwNDc1NDY2._V1_FMjpg_UX1000_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://i0.wp.com/www.nowverybad.com/wp-content/uploads/the_transporter_still1.jpg',
     'description': 'hello hi there ',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -433,11 +430,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Avengers',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtpe8ihPYpaSoqSjXf9IvK1fwtI4pUWrp5w&s',
+        'https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://static1.srcdn.com/wordpress/wp-content/uploads/Thor-v-Iron-Man.jpg',
     'description': 'hello hi there ',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -452,11 +449,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Godzilla',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWk8uiFIka8WvkDL-24kgSwNJMqEfJM_Il3Q&s',
+        'https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://images-0.rakuten.tv/storage/snapshot/shot/69be9b44-89aa-4b15-82c2-79b44f0c797a-snapshot-1590667080-width936-quality90.jpeg',
     'description': 'hello 2',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -471,11 +468,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Friday the 13th',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8xJ9whuG4aUb2tBX5HsJJlgI5lWfOrRtr_g&s',
+        'https://m.media-amazon.com/images/M/MV5BYzllYmZhMmUtOWJmMC00ZGE2LTlmZmUtYzU2MTM0MTY1MDU5XkEyXkFqcGdeQXVyNTI5OTE2NTU@._V1_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://static1.srcdn.com/wordpress/wp-content/uploads/2020/02/Friday-the-13th-The-Final-Chapter-Trish-vs-Jason.jpg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -490,11 +487,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'The Matrix',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGRWtF1Los8NQC22E8JyzfNIEOxevuPS_3w&s',
+        'https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/05/the-matrix-code-keanu-reeves.jpeg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -509,11 +506,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Jumanji',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeiQvVR4g1NWaCWK14v0VYFDQiMbq9D4zATw&s',
+        'https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://miro.medium.com/v2/resize:fit:4096/1*gE4JBLhWPvI-HjZ_IVb6Cg.jpeg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -528,11 +525,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Parasite',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOX6XoFpYX8DUtSVEpS3GVLLkBPuAdRnAU9A&s',
+        'https://miro.medium.com/v2/resize:fit:1400/1*QJYVaaRVrOF_0tlksmCYIQ.jpeg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://miro.medium.com/v2/resize:fit:994/1*6YZpf8Fdysx88RpK_fFYKw.png',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -547,11 +544,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Toy Story',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGmIk-Qaz1j3Bkdf1ipyVm4b_ria14DczHOw&s',
+        'https://lumiere-a.akamaihd.net/v1/images/p_toystory4_19639_917ad716.jpeg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://media.wbur.org/wp/2019/06/toy-story-1.jpeg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -566,11 +563,11 @@ List<Map<String, String>> itemslist3Urls = [
         '\nJu Seung Lee',
   },
   {
-    'title': 'IT',
+    'title': 'Lord of the Rings',
     'url':
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYwVIsOgilDagkhvrzrGZp8DzmSB5BH6jiQ&s',
+        'https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Lord-of-the-Rings-One-Ring.jpg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -592,7 +589,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVEcAiTwNt3thXPPD9MpobEIqsxmhPGO0OVA&s',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description': 'hello hi there ',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -611,7 +608,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5yh4Mm7JOSPa0fBC7JKxa46zEJXXJxcgvg&s',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description': 'hello hi there ',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -630,7 +627,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgrk3MvltAfFxyGDODdIvRtPbQFinDZvKlwQ&s',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description': 'hello 2',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -649,7 +646,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDH8Ode6c-e3vYiibnYtqMYdRO7VOnCwcnw&s',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description': 'hello4',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -668,7 +665,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSERRRrH3sSMG-8Ze5kxxSlpW-fR-qEtn6mKQ&s',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -687,7 +684,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv07LM7j6KLJBNEggmqp5GUs5vmInqtyLuzA&s',
     'url2':
-    'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -724,7 +721,8 @@ List<Map<String, String>> itemslist4Urls = [
     'title': 'Batman',
     'url':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8GjWMV0HAtbf4FV9APT1gAWQ1CSZPCj_WA&s',
-    'description': "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman.\nWhen a sadistic killer known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption unravels, Batman races against time to bring justice to Gotham and confront his own demons.",
+    'description':
+        "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman.\nWhen a sadistic killer known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption unravels, Batman races against time to bring justice to Gotham and confront his own demons.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Robert Pattinson\n'
         'Zoë Kravitz\n'
