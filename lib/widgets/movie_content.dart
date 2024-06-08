@@ -19,7 +19,6 @@ List<Map<String, String>> itemslist1Urls = [
         '\nJin Kyung '
         '\nJu Seung Lee',
     'videoId': 'Se26Op9sEC8',
-
   },
   {
     'title': 'The Shinning',
@@ -44,7 +43,6 @@ List<Map<String, String>> itemslist1Urls = [
         '\nTony Burton '
         '\nLia Beldam',
     'videoId': 'S014oGZiSdI',
-
   },
   {
     'title': 'Barbarian',
@@ -64,8 +62,7 @@ List<Map<String, String>> itemslist1Urls = [
         '\nSara Paxton\n'
         'Richard Brake'
         '\nBrooke Dillman ',
-  'videoId': 'Dr89pmKrqkI',
-
+    'videoId': 'Dr89pmKrqkI',
   },
   {
     'title': 'Hangover',
@@ -86,12 +83,12 @@ List<Map<String, String>> itemslist1Urls = [
         '\nHeather Graham\n'
         'Jeffrey Tambor'
         '\nRachael Harris',
-  'videoId': 'tlize92ffnY',
-
+    'videoId': 'tlize92ffnY',
   },
   {
     'title': 'Damsel',
-    'url': 'https://m.media-amazon.com/images/M/MV5BZWM0ZDVlMDgtNDdhMy00NWVlLWE1MmItNmViODMzNmUyMDU2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
+    'url':
+        'https://m.media-amazon.com/images/M/MV5BZWM0ZDVlMDgtNDdhMy00NWVlLWE1MmItNmViODMzNmUyMDU2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
     'url2':
         'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
     'description':
@@ -106,8 +103,7 @@ List<Map<String, String>> itemslist1Urls = [
         'Ray Winstone '
         '\nShohreh Aghdashloo\n'
         'Manon Stieglitz',
-  'videoId': 'iM150ZWovZM',
-
+    'videoId': 'iM150ZWovZM',
   },
   {
     'title': 'Doctor Strange',
@@ -127,8 +123,7 @@ List<Map<String, String>> itemslist1Urls = [
         'Michael Stuhlbarg'
         '\nBenjamin Bratt '
         '\nScott Adkins',
-  'videoId': 'aWzlQ2N6qqg',
-
+    'videoId': 'aWzlQ2N6qqg',
   },
   {
     'title': 'Doctor Sleep',
@@ -149,8 +144,7 @@ List<Map<String, String>> itemslist1Urls = [
         'Anne Jackson'
         '\nTony Burton '
         '\nLia Beldam',
-  'videoId': '2msJTFvhkU4',
-
+    'videoId': '2msJTFvhkU4',
   },
   {
     'title': 'Forgotten',
@@ -170,8 +164,7 @@ List<Map<String, String>> itemslist1Urls = [
         '\nBae Sung-woo\n'
         'Nam Myung-ryul'
         '\nLee Jun-hyeok  ',
-  'videoId': 'b4p92xc9r6g',
-
+    'videoId': 'b4p92xc9r6g',
   },
   {
     'title': 'The Book Thief',
@@ -193,8 +186,7 @@ List<Map<String, String>> itemslist1Urls = [
         '\nKirsten Block '
         '\nRainer Bock'
         '\nSandra Nedeleff ',
-  'videoId': '92EBSmxinus',
-
+    'videoId': '92EBSmxinus',
   },
   {
     'title': 'Inception',
@@ -215,8 +207,7 @@ List<Map<String, String>> itemslist1Urls = [
         'Tom Berenger'
         '\nMarion Cotillard  '
         '\nMichael Caine',
-  'videoId': 'YoHD9XEInc0',
-
+    'videoId': 'YoHD9XEInc0',
   },
 ];
 
@@ -239,7 +230,6 @@ List<Map<String, String>> itemlist2Urls = [
         '\nZendaya \n'
         'David Dastmalchian',
     'videoId': 'n9xhJrPXop4',
-
   },
   {
     'title': 'IT 2',
@@ -261,7 +251,6 @@ List<Map<String, String>> itemlist2Urls = [
         '\nChosen Jacobs  '
         '\nWyatt Oleff',
     'videoId': 'zqUopiAYdRg',
-
   },
   {
     'title': 'The Batman',
@@ -283,28 +272,23 @@ List<Map<String, String>> itemlist2Urls = [
         "\nCon O'Neill"
         '\nRupert Penry-Jones ',
     'videoId': 'mqqft2x_Aa4',
-
   },
   {
-    'title': 'Friends: The Legacy',
+    'title': 'Strangers: Chapter One',
     'url':
-        'https://image.tmdb.org/t/p/original/70UQdCtO53xstSuWrTiQQg7wVyB.jpg',
+        'https://m.media-amazon.com/images/M/MV5BNDVkZTM0NDAtNTQxMS00NWIyLTgyM2ItNjAxOTllYTAzNTVjXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg',
     'url2':
-        'https://images.lifestyleasia.com/wp-content/uploads/sites/2/2023/05/08135037/kim-woo-bin-black-knight-netflix-02.jpg',
+        'https://static1.srcdn.com/wordpress/wp-content/uploads/2024/06/madelaine-petsch-as-maya-tied-up-and-helpless-in-the-strangers-chapter-1.jpeg',
     'description':
-        "A notorious ex-convict, determined to reclaim the glory of his old gang, takes the son of his former colleague under his wing. As he \nmentors the young man, they navigate the dangerous underworld together, forging a bond while facing rival gangs, law enforcement,\nand the shadows of their past. ",
+        "After their car breaks down in a eerie small town, a young couple is compelled to spend the night in an isolated cabin. Their nightmare\nbegins as they are ruthlessly attacked by three masked strangers, who strike without mercy and without any apparent motive. ",
     'genre': 'Action, Drama',
-    'cast': 'Kim Woo Bin\n'
-        'Yu Oh Seung\n'
-        'Ju Jin Mo\n'
-        'SJi Seung Hyun\n'
-        'Jang Dong gun\n'
-        'Jeong Ho Bin '
-        '\nKang Ha na\n'
-        'Jang Young Nam'
-        '\nJoo Suk Tae ',
-    'videoId': 'WSZnk_dnL-0',
-
+    'cast': 'Madelaine Petsch \n'
+        'Froy Gutierrez\n'
+        'Gabriel Basso\n'
+        'Rachel Shenton\n'
+        'Ema Horvath\n'
+        'Ella Bruccoleri  ',
+    'videoId': '3pZUQmZdOi4',
   },
   {
     'title': 'Ghost Rider',
@@ -325,7 +309,6 @@ List<Map<String, String>> itemlist2Urls = [
         'Matt Long'
         '\nRaquel Alessi ',
     'videoId': 'nu6R7ypaz5g',
-
   },
   {
     'title': 'The Conjuring',
@@ -345,7 +328,6 @@ List<Map<String, String>> itemlist2Urls = [
         'Kyla Deaver'
         '\nShannon Kook ',
     'videoId': 'k10ETZ41q5o',
-
   },
   {
     'title': "Devil's Advocate",
@@ -366,7 +348,6 @@ List<Map<String, String>> itemlist2Urls = [
         'Tamara Tun'
         '\nRuben Santiago-Hudson ',
     'videoId': '40hHA9n4C2o',
-
   },
   {
     'title': 'Constantine',
@@ -387,7 +368,6 @@ List<Map<String, String>> itemlist2Urls = [
         'Peter Stormare'
         '\nMax Baker ',
     'videoId': 'DEa508Xmmio',
-
   },
   {
     'title': 'Hush',
@@ -404,9 +384,7 @@ List<Map<String, String>> itemlist2Urls = [
         'Samantha Sloyan\n'
         'Emma Graves\n',
     'videoId': 'Q_P8WCbhC6s',
-
   },
-
   {
     'title': 'Rust Creek',
     'url': 'https://i.ebayimg.com/images/g/GMQAAOSw4mVkJGRG/s-l1600.jpg',
@@ -424,8 +402,7 @@ List<Map<String, String>> itemlist2Urls = [
         '\nJeremy Glazer\n'
         'Jake Kidwell '
         '\nJin Kyung ',
-  'videoId': '5sLIwhkWS3c',
-
+    'videoId': '5sLIwhkWS3c',
   },
 ];
 List<Map<String, String>> itemslist3Urls = [
@@ -448,7 +425,6 @@ List<Map<String, String>> itemslist3Urls = [
         'CCH Pounder'
         '\nGiovanni Ribisi ',
     'videoId': 'X47sEzHdPI0',
-
   },
   {
     'title': 'Transporter',
@@ -467,7 +443,6 @@ List<Map<String, String>> itemslist3Urls = [
         'Doug Rand  '
         '\nDidier Saint Melin \n',
     'videoId': '_KFOYFBh2QM',
-
   },
   {
     'title': 'Avengers',
@@ -486,7 +461,6 @@ List<Map<String, String>> itemslist3Urls = [
         'Jeremy Renner  '
         '\nRobert Downey Jr.\n',
     'videoId': '6ZfuNTqbHE8',
-
   },
   {
     'title': 'Godzilla',
@@ -508,7 +482,6 @@ List<Map<String, String>> itemslist3Urls = [
         '\nThomas Middleditch '
         '\nAisha Hinds',
     'videoId': 'wVDtmouV9kM',
-
   },
   {
     'title': 'Friday the 13th',
@@ -528,7 +501,6 @@ List<Map<String, String>> itemslist3Urls = [
         '\nMark Nelson \n'
         'Robbi Morgan ',
     'videoId': 'sAzkW7HFh5U',
-
   },
   {
     'title': 'The Matrix',
@@ -547,7 +519,6 @@ List<Map<String, String>> itemslist3Urls = [
         'Gloria Foster'
         '\nMarcus Chong\n',
     'videoId': '9ix7TUGVYIo',
-
   },
   {
     'title': 'Jumanji 2017',
@@ -566,7 +537,6 @@ List<Map<String, String>> itemslist3Urls = [
         'Bobby Cannavale '
         '\nRhys Darby \n',
     'videoId': '2QKg5SZ_35I',
-
   },
   {
     'title': 'Parasite',
@@ -587,7 +557,6 @@ List<Map<String, String>> itemslist3Urls = [
         'Park Myung-hoon\n'
         'Jung Ji-so \n ',
     'videoId': '5xH0HfJHsaY',
-
   },
   {
     'title': 'Toy Story 4',
@@ -608,7 +577,6 @@ List<Map<String, String>> itemslist3Urls = [
         'Keanu Reeves\n'
         'Joan Cusack\n',
     'videoId': 'wmiIUN-7qhE',
-
   },
   {
     'title': 'Lord of the Rings',
@@ -630,7 +598,6 @@ List<Map<String, String>> itemslist3Urls = [
         '\nCate Blanchett '
         '\nHugo Weaving',
     'videoId': '7lwJOxN_gXc',
-
   },
 ];
 
@@ -652,8 +619,6 @@ List<Map<String, String>> itemslist4Urls = [
         'Lori Dungey '
         '\nStephane Garneau-Monten\n',
     'videoId': 'BRb4U99OU80',
-
-
   },
   {
     'title': 'Get out',
@@ -673,8 +638,6 @@ List<Map<String, String>> itemslist4Urls = [
         '\nBetty Gabriel\n'
         'Lakeith Stanfield',
     'videoId': 'DzfpyUB60YY',
-
-
   },
   {
     'title': 'Evil dead rise',
@@ -694,8 +657,6 @@ List<Map<String, String>> itemslist4Urls = [
         '\nTai Wano\n'
         'Jayden Daniels',
     'videoId': 'smTK_AeAPHs',
-
-
   },
   {
     'title': 'Us',
@@ -714,8 +675,6 @@ List<Map<String, String>> itemslist4Urls = [
         'Evan Alex '
         '\nAnna Diop\n',
     'videoId': 'hNCmb-4oXJA',
-
-
   },
   {
     'title': 'Scream 6',
@@ -735,8 +694,6 @@ List<Map<String, String>> itemslist4Urls = [
         '\nJack Champion\n'
         'Liana Liberato',
     'videoId': 'h74AXqw4Opc',
-
-
   },
   {
     'title': 'Conjuring 2',
@@ -755,8 +712,6 @@ List<Map<String, String>> itemslist4Urls = [
         'Franka Potente'
         '\nLauren Esposito\n',
     'videoId': 'VFsmuRPClr4',
-
-
   },
   {
     'title': 'The Nun',
@@ -776,8 +731,6 @@ List<Map<String, String>> itemslist4Urls = [
         '\nSandra Teles\n'
         'Manuela Ciucur',
     'videoId': 'pzD9zGcUNrw',
-
-
   },
   {
     'title': 'Insidious :Red door',
@@ -798,7 +751,6 @@ List<Map<String, String>> itemslist4Urls = [
         'Andrew Astor '
         "\nCorbett Tuck",
     'videoId': 'ZuQuOnYnr3Q',
-
   },
   {
     'title': 'The Conference',
@@ -816,14 +768,13 @@ List<Map<String, String>> itemslist4Urls = [
         'Eva Melander\n'
         'Claes Ljungmark ',
     'videoId': 'B9hpl8e-lQ4',
-
-
   },
   {
     'title': 'Winnie the Pooh',
     'url':
         'https://m.media-amazon.com/images/M/MV5BOTU5MTYyYTAtNDg5Yi00NTc3LWFhMmQtY2VmNzQyZTRiNjJhXkEyXkFqcGdeQXVyMjYwMDA0ODc@._V1_.jpg',
-    'url2':'https://images.lifestyleasia.com/wp-content/uploads/sites/3/2023/02/23162048/Screenshot-2023-02-23-at-3.20.03-PM.png',
+    'url2':
+        'https://images.lifestyleasia.com/wp-content/uploads/sites/3/2023/02/23162048/Screenshot-2023-02-23-at-3.20.03-PM.png',
     'description':
         "In a dark reimagining, Pooh and Piglet have turned feral and embark on a blood-soaked rampage after Christopher Robin abandons\nthem for college.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
@@ -835,7 +786,5 @@ List<Map<String, String>> itemslist4Urls = [
         'Danielle Ronald '
         '\nNatasha Rose Mills\n',
     'videoId': 'W3E74j_xFtg',
-
-
   },
 ];
