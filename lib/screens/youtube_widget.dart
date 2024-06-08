@@ -50,37 +50,9 @@ class _YoutubeScreenState extends State<YoutubeScreen> {
           backgroundColor: Colors.black,
           body: LayoutBuilder(
             builder: (context, constraints) {
-              if (kIsWeb && constraints.maxWidth > 750) {
-                return Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Expanded(
-                      flex: 3,
-                      child: Column(
-                        children: [
-                          player,
-                        ],
-                      ),
-                    ),
-                    const Expanded(
-                      flex: 2,
-                      child: SingleChildScrollView(
-                        child: Controls(),
-                      ),
-                    ),
-                  ],
-                );
-              }
-
-              return ListView(
-                children: [
-                  player,
-                  const Controls(),
-                ],
-              );
+              return player; // Ensure the player takes the full screen space
             },
-          ),
-        );
+          ),        );
       },
     );
   }
@@ -92,46 +64,4 @@ class _YoutubeScreenState extends State<YoutubeScreen> {
   }
 }
 
-///
-class Controls extends StatelessWidget {
-  ///
-  const Controls();
 
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [],
-      ),
-    );
-  }
-
-  Widget get _space => const SizedBox(height: 10);
-}
-
-///
-class VideoPlaylistIconButton extends StatelessWidget {
-  ///
-  const VideoPlaylistIconButton({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final controller = context.ytController;
-
-    return IconButton(
-      onPressed: () async {
-        controller.pauseVideo();
-        await Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => HomePageScreen(),
-          ),
-        );
-        controller.playVideo();
-      },
-      icon: const Icon(Icons.playlist_play_sharp),
-    );
-  }
-}
