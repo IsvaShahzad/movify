@@ -13,21 +13,19 @@ class DetailScreen extends StatelessWidget {
   final String genre;
   final String title;
   final String cast;
+  final String videoId; // Receive videoId
 
-  DetailScreen({required this.imageUrl, required this.description, required this.genre, required this.title, required this.cast});
+
+  DetailScreen({required this.imageUrl, required this.description, required this.genre, required this.title, required this.cast, required this.videoId});
   late VideoPlayerController _videoPlayerController;
 
 
   // Function to handle playing the video (placeholder for your actual implementation)
   void _playVideoFullScreen(BuildContext context) {
     Navigator.of(context).push(
-      // MaterialPageRoute(
-      //   builder: (_) => FullScreenVideoScreen(videoUrl: 'assets/videos/shinning.mp4',
-      //   ),
-      // ),
+
       MaterialPageRoute(
-        builder: (_) => YoutubeScreen(
-        ),
+        builder: (_) => YoutubeScreen(videoId: videoId),
       ),
     );
   }

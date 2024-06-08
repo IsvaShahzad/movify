@@ -1,18 +1,16 @@
-
-
 import 'dart:developer';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:hello/screens/mainpage_screen.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
-const List<String> _videoIds = [
-  'tlize92ffnY',  // the hangover
-  'U2Qp5pL3ovA', // dune
-];
+import 'mainpage_screen.dart';
 
 class YoutubeScreen extends StatefulWidget {
+  final String videoId;
+
+  YoutubeScreen({required this.videoId});
+
   @override
   _YoutubeScreenState createState() => _YoutubeScreenState();
 }
@@ -36,13 +34,9 @@ class _YoutubeScreenState extends State<YoutubeScreen> {
       log('${isFullScreen ? 'Entered' : 'Exited'} Fullscreen.');
     });
 
-    _controller.loadPlaylist(
-      list: _videoIds,
-      listType: ListType.playlist,
-      startSeconds: 0,
-    );
-
+    // Load the video after the controller is initialized
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      _controller.loadVideoById(videoId: widget.videoId);
       _controller.enterFullScreen();
     });
   }
@@ -65,7 +59,6 @@ class _YoutubeScreenState extends State<YoutubeScreen> {
                       child: Column(
                         children: [
                           player,
-                          const VideoPositionIndicator(),
                         ],
                       ),
                     ),
@@ -82,7 +75,6 @@ class _YoutubeScreenState extends State<YoutubeScreen> {
               return ListView(
                 children: [
                   player,
-                  const VideoPositionIndicator(),
                   const Controls(),
                 ],
               );
@@ -140,83 +132,6 @@ class VideoPlaylistIconButton extends StatelessWidget {
         controller.playVideo();
       },
       icon: const Icon(Icons.playlist_play_sharp),
-    );
-  }
-}
-
-///
-class VideoPositionIndicator extends StatelessWidget {
-  ///
-  const VideoPositionIndicator({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final controller = context.ytController;
-
-    return StreamBuilder<YoutubeVideoState>(
-      stream: controller.videoStateStream,
-      initialData: const YoutubeVideoState(),
-      builder: (context, snapshot) {
-        final position = snapshot.data?.position.inMilliseconds ?? 0;
-        final duration = controller.metadata.duration.inMilliseconds;
-
-        return LinearProgressIndicator(
-          value: duration == 0 ? 0 : position / duration,
-          minHeight: 1,
-        );
-      },
-    );
-  }
-}
-
-///
-class VideoPositionSeeker extends StatelessWidget {
-  ///
-  const VideoPositionSeeker({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    var value = 0.0;
-
-    return Row(
-      children: [
-        const Text(
-          'Seek',
-          style: TextStyle(fontWeight: FontWeight.w300),
-        ),
-        const SizedBox(width: 14),
-        Expanded(
-          child: StreamBuilder<YoutubeVideoState>(
-            stream: context.ytController.videoStateStream,
-            initialData: const YoutubeVideoState(),
-            builder: (context, snapshot) {
-              final position = snapshot.data?.position.inSeconds ?? 0;
-              final duration = context.ytController.metadata.duration.inSeconds;
-
-              value = position == 0 || duration == 0 ? 0 : position / duration;
-
-              return StatefulBuilder(
-                builder: (context, setState) {
-                  return Slider(
-                    value: value,
-                    onChanged: (positionFraction) {
-                      value = positionFraction;
-                      setState(() {});
-
-                      context.ytController.seekTo(
-                        seconds: (value * duration).toDouble(),
-                        allowSeekAhead: true,
-                      );
-                    },
-                    min: 0,
-                    max: 1,
-                  );
-                },
-              );
-            },
-          ),
-        ),
-      ],
     );
   }
 }

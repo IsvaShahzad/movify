@@ -18,6 +18,8 @@ List<Map<String, String>> itemslist1Urls = [
         'Kim Eui Seung'
         '\nJin Kyung '
         '\nJu Seung Lee',
+    'videoId': 'Se26Op9sEC8',
+
   },
   {
     'title': 'The Shinning',
@@ -41,6 +43,8 @@ List<Map<String, String>> itemslist1Urls = [
         'Anne Jackson'
         '\nTony Burton '
         '\nLia Beldam',
+    'videoId': 'S014oGZiSdI',
+
   },
   {
     'title': 'Barbarian',
@@ -59,7 +63,9 @@ List<Map<String, String>> itemslist1Urls = [
         'Mathhew Patrick Davis '
         '\nSara Paxton\n'
         'Richard Brake'
-        '\nBrooke Dillman '
+        '\nBrooke Dillman ',
+  'videoId': 'Dr89pmKrqkI',
+
   },
   {
     'title': 'Hangover',
@@ -80,6 +86,8 @@ List<Map<String, String>> itemslist1Urls = [
         '\nHeather Graham\n'
         'Jeffrey Tambor'
         '\nRachael Harris',
+  'videoId': 'tlize92ffnY',
+
   },
   {
     'title': 'Damsel',
@@ -97,7 +105,9 @@ List<Map<String, String>> itemslist1Urls = [
         'Robin Wright\n'
         'Ray Winstone '
         '\nShohreh Aghdashloo\n'
-        'Manon Stieglitz'
+        'Manon Stieglitz',
+  'videoId': 'iM150ZWovZM',
+
   },
   {
     'title': 'Doctor Strange',
@@ -117,6 +127,8 @@ List<Map<String, String>> itemslist1Urls = [
         'Michael Stuhlbarg'
         '\nBenjamin Bratt '
         '\nScott Adkins',
+  'videoId': 'aWzlQ2N6qqg',
+
   },
   {
     'title': 'Doctor Sleep',
@@ -137,6 +149,8 @@ List<Map<String, String>> itemslist1Urls = [
         'Anne Jackson'
         '\nTony Burton '
         '\nLia Beldam',
+  'videoId': '2msJTFvhkU4',
+
   },
   {
     'title': 'Forgotten',
@@ -155,7 +169,9 @@ List<Map<String, String>> itemslist1Urls = [
         'Jang In-sub  '
         '\nBae Sung-woo\n'
         'Nam Myung-ryul'
-        '\nLee Jun-hyeok  '
+        '\nLee Jun-hyeok  ',
+  'videoId': 'b4p92xc9r6g',
+
   },
   {
     'title': 'The Book Thief',
@@ -177,6 +193,8 @@ List<Map<String, String>> itemslist1Urls = [
         '\nKirsten Block '
         '\nRainer Bock'
         '\nSandra Nedeleff ',
+  'videoId': '92EBSmxinus',
+
   },
   {
     'title': 'Inception',
@@ -197,6 +215,8 @@ List<Map<String, String>> itemslist1Urls = [
         'Tom Berenger'
         '\nMarion Cotillard  '
         '\nMichael Caine',
+  'videoId': 'YoHD9XEInc0',
+
   },
 ];
 
@@ -208,7 +228,7 @@ List<Map<String, String>> itemlist2Urls = [
     'url2':
         'https://image.tmdb.org/t/p/original/87IVlclAfWL6mdicU1DDuxdwXwe.jpg',
     'description':
-        "In the distant future, young Paul Atreides is thrust into a perilous journey on the desert planet Arrakis, also known as Dune. As the\nsole source of the universe's most valuable substance,control of Arrakis is fiercely contested. Paul must navigate political intrigue and\ndeadly enemies to fulfill his destiny and protect his people.",
+        "In the distant future, young Paul Atreides is thrust into a perilous journey on the desert planet Arrakis, also known as Dune. As the\nsole source of the universe's most valuable substance, control of Arrakis is fiercely contested. Paul must navigate political intrigue and\ndeadly enemies to fulfill his destiny and protect his people.",
     'genre': 'Action, Adventure, Drama, Sci-fi',
     'cast': 'Timothée Chalamet\n'
         'Rebecca Ferguson\n'
@@ -217,10 +237,12 @@ List<Map<String, String>> itemlist2Urls = [
         'Stellan Skarsgård\n'
         'Dave Bautista '
         '\nZendaya \n'
-        'David Dastmalchian'
+        'David Dastmalchian',
+    'videoId': 'n9xhJrPXop4',
+
   },
   {
-    'title': 'IT',
+    'title': 'IT 2',
     'url': 'https://m.media-amazon.com/images/I/51NB383CKkL._AC_SL1200_.jpg',
     'url2':
         'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
@@ -238,9 +260,11 @@ List<Map<String, String>> itemlist2Urls = [
         'Finn Wolfhard'
         '\nChosen Jacobs  '
         '\nWyatt Oleff',
+    'videoId': 'zqUopiAYdRg',
+
   },
   {
-    'title': 'Batman',
+    'title': 'The Batman',
     'url':
         'https://m.media-amazon.com/images/M/MV5BOGE2NWUwMDItMjA4Yi00N2Y3LWJjMzEtMDJjZTMzZTdlZGE5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg',
     'url2':
@@ -258,6 +282,8 @@ List<Map<String, String>> itemlist2Urls = [
         'Gil Perez-Abraham'
         "\nCon O'Neill"
         '\nRupert Penry-Jones ',
+    'videoId': 'mqqft2x_Aa4',
+
   },
   {
     'title': 'Friends: The Legacy',
@@ -276,7 +302,9 @@ List<Map<String, String>> itemlist2Urls = [
         'Jeong Ho Bin '
         '\nKang Ha na\n'
         'Jang Young Nam'
-        '\nJoo Suk Tae '
+        '\nJoo Suk Tae ',
+    'videoId': 'WSZnk_dnL-0',
+
   },
   {
     'title': 'Ghost Rider',
@@ -295,7 +323,9 @@ List<Map<String, String>> itemlist2Urls = [
         'Donal Logue '
         '\nBrett Cullen\n'
         'Matt Long'
-        '\nRaquel Alessi '
+        '\nRaquel Alessi ',
+    'videoId': 'nu6R7ypaz5g',
+
   },
   {
     'title': 'The Conjuring',
@@ -313,7 +343,9 @@ List<Map<String, String>> itemlist2Urls = [
         'Hayley McFarland '
         '\nMackenzie Foy\n'
         'Kyla Deaver'
-        '\nShannon Kook '
+        '\nShannon Kook ',
+    'videoId': 'k10ETZ41q5o',
+
   },
   {
     'title': "Devil's Advocate",
@@ -332,7 +364,9 @@ List<Map<String, String>> itemlist2Urls = [
         'Connie Nielsen '
         '\nCraig T. Nelson\n'
         'Tamara Tun'
-        '\nRuben Santiago-Hudson '
+        '\nRuben Santiago-Hudson ',
+    'videoId': '40hHA9n4C2o',
+
   },
   {
     'title': 'Constantine',
@@ -351,7 +385,9 @@ List<Map<String, String>> itemlist2Urls = [
         'Pruitt Taylor Vince '
         '\nGavin Rossdale\n'
         'Peter Stormare'
-        '\nMax Baker '
+        '\nMax Baker ',
+    'videoId': 'DEa508Xmmio',
+
   },
   {
     'title': 'Hush',
@@ -366,8 +402,11 @@ List<Map<String, String>> itemlist2Urls = [
         'John Gallagher Jr. \n'
         'Michael Trucco \n'
         'Samantha Sloyan\n'
-        'Emma Graves\n'
+        'Emma Graves\n',
+    'videoId': 'Q_P8WCbhC6s',
+
   },
+
   {
     'title': 'Rust Creek',
     'url': 'https://i.ebayimg.com/images/g/GMQAAOSw4mVkJGRG/s-l1600.jpg',
@@ -384,7 +423,9 @@ List<Map<String, String>> itemlist2Urls = [
         'John Marshall Jones '
         '\nJeremy Glazer\n'
         'Jake Kidwell '
-        '\nJin Kyung '
+        '\nJin Kyung ',
+  'videoId': '5sLIwhkWS3c',
+
   },
 ];
 List<Map<String, String>> itemslist3Urls = [
@@ -405,7 +446,9 @@ List<Map<String, String>> itemslist3Urls = [
         'Cliff Curtis  '
         '\nJoel David Moore \n'
         'CCH Pounder'
-        '\nGiovanni Ribisi '
+        '\nGiovanni Ribisi ',
+    'videoId': 'X47sEzHdPI0',
+
   },
   {
     'title': 'Transporter',
@@ -422,7 +465,9 @@ List<Map<String, String>> itemslist3Urls = [
         'Matt Schulze\n'
         'Ric Young \n'
         'Doug Rand  '
-        '\nDidier Saint Melin \n'
+        '\nDidier Saint Melin \n',
+    'videoId': '_KFOYFBh2QM',
+
   },
   {
     'title': 'Avengers',
@@ -439,7 +484,9 @@ List<Map<String, String>> itemslist3Urls = [
         'Chris Hemsworthn'
         'Scarlett Johansson\n'
         'Jeremy Renner  '
-        '\nRobert Downey Jr.\n'
+        '\nRobert Downey Jr.\n',
+    'videoId': '6ZfuNTqbHE8',
+
   },
   {
     'title': 'Godzilla',
@@ -460,6 +507,8 @@ List<Map<String, String>> itemslist3Urls = [
         'Charles Dance '
         '\nThomas Middleditch '
         '\nAisha Hinds',
+    'videoId': 'wVDtmouV9kM',
+
   },
   {
     'title': 'Friday the 13th',
@@ -477,7 +526,9 @@ List<Map<String, String>> itemslist3Urls = [
         'Jeannine Taylor \n'
         'Kevin Bacon '
         '\nMark Nelson \n'
-        'Robbi Morgan '
+        'Robbi Morgan ',
+    'videoId': 'sAzkW7HFh5U',
+
   },
   {
     'title': 'The Matrix',
@@ -494,10 +545,12 @@ List<Map<String, String>> itemslist3Urls = [
         'Hugo Weaving\n'
         'Joe Pantoliano\n'
         'Gloria Foster'
-        '\nMarcus Chong\n'
+        '\nMarcus Chong\n',
+    'videoId': '9ix7TUGVYIo',
+
   },
   {
-    'title': 'Jumanji',
+    'title': 'Jumanji 2017',
     'url':
         'https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg',
     'url2':
@@ -511,7 +564,9 @@ List<Map<String, String>> itemslist3Urls = [
         'Karen Gillan\n'
         'Nick Jonas\n'
         'Bobby Cannavale '
-        '\nRhys Darby \n'
+        '\nRhys Darby \n',
+    'videoId': '2QKg5SZ_35I',
+
   },
   {
     'title': 'Parasite',
@@ -530,10 +585,12 @@ List<Map<String, String>> itemslist3Urls = [
         'Lee Jung-eun'
         '\nJang Hye-jin\n'
         'Park Myung-hoon\n'
-        'Jung Ji-so \n '
+        'Jung Ji-so \n ',
+    'videoId': '5xH0HfJHsaY',
+
   },
   {
-    'title': 'Toy Story',
+    'title': 'Toy Story 4',
     'url':
         'https://lumiere-a.akamaihd.net/v1/images/p_toystory4_19639_917ad716.jpeg',
     'url2': 'https://media.wbur.org/wp/2019/06/toy-story-1.jpeg',
@@ -550,6 +607,8 @@ List<Map<String, String>> itemslist3Urls = [
         'Christina Hendricks '
         'Keanu Reeves\n'
         'Joan Cusack\n',
+    'videoId': 'wmiIUN-7qhE',
+
   },
   {
     'title': 'Lord of the Rings',
@@ -570,6 +629,8 @@ List<Map<String, String>> itemslist3Urls = [
         'Liv Tyler'
         '\nCate Blanchett '
         '\nHugo Weaving',
+    'videoId': '7lwJOxN_gXc',
+
   },
 ];
 
@@ -583,16 +644,16 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         'A brilliant robotics engineer at a toy company builds a life-like doll named Megan, programmed to bond with her orphaned niece.\nHowever, Megan becomes overly protective, leading to dangerous consequences. ',
     'genre': 'Horror, Thriller',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Allison Williams\n'
+        'Violet McGraw\n'
+        'Ronny Chieng\n'
+        'Brian Jordan Alvarez\n'
+        'Jen Van Epps\n'
+        'Lori Dungey '
+        '\nStephane Garneau-Monten\n',
+    'videoId': 'BRb4U99OU80',
+
+
   },
   {
     'title': 'Get out',
@@ -603,16 +664,17 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         "Chris, an African-American photographer, uncovers a disturbing secret when he visits his white girlfriend's family estate and discovers\nthey are using hypnosis to control black people for sinister purposes.",
     'genre': ' Horror, Mystery, Thriller',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Daniel Kaluuya\n'
+        'Allison Williams\n'
+        'Bradley Whitford\n'
+        'Catherine Keener\n'
+        'Caleb Landry Jonesn'
+        'Marcus Henderson '
+        '\nBetty Gabriel\n'
+        'Lakeith Stanfield',
+    'videoId': 'DzfpyUB60YY',
+
+
   },
   {
     'title': 'Evil dead rise',
@@ -623,16 +685,17 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         'Sisters Beth and Ellie unwittingly summon demonic forces in a Los Angeles high-rise, leading to a nightmarish battle for survival\nagainst relentless supernatural horrors.',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Alyssa Sutherland\n'
+        'Lily Sullivan\n'
+        'Gabrielle Echols\n'
+        'Morgan Davies\n'
+        'Nell Fisher\n'
+        'Mia Challis '
+        '\nTai Wano\n'
+        'Jayden Daniels',
+    'videoId': 'smTK_AeAPHs',
+
+
   },
   {
     'title': 'Us',
@@ -643,16 +706,16 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         "A family's serene beach vacation turns terrifying when their doppelgängers appear and begin to torment them, revealing hidden\nsecrets and a deeper connection.",
     'genre': 'Chilling, Dark, Scary, Horror',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': "Lupita Nyong'o\n"
+        'Winston Duke\n'
+        'Elisabeth Moss\n'
+        'Tim Heidecker\n'
+        'Shahadi Wright Joseph\n'
+        'Evan Alex '
+        '\nAnna Diop\n',
+    'videoId': 'hNCmb-4oXJA',
+
+
   },
   {
     'title': 'Scream 6',
@@ -663,16 +726,17 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         'The survivors of the latest Ghostface killings leave Woodsboro behind and start a fresh chapter in New York City, only to be haunted\nby a new killer.',
     'genre': 'Horror, Dark, Scary,Thriller',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Courteney Cox\n'
+        'Jenna Ortega\n'
+        'Melissa Barrera\n'
+        'Jasmin Savoy Brown\n'
+        'Mason Gooding\n'
+        'Dermot Mulroney'
+        '\nJack Champion\n'
+        'Liana Liberato',
+    'videoId': 'h74AXqw4Opc',
+
+
   },
   {
     'title': 'Conjuring 2',
@@ -683,19 +747,19 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         'Paranormal investigators Ed and Lorraine Warren travel to London to help a single mother and her four children, who are experiencing\nincreasingly disturbing events in their home.',
     'genre': 'Supernatural, Horror, thriller, Chilling',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Vera Farmiga\n'
+        'Patrick Wilson\n'
+        'Madison Wolfe\n'
+        "Frances O'Connor \n"
+        'Simon McBurney\n'
+        'Franka Potente'
+        '\nLauren Esposito\n',
+    'videoId': 'VFsmuRPClr4',
+
+
   },
   {
-    'title': 'Nun',
+    'title': 'The Nun',
     'url':
         'https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg',
     'url2':
@@ -703,36 +767,38 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         'A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death of a young\nnun in Romania and confront a malevolent force.',
     'genre': 'Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Taissa Farmiga\n'
+        'Demián Bichir\n'
+        'Jonas Bloquet\n'
+        'Bonnie Aarons \n'
+        'Ingrid Bisu\n'
+        'Charlotte Hope  '
+        '\nSandra Teles\n'
+        'Manuela Ciucur',
+    'videoId': 'pzD9zGcUNrw',
+
+
   },
   {
-    'title': 'Insidious',
+    'title': 'Insidious :Red door',
     'url':
-        'https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg',
+        'https://m.media-amazon.com/images/M/MV5BMjdlZjI4YTEtNjgzZi00NTA1LWIwZWYtMDc0MzhjOWNlYjcxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
     'url2':
         'https://static01.nyt.com/images/2023/07/10/multimedia/07insidious1-wgmf/07insidious1-wgmf-facebookJumbo.jpg',
     'description':
         "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further, confronting terrifying and\nsurreal entities along the way.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Robert Pattinson\n'
-        'Zoë Kravitz\n'
-        'Paul Dano\n'
-        'Jeffrey Wright \n'
-        'John Turturro \n'
-        'Peter Sarsgaard  '
-        '\nAndy Serkis \n'
-        'Gil Perez-Abraham'
-        "\nCon O'Neill"
-        '\nRupert Penry-Jones ',
+    'cast': 'Patrick Wilson\n'
+        'Rose Byrne\n'
+        'Ty Simpkins\n'
+        'Lin Shaye \n'
+        'Leigh Whannell\n'
+        'Angus Sampson  '
+        '\nBarbara Hershey \n'
+        'Andrew Astor '
+        "\nCorbett Tuck",
+    'videoId': 'ZuQuOnYnr3Q',
+
   },
   {
     'title': 'The Conference',
@@ -743,35 +809,33 @@ List<Map<String, String>> itemslist4Urls = [
     'description':
         'During a team-building retreat, a group of co-workers finds themselves in a deadly game orchestrated by a masked killer who\nwants them all dead.',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Katia Winter\n'
+        'Julia Ragnarsson\n'
+        'Lisa Henni\n'
+        'Adam Lundgren\n'
+        'Eva Melander\n'
+        'Claes Ljungmark ',
+    'videoId': 'B9hpl8e-lQ4',
+
+
   },
   {
     'title': 'Winnie the Pooh',
     'url':
         'https://m.media-amazon.com/images/M/MV5BOTU5MTYyYTAtNDg5Yi00NTc3LWFhMmQtY2VmNzQyZTRiNjJhXkEyXkFqcGdeQXVyMjYwMDA0ODc@._V1_.jpg',
-    'url2':
-        'https://cdn.vox-cdn.com/thumbor/p4Jms3GnjUAkFuJ6zd1JXR1tTAg=/0x0:1765x833/1200x675/filters:focal(754x162:1036x444)/cdn.vox-cdn.com/uploads/chorus_image/image/71984202/Victim.0.jpeg',
+    'url2':'https://images.lifestyleasia.com/wp-content/uploads/sites/3/2023/02/23162048/Screenshot-2023-02-23-at-3.20.03-PM.png',
     'description':
         "In a dark reimagining, Pooh and Piglet have turned feral and embark on a blood-soaked rampage after Christopher Robin abandons\nthem for college.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'cast': 'Nikolai Leon\n'
+        'Craig David Dowsett\n'
+        'Chris Cordell\n'
+        'Amber Doig-Thorne\n'
+        'Maria Taylor \n'
+        'Danielle Ronald '
+        '\nNatasha Rose Mills\n',
+    'videoId': 'W3E74j_xFtg',
+
+
   },
 ];

@@ -319,6 +319,8 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                         ['description']!,
                                     genre : itemslist1Urls[index]['genre']!,
                                     cast : itemslist1Urls[index]['cast']!,
+                                    videoId: itemslist1Urls[index]['videoId']!, // Pass the videoId
+
                                   ),
                                 ),
                               );
@@ -425,6 +427,9 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                     ['description']!,
                                     genre : itemlist2Urls[index]['genre']!,
                                     cast : itemlist2Urls[index]['cast']!,
+                                    videoId: itemlist2Urls[index]['videoId']!, // Pass the videoId
+
+
                                   ),
                                 ),
                               );
@@ -532,6 +537,8 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                     ['description']!,
                                     genre : itemslist3Urls[index]['genre']!,
                                     cast : itemslist3Urls[index]['cast']!,
+                                    videoId: itemslist3Urls[index]['videoId']!, // Pass the videoId
+
                                   ),
                                 ),
                               );
@@ -639,6 +646,8 @@ class _HomePageScreenState extends State<HomePageScreen> {
                                     ['description']!,
                                     genre : itemslist4Urls[index]['genre']!,
                                     cast : itemslist4Urls[index]['cast']!,
+                                    videoId: itemslist4Urls[index]['videoId']!, // Pass the videoId
+
                                   ),
                                 ),
                               );
