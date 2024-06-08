@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(title: '',),
+      home: HomePageScreen(),
     );
   }
 }
@@ -108,7 +108,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Container(
                       width: 390,
                       height: 48,
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.grey[400]?.withOpacity(0.2),
                         borderRadius: BorderRadius.circular(0),
@@ -119,6 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           controller: emailController,
                           style: TextStyle(color: Colors.white),
                           decoration: InputDecoration(
+                            contentPadding: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
                             hintText: 'Enter your email',
                             hintStyle: TextStyle(
                               color: Colors.grey[500],

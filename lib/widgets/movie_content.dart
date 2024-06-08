@@ -1,7 +1,8 @@
 List<Map<String, String>> itemslist1Urls = [
   {
     'title': 'Black Knight',
-    'url': 'https://static.wixstatic.com/media/17fc3b_d30f0a9dcfe347b1ba6411dd77401b31~mv2.png/v1/fill/w_640,h_948,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/17fc3b_d30f0a9dcfe347b1ba6411dd77401b31~mv2.png',
+    'url':
+        'https://static.wixstatic.com/media/17fc3b_d30f0a9dcfe347b1ba6411dd77401b31~mv2.png/v1/fill/w_640,h_948,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/17fc3b_d30f0a9dcfe347b1ba6411dd77401b31~mv2.png',
     'url2':
         'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/04/black-knight-featrued.jpg',
     'description':
@@ -82,8 +83,7 @@ List<Map<String, String>> itemslist1Urls = [
   },
   {
     'title': 'Damsel',
-    'url':
-        'https://i.ebayimg.com/images/g/JB8AAOSwXyRleWml/s-l400.jpg',
+    'url': 'https://i.ebayimg.com/images/g/JB8AAOSwXyRleWml/s-l400.jpg',
     'url2':
         'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
     'description':
@@ -201,14 +201,14 @@ List<Map<String, String>> itemslist1Urls = [
 ];
 
 List<Map<String, String>> itemlist2Urls = [
-
-
   {
     'title': 'Dune',
     'url':
-    'https://m.media-amazon.com/images/M/MV5BMGFkZGY0NTgtMGEyZC00YzhjLTkyOWItYzMzOTljMDA3ZjU2XkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_.jpg',
-    'url2':'https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/movie-and-tv-locations-real.jpg',
-    'description': "In the distant future, young Paul Atreides is thrust into a perilous journey on the desert planet Arrakis, also known as Dune. As the\nsole source of the universe's most valuable substance,control of Arrakis is fiercely contested. Paul must navigate political intrigue and\ndeadly enemies to fulfill his destiny and protect his people.",
+        'https://m.media-amazon.com/images/M/MV5BMGFkZGY0NTgtMGEyZC00YzhjLTkyOWItYzMzOTljMDA3ZjU2XkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_.jpg',
+    'url2':
+        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/movie-and-tv-locations-real.jpg',
+    'description':
+        "In the distant future, young Paul Atreides is thrust into a perilous journey on the desert planet Arrakis, also known as Dune. As the\nsole source of the universe's most valuable substance,control of Arrakis is fiercely contested. Paul must navigate political intrigue and\ndeadly enemies to fulfill his destiny and protect his people.",
     'genre': 'Action, Adventure, Drama, Sci-fi',
     'cast': 'Timothée Chalamet\n'
         'Rebecca Ferguson\n'
@@ -218,12 +218,10 @@ List<Map<String, String>> itemlist2Urls = [
         'Dave Bautista '
         '\nZendaya \n'
         'David Dastmalchian'
-
   },
   {
     'title': 'IT',
-    'url':
-        'https://m.media-amazon.com/images/I/51NB383CKkL._AC_SL1200_.jpg',
+    'url': 'https://m.media-amazon.com/images/I/51NB383CKkL._AC_SL1200_.jpg',
     'url2':
         'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
     'description':
@@ -357,7 +355,8 @@ List<Map<String, String>> itemlist2Urls = [
   },
   {
     'title': 'Hush',
-    'url':'https://m.media-amazon.com/images/M/MV5BOWQ4OTdlODQtMDc3Yy00MGVmLWExYjUtOGI0Yjg4MDQzNDNhXkEyXkFqcGdeQXVyNjIzMzkyMzk@._V1_.jpg',
+    'url':
+        'https://m.media-amazon.com/images/M/MV5BOWQ4OTdlODQtMDc3Yy00MGVmLWExYjUtOGI0Yjg4MDQzNDNhXkEyXkFqcGdeQXVyNjIzMzkyMzk@._V1_.jpg',
     'url2':
         'https://images.squarespace-cdn.com/content/v1/58c1d10217bffc0ccdaf728d/1521751984229-CDX4ZFL289AYDG5H1PMF/hush2.jpg',
     'description':
@@ -387,7 +386,6 @@ List<Map<String, String>> itemlist2Urls = [
         'Jake Kidwell '
         '\nJin Kyung '
   },
-
 ];
 List<Map<String, String>> itemslist3Urls = [
   {
@@ -396,18 +394,18 @@ List<Map<String, String>> itemslist3Urls = [
         'https://funkygraphix.co.uk/cdn/shop/products/AvatarTheWayOfTheWaterTsireya_2022_A3_530x@2x.jpg?v=1669636332',
     'url2':
         'https://images.cdn.prd.api.discomax.com/2023/06/07/cf8eca4c-2ea3-3d53-8062-3afb40a40fad.jpeg?f=jpg&q=75&w=1280&w=1200',
-    'description': 'hello4',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        "Set more than a decade after the events of the first film, 'Avatar: The Way of Water' follows Jake Sully and Neytiri as they navigate the\nchallenges of parenthood and protecting their family. As a familiar threat resurfaces to finish what was previously started, Jake must\nteam up with the Na'vi and forge new alliances in the uncharted territories of Pandora's oceans. With stunning visuals and epic battles,\nthis journey explores the deep bond between humans and the natural world.",
+    'genre': 'Action, Adventure, Sci-Fi',
+    'cast': 'Sam Worthington\n'
+        'Zoe Saldana\n'
+        'Sigourney Weaver\n'
+        'Stephen Lang \n'
+        'Kate Winslet\n'
+        'Cliff Curtis  '
+        '\nJoel David Moore \n'
+        'CCH Pounder'
+        '\nGiovanni Ribisi '
   },
   {
     'title': 'Transporter',
@@ -415,18 +413,16 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BMTk2NDc2MDAxN15BMl5BanBnXkFtZTYwNDc1NDY2._V1_FMjpg_UX1000_.jpg',
     'url2':
         'https://i0.wp.com/www.nowverybad.com/wp-content/uploads/the_transporter_still1.jpg',
-    'description': 'hello hi there ',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        'Frank Martin, a former Special Forces operative, lives a seemingly quiet life in the South of France as a professional transporter,\nspecializing in moving goods of all kinds—legal or otherwise. His rigid code of conduct is tested when a delivery goes awry, revealing\nthat he has unwittingly become part of a human trafficking ring. With his impressive driving skills and combat prowess, Frank must\nevade relentless pursuers and uncover the truth, risking everything to protect an innocent life. ',
+    'genre': 'Actiob, Crime, Thriller',
+    'cast': 'Jason Statham \n'
+        'Shu Qi\n'
+        'François Berléand\n'
+        'Matt Schulze\n'
+        'Ric Young \n'
+        'Doug Rand  '
+        '\nDidier Saint Melin \n'
   },
   {
     'title': 'Avengers',
@@ -434,18 +430,16 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg',
     'url2':
         'https://static1.srcdn.com/wordpress/wp-content/uploads/Thor-v-Iron-Man.jpg',
-    'description': 'hello hi there ',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        'When the mischievous Norse god Loki gains access to the unlimited power of the Tesseract, Nick Fury, director of S.H.I.E.L.D., initiates\na daring recruitment effort to assemble the greatest heroes on Earth. Together, Iron Man, Captain America, Thor, the Hulk, Black Widow,\nand Hawkeye must learn to work as a team to stop Loki and his alien army from enslaving humanity. ',
+    'genre': 'Action, Adventure, Sci-Fi',
+    'cast': 'Tom Hiddleston\n'
+        'Chris Evans\n'
+        'Mark Ruffalo \n'
+        'Chris Hemsworthn'
+        'Scarlett Johansson\n'
+        'Jeremy Renner  '
+        '\nRobert Downey Jr.\n'
   },
   {
     'title': 'Godzilla',
@@ -453,18 +447,19 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
     'url2':
         'https://images-0.rakuten.tv/storage/snapshot/shot/69be9b44-89aa-4b15-82c2-79b44f0c797a-snapshot-1590667080-width936-quality90.jpeg',
-    'description': 'hello 2',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        "Following the shocking revelation that ancient super-species exist, the world faces a new threat as the powerful King Ghidorah awakens. \nmonarch, a cryptozoological agency, races against time to track down these mythical titans. As the ancient behemoths rise again,\nhumanity's survival depends on Godzilla's battle against King Ghidorah, Mothra, and Rodan. Amidst the chaos, family loyalties are tested,\nand a shocking conspiracy threatens to plunge the world into destruction.",
+    'genre': 'Action, Adventure, Fantasy',
+    'cast': 'Kyle Chandler \n'
+        'Vera Farmiga \n'
+        'Millie Bobby Brown\n'
+        'Ken Watanabe\n'
+        'Ziyi Zhang\n'
+        'Bradley Whitford '
+        '\nSally Hawkins\n'
+        'Charles Dance '
+        '\nThomas Middleditch '
+        '\nAisha Hinds',
   },
   {
     'title': 'Friday the 13th',
@@ -472,18 +467,17 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BYzllYmZhMmUtOWJmMC00ZGE2LTlmZmUtYzU2MTM0MTY1MDU5XkEyXkFqcGdeQXVyNTI5OTE2NTU@._V1_.jpg',
     'url2':
         'https://static1.srcdn.com/wordpress/wp-content/uploads/2020/02/Friday-the-13th-The-Final-Chapter-Trish-vs-Jason.jpg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        "As a group of eager counselors prepares to reopen the abandoned summer camp, they are unaware of the dark legacy they are stepping\ninto. Soon, one by one, they fall prey to a masked killer who stalks them through the woods. As the body count rises, the survivors must\nuncover the truth behind the camp's bloody history and find a way to escape the relentless terror before it’s too late.",
+    'genre': 'Horror, Thriller',
+    'cast': 'Betsy Palmer \n'
+        'Adrienne King\n'
+        'Harry Crosby\n'
+        'Laurie Bartram\n'
+        'Jeannine Taylor \n'
+        'Kevin Bacon '
+        '\nMark Nelson \n'
+        'Robbi Morgan '
   },
   {
     'title': 'The Matrix',
@@ -491,18 +485,16 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg',
     'url2':
         'https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/05/the-matrix-code-keanu-reeves.jpeg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        "Neo, a hacker, learns that the world he lives in is a computer simulation controlled by machines. He joins a group of rebels to fight\nagainst the machines and discover his true potential as 'The On' who can save humanity.",
+    'genre': 'Action, Sci-Fi',
+    'cast': 'Keanu Reeves\n'
+        'Laurence Fishburne \n'
+        'Carrie-Anne Moss\n'
+        'Hugo Weaving\n'
+        'Joe Pantoliano\n'
+        'Gloria Foster'
+        '\nMarcus Chong\n'
   },
   {
     'title': 'Jumanji',
@@ -510,18 +502,16 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg',
     'url2':
         'https://miro.medium.com/v2/resize:fit:4096/1*gE4JBLhWPvI-HjZ_IVb6Cg.jpeg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        'Four high school students discover an old video game console with a mysterious game called Jumanji. When they start playing,\nthey are transported into the game’s jungle setting, literally becoming the adult avatars they chose. To escape, they must complete\ndangerous quests and puzzles, discover their strengths, and work together to survive the deadly challenges.',
+    'genre': 'Action, Adventure, Comedy',
+    'cast': 'Dwayne Johnson\n'
+        'Kevin Hart \n'
+        'Jack Black\n'
+        'Karen Gillan\n'
+        'Nick Jonas\n'
+        'Bobby Cannavale '
+        '\nRhys Darby \n'
   },
   {
     'title': 'Parasite',
@@ -529,37 +519,37 @@ List<Map<String, String>> itemslist3Urls = [
         'https://miro.medium.com/v2/resize:fit:1400/1*QJYVaaRVrOF_0tlksmCYIQ.jpeg',
     'url2':
         'https://miro.medium.com/v2/resize:fit:994/1*6YZpf8Fdysx88RpK_fFYKw.png',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        'The impoverished Kim family lives in a cramped basement apartment, struggling to make ends meet. When the opportunity arises\nto con their way into the lavish home of the wealthy Park family, they jump at the chance. By posing as highly qualified individuals,\neach family member secures employment within the Park household. However, their deceit sets off a series of unexpected events,\nrevealing dark secrets and escalating tensions. ',
+    'genre': 'Drama, Thriller',
+    'cast': 'Song Kang-ho \n'
+        'Lee Sun-kyun\n'
+        ' Cho Yeo-jeong\n'
+        'Choi Woo-shi\n'
+        'Park So-dam\n'
+        'Lee Jung-eun'
+        '\nJang Hye-jin\n'
+        'Park Myung-hoon\n'
+        'Jung Ji-so \n '
   },
   {
     'title': 'Toy Story',
     'url':
         'https://lumiere-a.akamaihd.net/v1/images/p_toystory4_19639_917ad716.jpeg',
-    'url2':
-        'https://media.wbur.org/wp/2019/06/toy-story-1.jpeg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'url2': 'https://media.wbur.org/wp/2019/06/toy-story-1.jpeg',
+    'description':
+        'Woody and the other toys now belong to Bonnie, who makes a new toy named Forky from a spork. When Forky runs away during a\nroad trip, Woody goes after him and meets Bo Peep. Together, they face new adventures and learn important lessons about belonging\nand moving on.',
+    'genre': 'PAnimation, Adventure, Emotional, Comedy',
+    'cast': 'Tom Hanks \n'
+        'Tim Allen\n'
+        'Annie Potts\n'
+        'Tony Hale\n'
+        'Keegan-Michael Key\n'
+        ' Jordan Peele '
+        '\nMadeleine McGraw \n'
+        'Christina Hendricks '
+        'Keanu Reeves\n'
+        'Joan Cusack\n',
   },
   {
     'title': 'Lord of the Rings',
@@ -567,18 +557,19 @@ List<Map<String, String>> itemslist3Urls = [
         'https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg',
     'url2':
         'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Lord-of-the-Rings-One-Ring.jpg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
-    'cast': 'Kim Woo Bin\n'
-        'Esom\n'
-        'Kang You Seok\n'
-        'Song Seung Heon\n'
-        'Lee E Dam\n'
-        'Roh Yoon Seo '
-        '\nJo Ji Seung\n'
-        'Kim Eui Seung'
-        '\nJin Kyung '
-        '\nJu Seung Lee',
+    'description':
+        'Frodo Baggins, a young hobbit, inherits a powerful ring sought by the dark lord Sauron. He and his friends, along with a group of\nwarriors,  journey to Mount Doom to destroy the ring and stop Sauron, forming strong bonds of friendship along the way.',
+    'genre': 'Action, Adventure, Drama',
+    'cast': 'Elijah Wood \n'
+        'Ian McKellen \n'
+        'Viggo Mortensen \n'
+        'Sean Astin\n'
+        'Orlando Bloom\n'
+        'John Rhys-Davies '
+        '\nSean Bean\n'
+        'Liv Tyler'
+        '\nCate Blanchett '
+        '\nHugo Weaving',
   },
 ];
 
@@ -720,7 +711,8 @@ List<Map<String, String>> itemslist4Urls = [
     'title': 'Insidious',
     'url':
         'https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg',
-    'url2':'https://static01.nyt.com/images/2023/07/10/multimedia/07insidious1-wgmf/07insidious1-wgmf-facebookJumbo.jpg',
+    'url2':
+        'https://static01.nyt.com/images/2023/07/10/multimedia/07insidious1-wgmf/07insidious1-wgmf-facebookJumbo.jpg',
     'description':
         "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman.\nWhen a sadistic killer known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption unravels, Batman races against time to bring justice to Gotham and confront his own demons.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
@@ -739,7 +731,8 @@ List<Map<String, String>> itemslist4Urls = [
     'title': 'The Conference',
     'url':
         'https://m.media-amazon.com/images/M/MV5BMzM5OTc1OGEtNWYzZS00MzAzLTkxM2EtNzE3OGFjNTQwYzU1XkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_FMjpg_UX1000_.jpg',
-    'url2':'https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcPZzg4ZaKPv3tZe-SiHK47o1ekNRurJ7cfhJsi-X7QwGu-lo03eDFtjYj99FFnYQq2LknvLWab3xxBDApZ6GoClZkdbgtGg99-E.jpg?r=b92',
+    'url2':
+        'https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcPZzg4ZaKPv3tZe-SiHK47o1ekNRurJ7cfhJsi-X7QwGu-lo03eDFtjYj99FFnYQq2LknvLWab3xxBDApZ6GoClZkdbgtGg99-E.jpg?r=b92',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
@@ -757,7 +750,8 @@ List<Map<String, String>> itemslist4Urls = [
     'title': 'Winnie the Pooh',
     'url':
         'https://m.media-amazon.com/images/M/MV5BOTU5MTYyYTAtNDg5Yi00NTc3LWFhMmQtY2VmNzQyZTRiNjJhXkEyXkFqcGdeQXVyMjYwMDA0ODc@._V1_.jpg',
-    'url2': 'https://cdn.vox-cdn.com/thumbor/p4Jms3GnjUAkFuJ6zd1JXR1tTAg=/0x0:1765x833/1200x675/filters:focal(754x162:1036x444)/cdn.vox-cdn.com/uploads/chorus_image/image/71984202/Victim.0.jpeg',
+    'url2':
+        'https://cdn.vox-cdn.com/thumbor/p4Jms3GnjUAkFuJ6zd1JXR1tTAg=/0x0:1765x833/1200x675/filters:focal(754x162:1036x444)/cdn.vox-cdn.com/uploads/chorus_image/image/71984202/Victim.0.jpeg',
     'description': 'hello 5',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
