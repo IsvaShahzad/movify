@@ -83,7 +83,7 @@ List<Map<String, String>> itemslist1Urls = [
   },
   {
     'title': 'Damsel',
-    'url': 'https://i.ebayimg.com/images/g/JB8AAOSwXyRleWml/s-l400.jpg',
+    'url': 'https://m.media-amazon.com/images/M/MV5BZWM0ZDVlMDgtNDdhMy00NWVlLWE1MmItNmViODMzNmUyMDU2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
     'url2':
         'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/gbkgzu5xyaanuru.jpg',
     'description':
@@ -104,7 +104,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg',
     'url2':
-        'https://cdn.marvel.com/content/1x/doctorstrangeinthemultiverseofmadness_lob_mas_dsk_08.jpg',
+        'https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/07/doctor-strange-Cropped.jpg',
     'description':
         'After a devastating car accident, brilliant but arrogant neurosurgeon Dr. Stephen Strange seeks healing in a mysterious enclave.\nInstead of physical recovery, he discovers the hidden world of magic and alternate dimensions. Trained by the Ancient One,\nStrange must put his ego aside and harness his newfound powers to protect the world from dark forces.',
     'genre': 'Action, Superhero, Fantasy, Science Fiction, Adventure',
@@ -123,7 +123,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://waxworkrecords.com/cdn/shop/products/Doctor-Sleep_Cover_1800x1800_ab5ce763-3354-4ff1-b6bd-7c590c2bc734_1200x630.jpg?v=1665099589',
     'url2':
-        'https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/05/Doctor-Sleep-Directors-Cut-Blu-Ray-Cover-Crop.jpg',
+        'https://m.media-amazon.com/images/S/pv-target-images/e04ea944bf84143a2a9dd474183efdf66154a19580e095eab3471aeb0f621ef7.jpg',
     'description':
         'Doctor Sleep continues the story of Danny Torrance, 40 years after his terrifying experience at the Overlook Hotel in The Shining.\nNow struggling with trauma and addiction, Danny meets a young girl with similar powers and must protect her from a cult that feeds\non children with psychic abilities. As they confront their shared past and present dangers, Danny faces his fears to finally find peace. ',
     'genre': 'Horror, Psycological horror,Drama, Thriller, Suspense',
@@ -143,7 +143,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://m.media-amazon.com/images/M/MV5BMzY2OTU0NTgtMGZiZC00M2Y5LThjZjQtOTcyNWNlZDdhMjZkXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg',
     'url2':
-        'https://miro.medium.com/v2/resize:fit:512/1*v1edoyg9DqlC5aWdaxdHtQ.jpeg',
+        'https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcNnzQg4QaOTTV1T9URFYeNPFZ79Qt4h74xaSFZpomyyEWOwxLJtQ6CQ4W5tEVF1Qde4tWMM2z06FjRoiKMWebGoC-DdHbLDbtBh.jpg?r=772',
     'description':
         "When Jin-seok's brother Yoo-seok returns home after a 19-day kidnapping with no memory of what happened, Jin-seok senses\nsomething is wrong. As he unravels the mystery, dark secrets emerge, revealing a truth more horrifying than he could have\nimagined.",
     'genre': 'Drama, Suspense, Thriller, Mystery',
@@ -162,7 +162,7 @@ List<Map<String, String>> itemslist1Urls = [
     'url':
         'https://m.media-amazon.com/images/M/MV5BYmI4ODg4ZjktMDAwZS00Y2MwLWFhNDEtYjlkZTYwNmUwYjk4XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_.jpg',
     'url2':
-        'https://m.media-amazon.com/images/S/pv-target-images/47ed92674feba1e565362167cfa7965f0ed1fb2c2e5ec9a3f85b5d7139ea976d.jpg',
+        'https://m.media-amazon.com/images/S/pv-target-images/e918639359da7f8894421985523bf19d88bf275bdc949e3d66f4220aa0aaaaa5._SX1080_FMpng_.png',
     'description':
         "In the heart of Nazi Germany, young Liesel finds solace and courage in the pages of stolen books. Raised by foster parents amidst\nthe turmoil of World War II, she learns the power of words and storytelling from her kind-hearted parents.As Liesel navigates the\nharsh realities of war and loss, her love for literature becomes a beacon of hope in a dark and oppressive time.",
     'genre': 'Novel, Historical Fiction, Young adult literature',
@@ -204,9 +204,9 @@ List<Map<String, String>> itemlist2Urls = [
   {
     'title': 'Dune',
     'url':
-        'https://m.media-amazon.com/images/M/MV5BMGFkZGY0NTgtMGEyZC00YzhjLTkyOWItYzMzOTljMDA3ZjU2XkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_.jpg',
+        'https://m.media-amazon.com/images/M/MV5BYTkxM2JmMTctMjFlYi00YjY4LThiYTctYmNlZDBmYTBmOWRhXkEyXkFqcGdeQXVyMTE3NTk2NjYz._V1_FMjpg_UX1000_.jpg',
     'url2':
-        'https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/movie-and-tv-locations-real.jpg',
+        'https://image.tmdb.org/t/p/original/87IVlclAfWL6mdicU1DDuxdwXwe.jpg',
     'description':
         "In the distant future, young Paul Atreides is thrust into a perilous journey on the desert planet Arrakis, also known as Dune. As the\nsole source of the universe's most valuable substance,control of Arrakis is fiercely contested. Paul must navigate political intrigue and\ndeadly enemies to fulfill his destiny and protect his people.",
     'genre': 'Action, Adventure, Drama, Sci-fi',
@@ -283,7 +283,7 @@ List<Map<String, String>> itemlist2Urls = [
     'url':
         'https://m.media-amazon.com/images/M/MV5BYWM0ZTI4NDItODRjNi00MzM2LWEzMTctNzI3ZjMxODUwNThkXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg',
     'url2':
-        'https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/01/fd205c2b-7f91-4152-a443-0675d8183706-maxresdefault.jpeg',
+        'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/10/nicholas-cage-ghost-rider-(1).jpg',
     'description':
         "Johnny Blaze, a daredevil stunt rider, makes a pact with the devil to save his father's life. Years later, he becomes the Ghost Rider,\na fiery skeletal vigilante with a powerful motorcycle, tasked with hunting down demons on Earth. As he battles the sinister Blackheart,\nJohnny must embrace his dark alter ego and protect those he loves, discovering the true price of his soul in a world where evil lurks\naround every corner.",
     'genre': 'Action, Fantasy, Superhero, Thriller',
@@ -316,11 +316,11 @@ List<Map<String, String>> itemlist2Urls = [
         '\nShannon Kook '
   },
   {
-    'title': "The Devil's Advocate",
+    'title': "Devil's Advocate",
     'url':
         'https://image.tmdb.org/t/p/original/g3qav44s4d26hGWYkaGUt6rGAtm.jpg',
     'url2':
-        'https://img.buzzfeed.com/buzzfeed-static/static/2019-09/6/19/asset/50ff06e0d9ef/sub-buzz-1982-1567797058-1.png',
+        'https://m.media-amazon.com/images/M/MV5BOTEwMGU3MWUtN2RkZi00YTg0LWJiZjgtZjQzMGRjMTc4OTlmXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg',
     'description':
         'Ambitious defense attorney Kevin Lomax accepts a high-paying job at a prestigious New York law firm. As he climbs the ranks,\nhe realizes his charismatic boss, John Milton, is not what he seems. Unveiling a sinister world of temptation and deceit, Kevin discovers\nthe true nature of his employer and faces a terrifying choice that will test his morality and soul.',
     'genre': 'Drama, Thriller, Horror',
@@ -580,8 +580,9 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BMDk4MTdhYzEtODk3OS00ZDBjLWFhNTQtMDI2ODdjNzQzZTA3XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg',
     'url2':
         'https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/12/m3gan-megan-2023.jpg',
-    'description': 'hello hi there ',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'description':
+        'A brilliant robotics engineer at a toy company builds a life-like doll named Megan, programmed to bond with her orphaned niece.\nHowever, Megan becomes overly protective, leading to dangerous consequences. ',
+    'genre': 'Horror, Thriller',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
         'Kang You Seok\n'
@@ -599,8 +600,9 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg',
     'url2':
         'https://m.media-amazon.com/images/S/pv-target-images/ef4dbfcf9f106f74a4c42e69d0c7d1a10434a25bd1b2e75c908196762a204f0a._SX1080_FMjpg_.jpg',
-    'description': 'hello hi there ',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'description':
+        "Chris, an African-American photographer, uncovers a disturbing secret when he visits his white girlfriend's family estate and discovers\nthey are using hypnosis to control black people for sinister purposes.",
+    'genre': ' Horror, Mystery, Thriller',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
         'Kang You Seok\n'
@@ -618,7 +620,8 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_.jpg',
     'url2':
         'https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/04/evil-dead-rise-alyssa-sutherland-nell-fisher.jpg',
-    'description': 'hello 2',
+    'description':
+        'Sisters Beth and Ellie unwittingly summon demonic forces in a Los Angeles high-rise, leading to a nightmarish battle for survival\nagainst relentless supernatural horrors.',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
@@ -637,8 +640,9 @@ List<Map<String, String>> itemslist4Urls = [
         'https://images.squarespace-cdn.com/content/v1/58f963cfcd0f686256f0df14/1553367430055-H9SE88VIUG9JYR1S9TLJ/us+poster.jpg',
     'url2':
         'https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/03/28/Pictures/_8900d87c-516c-11e9-a540-e59d8ae6a1ea.jpg',
-    'description': 'hello4',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'description':
+        "A family's serene beach vacation turns terrifying when their doppelgängers appear and begin to torment them, revealing hidden\nsecrets and a deeper connection.",
+    'genre': 'Chilling, Dark, Scary, Horror',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
         'Kang You Seok\n'
@@ -656,8 +660,9 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BODBjM2M4YTQtNmJlMS00MGU2LWI4ZGYtZTA1MzdmZDAyMjFkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg',
     'url2':
         'https://images.squarespace-cdn.com/content/v1/5bbcad0f2727be3646b9fee1/1678300313542-E8W5TCP0OO96TAYD69JF/1DBC711D-3C3A-49A7-8852-86B2DFFF95B3.jpeg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'description':
+        'The survivors of the latest Ghostface killings leave Woodsboro behind and start a fresh chapter in New York City, only to be haunted\nby a new killer.',
+    'genre': 'Horror, Dark, Scary,Thriller',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
         'Kang You Seok\n'
@@ -675,8 +680,9 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_.jpg',
     'url2':
         'https://m.media-amazon.com/images/M/MV5BMjEyOTg4ODEzMF5BMl5BanBnXkFtZTgwODI1MDkwOTE@._V1_.jpg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'description':
+        'Paranormal investigators Ed and Lorraine Warren travel to London to help a single mother and her four children, who are experiencing\nincreasingly disturbing events in their home.',
+    'genre': 'Supernatural, Horror, thriller, Chilling',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
         'Kang You Seok\n'
@@ -694,8 +700,9 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BMjM3NzQ5NDcxOF5BMl5BanBnXkFtZTgwNzM4MTQ5NTM@._V1_.jpg',
     'url2':
         'https://m.media-amazon.com/images/M/MV5BMzQ1NDg5NTcxMl5BMl5BanBnXkFtZTgwMTk4NzgxNjM@._V1_.jpg',
-    'description': 'hello 5',
-    'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
+    'description':
+        'A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death of a young\nnun in Romania and confront a malevolent force.',
+    'genre': 'Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
         'Kang You Seok\n'
@@ -714,7 +721,7 @@ List<Map<String, String>> itemslist4Urls = [
     'url2':
         'https://static01.nyt.com/images/2023/07/10/multimedia/07insidious1-wgmf/07insidious1-wgmf-facebookJumbo.jpg',
     'description':
-        "In the shadowy streets of Gotham City, a reclusive Bruce Wayne emerges as the masked vigilante known as Batman.\nWhen a sadistic killer known as The Riddler targets the city's elite, Batman must forge new alliances to uncover the sinister truth. As the web of corruption unravels, Batman races against time to bring justice to Gotham and confront his own demons.",
+        "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further, confronting terrifying and\nsurreal entities along the way.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Robert Pattinson\n'
         'Zoë Kravitz\n'
@@ -733,7 +740,8 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BMzM5OTc1OGEtNWYzZS00MzAzLTkxM2EtNzE3OGFjNTQwYzU1XkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_FMjpg_UX1000_.jpg',
     'url2':
         'https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcPZzg4ZaKPv3tZe-SiHK47o1ekNRurJ7cfhJsi-X7QwGu-lo03eDFtjYj99FFnYQq2LknvLWab3xxBDApZ6GoClZkdbgtGg99-E.jpg?r=b92',
-    'description': 'hello 5',
+    'description':
+        'During a team-building retreat, a group of co-workers finds themselves in a deadly game orchestrated by a masked killer who\nwants them all dead.',
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
@@ -752,7 +760,8 @@ List<Map<String, String>> itemslist4Urls = [
         'https://m.media-amazon.com/images/M/MV5BOTU5MTYyYTAtNDg5Yi00NTc3LWFhMmQtY2VmNzQyZTRiNjJhXkEyXkFqcGdeQXVyMjYwMDA0ODc@._V1_.jpg',
     'url2':
         'https://cdn.vox-cdn.com/thumbor/p4Jms3GnjUAkFuJ6zd1JXR1tTAg=/0x0:1765x833/1200x675/filters:focal(754x162:1036x444)/cdn.vox-cdn.com/uploads/chorus_image/image/71984202/Victim.0.jpeg',
-    'description': 'hello 5',
+    'description':
+        "In a dark reimagining, Pooh and Piglet have turned feral and embark on a blood-soaked rampage after Christopher Robin abandons\nthem for college.",
     'genre': 'Psychological, Chilling, Dark, Scary, Supernatural',
     'cast': 'Kim Woo Bin\n'
         'Esom\n'
