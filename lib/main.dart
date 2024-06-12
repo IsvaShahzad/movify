@@ -190,15 +190,15 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => HomePageScreen()),
-          );
-        },
-        child: const Icon(Icons.navigate_next_sharp),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     Navigator.push(
+      //       context,
+      //       MaterialPageRoute(builder: (context) => HomePageScreen()),
+      //     );
+      //   },
+      //   child: const Icon(Icons.navigate_next_sharp),
+      // ),
     );
   }
 
