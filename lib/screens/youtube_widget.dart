@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
-import 'mainpage_screen.dart';
+import 'homepage.dart';
 
 class YoutubeScreen extends StatefulWidget {
   final String videoId;
