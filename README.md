@@ -1,16 +1,4 @@
-# hello
+Movify
+A netflix clone
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This web app made with flutter web incldues iframe package to include and integrate youtube within the app and login that takes email of user to continue. It has detailed page with information of movies and names of cast along with trailer covers for each movies. The movies are categorized according to their genres. 
